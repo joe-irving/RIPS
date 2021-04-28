@@ -9,7 +9,7 @@ fields:
   hidden: true
 - type: text
   name: title
-  label: title
+  label: Name
 - type: text
   name: excerpt
   label: excerpt
