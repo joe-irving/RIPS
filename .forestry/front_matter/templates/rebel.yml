@@ -16,5 +16,17 @@ fields:
 - type: text
   name: prison
   label: prison
-pages:
-- rebels/_posts/test-person.md
+- name: sentence
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Sentence
+- name: stream_link
+  type: text
+  config:
+    required: false
+  label: Stream Link
