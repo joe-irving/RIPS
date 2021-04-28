@@ -16,17 +16,35 @@ fields:
 - type: text
   name: prison
   label: prison
-- name: sentence
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: Sentence
 - name: stream_link
   type: text
   config:
     required: false
   label: Stream Link
+- name: sentance_start
+  type: datetime
+  label: Sentance Start Date
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+- name: sentece_end
+  type: datetime
+  label: sentece end date
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+- name: date_released
+  type: datetime
+  label: date released
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
