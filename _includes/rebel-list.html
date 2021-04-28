@@ -1,0 +1,21 @@
+<div class="Rebellion-Event-List">
+{% for post in site.posts %}
+  {% if post.categories contains 'rebels' %}
+    <div class="Rebellion-Event-Item">
+        <div class="top">
+            <!-- <div class="date">
+                <span class="day-number">{{ post.date | date: '%d' }}</span>
+                <span class="month">{{ post.date | date: '%m' }}</span>
+            </div> -->
+            <div class="description">
+                <h3><a href="{{post.url | relative_url}}">{{ post.title }}</a></h3>
+                <time> {{ post.prison }} </time>
+                <div class="bottom-line">
+                    <p>{{ post.excerpt }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+  {% endif %}
+{% endfor %}
+</div>
