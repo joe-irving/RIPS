@@ -1,0 +1,18 @@
+---
+label: Rebel
+hide_body: false
+fields:
+- type: text
+  name: layout
+  label: layout
+  default: post
+  hidden: true
+- type: text
+  name: title
+  label: title
+- type: text
+  name: excerpt
+  label: excerpt
+- type: text
+  name: prison
+  label: prison
