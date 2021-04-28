@@ -7,9 +7,9 @@ description: >-
   independent organisation set up by individuals
   from Extinction Rebellion, Burning Pink & other independent groups.
 url: ""
-baseurl: '/RIPS'
+baseurl: ''
 
-permalink: /:title/
+permalink: /:categories/:title/
 
 # Build settings
 theme: jekyll-rebellion
