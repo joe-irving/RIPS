@@ -19,19 +19,41 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Rebels in Prison Support
-tagline: Support activists in prison in the UK.
+tagline: Support for activists in prison in the UK
 email: GoingOnRemand@protonmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Exists to support activists in prison in the UK. RIPS is an
   independent organisation set up by individuals
   from Extinction Rebellion, Burning Pink & other independent groups.
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: '/rips'
+baseurl: '/RIPS'
 
 # Build settings
 theme: jekyll-rebellion
 plugins:
   - jekyll-feed
+
+# Rebellion Config
+#logo: /assets/logo-black.svg
+#logo_square: /assets/logo-square.svg
+#logo_light: /assets/logo-white.svg
+# facebook: \#
+# twitter: \#
+# instagram: \#
+# copyright_notice: Add an additional copyright notice here.
+# donate: /donate/
+join_us: /join-us/
+# $xr-green, $xr-yellow, $xr-light-blue, $xr-pink, $xr-purple, $xr-dark-blue $xr-light-blue, xr-light-green, $xr-pastel-yellow
+brand_color: $xr-pink
+accent_color: $xr-dark-blue
+invert_brand_text: false
+invert_accent_text: true
+theme_tiny: 250
+theme_small: 425
+theme_medium: 570
+theme_large: 770
+#main_nav_exclude_layouts: # Array of layout names to exclude from the main nav.
+#header_pages: Array of pages (filepaths) to include in header nav
 
 # Exclude from processing.
 # The following items will not be processed, by default.

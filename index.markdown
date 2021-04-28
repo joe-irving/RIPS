@@ -1,6 +1,9 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: home
+# top_image:
+jump:
+  text: Find out more
+  target: /about/
+top_quote: Exists to support activists in prison in the UK.
+end_quote: RIPS is an independent organisation set up by individuals from Extinction Rebellion, Burning Pink & other independent groups. 
 ---
