@@ -16,3 +16,5 @@ fields:
 - type: text
   name: prison
   label: prison
+pages:
+- rebels/_posts/test-person.md
