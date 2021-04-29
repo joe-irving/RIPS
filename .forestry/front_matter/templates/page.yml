@@ -19,12 +19,18 @@ fields:
   config:
     maxSize: 64
   label: Top Image
+- name: image
+  type: file
+  config:
+    maxSize: 64
+  label: Social Media Image
+  default: "/uploads/22-04-21-hsbc-broken-windows_gareth-morris-3.jpg"
 pages:
-  - index.md
-  - about.md
-  - blog.md
-  - donate.md
-  - archive.md
-  - join-us.md
-  - rebels.md
-  - resources.md
+- about.md
+- archive.md
+- blog.md
+- donate.md
+- index.md
+- join-us.md
+- rebels.md
+- resources.md
