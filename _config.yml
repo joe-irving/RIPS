@@ -11,6 +11,8 @@ baseurl: ''
 
 permalink: /:categories/:title/
 
+locale: en_GB
+
 # Build settings
 theme: jekyll-rebellion
 plugins:
