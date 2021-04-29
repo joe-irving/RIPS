@@ -7,6 +7,9 @@ fields:
   label: layout
   default: post
   hidden: true
+- name: archive
+  type: boolean
+  label: archive
 - type: text
   name: title
   label: Name
