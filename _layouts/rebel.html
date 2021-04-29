@@ -5,6 +5,8 @@ layout: post
 {% assign domain = page.stream_link | remove:'http://'| remove:'https://' | split:'/' | first %}
 {% if domain == 'twitter.com' %}
 {% twitter page.stream_link %}
-{% else  %}
+{% else if domain contains 'youtu' %}
+{% youtube page.stream_link %}
+{% else %}
 <p><a href="{{ page.stream_link }}">Watch the live stream</a></p>
 {% endif %}
