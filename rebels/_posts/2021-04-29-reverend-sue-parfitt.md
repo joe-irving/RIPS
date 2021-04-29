@@ -1,6 +1,6 @@
 ---
 layout: rebel
-archive: false
+archive: true
 title: 'Reverend Sue Parfitt '
 excerpt: ''
 prison: ''

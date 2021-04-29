@@ -1,6 +1,6 @@
 ---
 layout: rebel
-archive: false
+archive: true
 title: Dave McKenny
 excerpt: ''
 prison: ''

@@ -1,6 +1,6 @@
 ---
 layout: rebel
-archive: false
+archive: true
 title: Reverend Tim Hewes
 excerpt: ''
 prison: ''

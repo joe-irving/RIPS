@@ -1,6 +1,6 @@
 ---
 layout: rebel
-archive: false
+archive: true
 title: Stefania Morosi
 excerpt: ''
 prison: ''
