@@ -5,21 +5,24 @@ admin_path: admin
 webhook_url: 
 sections:
 - type: directory
-  path: blog/_posts
-  label: Blog
-  create: all
-  match: "**/*"
-- type: directory
   path: rebels/_posts
   label: Rebels
   create: all
   match: "**/*"
-- type: jekyll-posts
-  label: Posts
+- type: directory
+  path: blog/_posts
+  label: Blog
   create: all
+  match: "**/*"
 - type: jekyll-pages
   label: Pages
   create: all
+- type: heading
+  label: Data
+- type: document
+  path: _data/resources.yml
+  label: Resources
+  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
