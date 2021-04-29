@@ -13,7 +13,12 @@ any help with the following areas:
 Ideally, we would like to create a monthly magazine to distribute
 among prisoners with activist news, activities and other engaging things.
 
-[Creative](#creative) and [Wellbeing](#wellbeing)
+[Creative](#creative) and [Wellbeing](#wellbeing) will work together
+on what gets sent to prisoners.
+
+## Media
+
+Social media accounts, sharing stories, talking to other organisations, communication, pointing volunteers in the right direction
 
 ## Wellbeing
 
