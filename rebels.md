@@ -4,8 +4,8 @@ title: Rebels in Prison
 ---
 
 These are the people currently in prison and in need of support.
-{% assign posts = site.posts | sort 'date' %}
 
+{% assign posts = site.posts | sort 'date' %}
 {% for post in posts  %}
 {% if post.categories contains 'rebels' %}
 

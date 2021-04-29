@@ -25,7 +25,7 @@ plugins:
 # twitter: \#
 # instagram: \#
 # copyright_notice: Add an additional copyright notice here.
-# donate: /donate/
+donate: /donate/
 join_us: /join-us/
 # $xr-green, $xr-yellow, $xr-light-blue, $xr-pink, $xr-purple, $xr-dark-blue $xr-light-blue, xr-light-green, $xr-pastel-yellow
 brand_color: $xr-pink
@@ -37,7 +37,7 @@ theme_small: 425
 theme_medium: 570
 theme_large: 770
 #main_nav_exclude_layouts: # Array of layout names to exclude from the main nav.
-#header_pages: Array of pages (filepaths) to include in header nav
+# header_pages: Array of pages (filepaths) to include in header nav
 
 # Exclude from processing.
 # The following items will not be processed, by default.
