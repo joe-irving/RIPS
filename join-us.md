@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Join Us
+order: 3
 ---
 
 # Join us

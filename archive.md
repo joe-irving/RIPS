@@ -1,18 +1,18 @@
 ---
 layout: page
-title: Rebels in Prison
-order: 2
+title: Rebels in Prison - Archive
+permalink: /rebels/old/
+main_nav_exclude: true
 ---
 
-# Rebels in Prison
+# Rebels in Prison - Archive
 
-These are the people currently in prison and in need of support. We also
-have [an archive of people who have now been released](old).
+These people served time in prison.
 
 {% assign posts = site.posts | sort 'date' %}
 {% for post in posts  %}
 {% if post.categories contains 'rebels' %}
-{% if post.archive != true %}
+{% if post.archive == true %}
 
 ## [{{ post.title }}]({{post.url | relative_url}})
 

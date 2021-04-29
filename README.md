@@ -3,7 +3,7 @@ layout: page
 ---
 # Rebels in Prison Website
 
-# Editing
+## Editing
 
 This site uses a Forestry.IO content management service.
 

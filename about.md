@@ -3,6 +3,7 @@ layout: page
 title: About
 permalink: /about/
 top_image: /uploads/22-04-21-hsbc-broken-windows_gareth-morris-3.jpg
+order: 1
 ---
 # Rebels in Prison Support
 
@@ -17,18 +18,3 @@ Support we offer: sending packages of exercises & activities, forwarding (& payi
 ## Who do we support?
 
 Although set up to support climate activists, RIPS will support any individual in prison for law-breaking pushing for political change. We will support any non-violent action defined by no intentional damage to a human or animal body.
-
-## What we spend fund on
-
-- Emails to send and reply
-- Commissary Money
-- Sending people things in prison
-- Website + hosting
-- Transport + Expenses
-- In the future it would be nice to offer legal support
-
-## Woking groups
-
-* Creative
-* Media
-* Wellbeing
