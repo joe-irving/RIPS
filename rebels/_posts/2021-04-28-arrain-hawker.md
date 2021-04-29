@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: rebel
 title: Arrain Hawker
 excerpt: Sentenced to 1 week, served 3 days
 prison: ''

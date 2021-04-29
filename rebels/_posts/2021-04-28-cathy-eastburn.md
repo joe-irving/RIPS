@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: rebel
 title: Cathy Eastburn
 excerpt: Jen was arrested for overthrowing the government
 prison: HMP Blah blah

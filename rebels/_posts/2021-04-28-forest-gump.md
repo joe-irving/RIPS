@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: rebel
 title: Forest Gump
 excerpt: ''
 prison: HMP Chocolate Box
