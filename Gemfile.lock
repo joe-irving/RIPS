@@ -59,6 +59,7 @@ GEM
       sassc (> 2.0.1, < 3.0)
     jekyll-seo-tag (2.7.1)
       jekyll (>= 3.8, < 5.0)
+    jekyll-twitter-plugin (2.1.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
     kramdown (2.3.1)
@@ -112,6 +113,7 @@ DEPENDENCIES
   jekyll-feed (~> 0.12)
   jekyll-linkpreview
   jekyll-rebellion
+  jekyll-twitter-plugin
   tzinfo (~> 1.2)
   tzinfo-data
   wdm (~> 0.1.1)

@@ -18,6 +18,7 @@ theme: jekyll-rebellion
 plugins:
   - jekyll-feed
   - jekyll-linkpreview
+  - jekyll-twitter-plugin
 
 # Rebellion Config
 #logo: /assets/logo-black.svg
