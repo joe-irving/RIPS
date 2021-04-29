@@ -1,8 +1,8 @@
 ---
 layout: rebel
-archive: true
-title: Hannah Schafer
-excerpt: Sentenced to 21 days, served 10 days
+archive: false
+title: Melanie Edwards
+excerpt: ''
 prison: ''
 stream_link: ''
 sentance_start: 
