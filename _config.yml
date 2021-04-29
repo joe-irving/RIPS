@@ -15,6 +15,7 @@ permalink: /:categories/:title/
 theme: jekyll-rebellion
 plugins:
   - jekyll-feed
+  - jekyll-linkpreview
 
 # Rebellion Config
 #logo: /assets/logo-black.svg
