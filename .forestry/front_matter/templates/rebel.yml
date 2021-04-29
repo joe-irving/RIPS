@@ -30,8 +30,8 @@ fields:
   description: ''
   config:
     required: false
-    date_format: 
-    time_format: 
+    date_format:
+    time_format:
     display_utc: false
 - name: sentece_end
   type: datetime
@@ -39,8 +39,8 @@ fields:
   description: ''
   config:
     required: false
-    date_format: 
-    time_format: 
+    date_format:
+    time_format:
     display_utc: false
 - name: date_released
   type: datetime
@@ -48,8 +48,8 @@ fields:
   description: ''
   config:
     required: false
-    date_format: 
-    time_format: 
+    date_format:
+    time_format:
     display_utc: false
 - name: top_image
   type: file
@@ -58,11 +58,13 @@ fields:
   label: Image at top of page
 pages:
 - rebels/_posts/2021-04-28-arrain-hawker.md
+- rebels/_posts/2021-04-28-cathy-eastburn.md
 - rebels/_posts/ben-buse.md
 - rebels/_posts/dave-mckenny.md
 - rebels/_posts/hannah-schafer.md
 - rebels/_posts/melanie-edwards.md
 - rebels/_posts/niki-dean.md
+- rebels/_posts/2021-04-29-reverend-sue-parfitt.md
 - rebels/_posts/reverend-tim-hewes.md
 - rebels/_posts/ruth-jarman.md
 - rebels/_posts/sally-davidson.md
