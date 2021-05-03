@@ -39,7 +39,7 @@
                 </div>
             </div>
             {% if post.image %}
-            <a href="{{ post.url }}"><img src="{{ post.image }}" /></a>
+            <a href="{{ post.url }}"><img src="{{ post.image | google_img }}" /></a>
             {% endif %}
             <div style="width: 100%">
             {% if post.categories.size > 0 %}
