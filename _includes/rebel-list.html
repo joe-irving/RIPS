@@ -1,18 +1,26 @@
 <div class="Rebellion-Blog-List">
-  {% assign rebels = site.rebels | sort: 'date' %}
+  {% assign rebels = site.rebels | sort: 'sentence_start' | reverse %}
   {% for post in rebels  %}
   {% if post.archive != true and post.archive != "TRUE" or page.archive_page  %}
-    <div class="Rebellion-Blog-Item">
+    <div class="Rebellion-Blog-Item" id="{{post.title | slugify }}">
         <div class="top">
-          {% if post.sentance_start and post.sentance_start != '' %}
+          {% if post.sentence_start and post.sentence_start != '' %}
           <div class="date">
-              <span class="day-number">{{ post.sentance_start | date: '%d' }}</span>
-              <span class="month">{{ post.sentance_start | date: '%b' }}</span>
+              <span class="day-number">{{ post.sentence_start | date: '%d' }}</span>
+              <span class="month">{{ post.sentence_start | date: '%b' }}</span>
           </div>
           {% endif %}
           <div class="description">
-              <h2><a href="{{post.url | relative_url}}">{{ post.title }}</a></h2>
-              <time> {{ post.prison }} </time>
+              <h3><a href="{{post.url | relative_url}}">{{ post.title }}</a></h3>
+              {% if post.date_released and post.date_released!='' and post.sentence_start and post.sentence_start != '' %}
+              <time>
+                {{ post.sentence_start | date: "%d %b %Y" }} to
+                {{ post.date_released | date: "%d %b %Y"}}
+              </time>
+              {% endif %}
+              {% if post.prison and post.prison != '' %}
+              at <em>{{ post.prison }}</em>
+              {% endif %}
               <div class="bottom-line">
                   <p>{{ post.excerpt }}</p>
               </div>

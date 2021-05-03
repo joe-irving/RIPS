@@ -8,9 +8,7 @@ layout: post
 
 <!-- Live Stream details -->
 {% if page.stream_link and page.stream_link !=''  %}
-
-<h2>Watch the video</h2>
-
+<h2 id="video">Watch the video</h2>
 {% assign domain = page.stream_link | remove:'http://'| remove:'https://' | split:'/' | first %}
 {% if domain contains "youtu" %}{% youtube page.stream_link %}
 {% elsif domain == "twitter.com" %}{% twitter page.stream_link align=center %}
@@ -21,16 +19,14 @@ layout: post
   data-allowfullscreen="true" data-width="600px"></div>
 {% else %}
 <p><a href="{{ page.stream_link }}">Follow this link to watch!</a></p>
-
 {% endif %}{% endif %}
 
 <!-- Sponsporship -->
-<h2>Sponser them!</h2>
-
+<h2 id="sponsor">Sponser them!</h2>
 <p>
   To go through the prison system is a tough and sometimes taumatic
   experience. With your help, we can try our best to support {{ page.title }}
-  them throught the process. See <a href="/about">our about page</a> for more
+  them throughout the process. See <a href="/about">our about page</a> for more
   info!
 </p>
 <p>
@@ -40,6 +36,6 @@ layout: post
 
 <!-- Biography -->
 {% if page.bio and page.bio != ''%}
-<h2>About {{page.title}}</h2>
+<h2 id="bio">About {{page.title}}</h2>
 {{ page.bio | markdownify }}
 {% endif %}

@@ -14,7 +14,7 @@ module Jekyll
 
       def populate(site)
         collection = Collection.new(site, collection_name)
-        puts csv_data
+        # puts csv_data
         csv_data.each do |item|
           path = File.join(site.source, "_#{collection_name}", "#{Jekyll::Utils.slugify(item[slug_field])}.md")
           doc = Document.new(path, collection: collection, site: site)
