@@ -4,13 +4,7 @@ auto_deploy: false
 admin_path: admin
 webhook_url: 
 sections:
-- type: directory
-  path: rebels/_posts
-  label: Rebels
-  create: all
-  match: "**/*"
-- type: directory
-  path: blog/_posts
+- type: jekyll-posts
   label: Blog
   create: all
   match: "**/*"
@@ -22,6 +16,10 @@ sections:
 - type: document
   path: _data/resources.yml
   label: Resources
+- type: document
+  path: _config.yml
+  label: Site Configuration
+  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
