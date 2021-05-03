@@ -12,10 +12,14 @@ layout: post
 <h2>Watch the video</h2>
 
 {% assign domain = page.stream_link | remove:'http://'| remove:'https://' | split:'/' | first %}
-
-{% if domain == "youtube.com" %}
-{% youtube page.stream_link %}{{ page.stream_link }}{% else%}
-
+{% if domain contains "youtu" %}{% youtube page.stream_link %}
+{% elsif domain == "twitter.com" %}{% twitter page.stream_link align=center %}
+{% elsif domain contains "facebook.com" %}
+<div id="fb-root"></div>
+<script async defer src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"></script>
+<div class="fb-video" data-href="{{page.stream_link}}"
+  data-allowfullscreen="true" data-width="600px"></div>
+{% else %}
 <p><a href="{{ page.stream_link }}">Follow this link to watch!</a></p>
 
 {% endif %}{% endif %}
