@@ -1,5 +1,5 @@
 ---
-layout: rebel
+layout: rebels
 title: Cathy Eastburn
 excerpt: ''
 prison: ''

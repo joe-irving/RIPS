@@ -1,5 +1,5 @@
 ---
-layout: rebel
+layout: rebels
 archive: true
 title: Tracey Mallaghan
 excerpt: ''

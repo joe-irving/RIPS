@@ -1,3 +1,12 @@
+GIT
+  remote: https://github.com/joe-irving/jekyll-rebellion
+  revision: db5716fc0987faacd5f6b19982d082aee3d91d5e
+  specs:
+    jekyll-rebellion (0.3.0)
+      jekyll (~> 4.0)
+      jekyll-feed (~> 0.9)
+      jekyll-seo-tag (~> 2.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -51,10 +60,6 @@ GEM
     jekyll-linkpreview (0.4.0)
       jekyll (>= 3.5, < 5.0)
       metainspector (~> 5.9)
-    jekyll-rebellion (0.3.0)
-      jekyll (~> 4.0)
-      jekyll-feed (~> 0.9)
-      jekyll-seo-tag (~> 2.1)
     jekyll-sass-converter (2.1.0)
       sassc (> 2.0.1, < 3.0)
     jekyll-seo-tag (2.7.1)
@@ -62,6 +67,8 @@ GEM
     jekyll-twitter-plugin (2.1.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
+    jekyll-youtube (1.0.0)
+      jekyll
     kramdown (2.3.1)
       rexml
     kramdown-parser-gfm (1.1.0)
@@ -109,11 +116,12 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  jekyll (~> 4.2.0)
-  jekyll-feed (~> 0.12)
+  jekyll (~> 4.0)
+  jekyll-feed (~> 0.9)
   jekyll-linkpreview
-  jekyll-rebellion
+  jekyll-rebellion (~> 0.3.0)!
   jekyll-twitter-plugin
+  jekyll-youtube
   tzinfo (~> 1.2)
   tzinfo-data
   wdm (~> 0.1.1)

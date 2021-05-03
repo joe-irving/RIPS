@@ -6,20 +6,7 @@ order: 2
 
 # Rebels in Prison
 
-These are the people currently in prison and in need of support. We also
-have [an archive of people who have now been released](old).
+These are the people currently in prison and in need of support. You
+can also see the [full list](all), past and present.
 
-{% assign posts = site.posts | sort 'date' %}
-{% for post in posts  %}
-{% if post.categories contains 'rebels' %}
-{% if post.archive != true %}
-
-## [{{ post.title }}]({{post.url | relative_url}})
-
-{% if post.prison != '' %}_{{ post.prison }}_{% endif %}
-
-{{ post.excerpt }}
-
-{% endif %}
-{% endif %}
-{% endfor %}
+{% include rebel-list.html %}

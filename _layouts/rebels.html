@@ -1,0 +1,41 @@
+---
+layout: post
+---
+<!-- Summary -->
+{% if page.excerpt and page.excerpt != '' %}
+<p><em>{{ page.excerpt }}</em></p>
+{% endif %}
+
+<!-- Live Stream details -->
+{% if page.stream_link and page.stream_link !=''  %}
+
+<h2>Watch the video</h2>
+
+{% assign domain = page.stream_link | remove:'http://'| remove:'https://' | split:'/' | first %}
+
+{% if domain == "youtube.com" %}
+{% youtube page.stream_link %}{{ page.stream_link }}{% else%}
+
+<p><a href="{{ page.stream_link }}">Follow this link to watch!</a></p>
+
+{% endif %}{% endif %}
+
+<!-- Sponsporship -->
+<h2>Sponser them!</h2>
+
+<p>
+  To go through the prison system is a tough and sometimes taumatic
+  experience. With your help, we can try our best to support {{ page.title }}
+  them throught the process. See <a href="/about">our about page</a> for more
+  info!
+</p>
+<p>
+  If this is somthing you are prepared we ask that you donate £10. See more info
+  on <a href="/donate">our donate page</a>.
+</p>
+
+<!-- Biography -->
+{% if page.bio and page.bio != ''%}
+<h2>About {{page.title}}</h2>
+{{ page.bio | markdownify }}
+{% endif %}

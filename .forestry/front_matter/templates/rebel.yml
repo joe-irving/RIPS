@@ -5,7 +5,7 @@ fields:
 - type: text
   name: layout
   label: layout
-  default: rebel
+  default: rebels
   hidden: true
 - name: archive
   type: boolean
@@ -30,8 +30,8 @@ fields:
   description: ''
   config:
     required: false
-    date_format: 
-    time_format: 
+    date_format:
+    time_format:
     display_utc: false
 - name: sentece_end
   type: datetime
@@ -39,8 +39,8 @@ fields:
   description: ''
   config:
     required: false
-    date_format: 
-    time_format: 
+    date_format:
+    time_format:
     display_utc: false
 - name: date_released
   type: datetime
@@ -48,8 +48,8 @@ fields:
   description: ''
   config:
     required: false
-    date_format: 
-    time_format: 
+    date_format:
+    time_format:
     display_utc: false
 - name: top_image
   type: file

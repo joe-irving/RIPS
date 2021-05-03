@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+<div class="Rebellion-Section">
+    <div class="Rebellion-Wrapper-Wide">
+        <h1>{{ page.title }}</h1>
+        {% if page.image %}
+            <img src="{{ page.image | google_img  }}" />
+        {% endif %}
+        {{ content }}
+    </div>
+</div>

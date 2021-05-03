@@ -19,6 +19,18 @@ plugins:
   - jekyll-feed
   - jekyll-linkpreview
   - jekyll-twitter-plugin
+  - jekyll-youtube
+
+
+csv:
+  rebels:
+    source: "https://docs.google.com/spreadsheets/d/1oNfGY6SG0PyZeOg6HLQ18Ul0MYNAR4mdRCrYTKKKhUs/export?format=csv"
+
+collections:
+  rebels:
+    output: true
+  posts:
+    permalink:  /blog/:categories/:title/
 
 # Rebellion Config
 #logo: /assets/logo-black.svg

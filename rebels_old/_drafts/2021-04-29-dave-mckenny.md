@@ -1,5 +1,5 @@
 ---
-layout: rebel
+layout: rebels
 archive: false
 title: Dave McKenny
 excerpt: ''

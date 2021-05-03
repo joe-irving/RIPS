@@ -1,0 +1,77 @@
+
+<div markdown="0">
+{% for post in site.posts  %}
+    {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+    {% capture this_month %}{{ post.date | date: "%B" }}{% endcapture %}
+    {% capture this_day %}{{ post.date | date: "%d" }}{% endcapture %}
+    {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
+    {% capture next_month %}{{ post.previous.date | date: "%B" }}{% endcapture %}
+
+    {% if forloop.first %}
+        {% comment %}
+            <!-- Not including month and year at the top -->
+            <h2 id="{{ this_year }}-ref">{{this_year}}</h2>
+            <h3 id="{{ this_year }}-{{ this_month }}-ref">{{ this_month }}</h3>
+        {% endcomment %}
+    <div class="Rebellion-Blog-List">
+    {% endif %}
+
+    <div class="Rebellion-Blog-Item">
+        <div class="top">
+                <div class="date">
+                    <span class="day-number">{{ post.date | date: "%e" }}</span>
+                    <span class="month">{{ post.date | date: "%b" }}</span>
+                </div>
+                <div class="description">
+                    <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+                    {% if post.authors %}
+                    <span>
+                        {% for a in post.authors %}
+                            {% if a.url %}<a href='/{{ a.url }}'>{{ a.name }}</a>{% else %}{{a.name}}{% endif %}{% if forloop.last == false %},{% endif %}
+                        {% endfor %}
+                    </span>
+                    {%endif%}
+                    <p>{% if post.summary %}
+                            {{ post.summary }}
+                        {% else if post.excerpt %}
+                            {{ post.excerpt }}
+                        {% endif %}</p>
+                </div>
+            </div>
+            {% if post.image %}
+            <a href="{{ post.url }}"><img src="{{ post.image }}" /></a>
+            {% endif %}
+            <div style="width: 100%">
+            {% if post.categories.size > 0 %}
+                <span style="float: right;">Categories:
+                {% for c in post.categories %}
+                    <a href="/categories/{{ c }}">{{ c }}</a>{% if forloop.last == false %},{% endif %}
+                {% endfor %}
+                </span>
+            {% endif %}
+        </div>
+    </div>
+
+
+    {% if forloop.last %}
+        </div>
+    {% else %}
+        {% if this_year != next_year %}
+        </div>
+        {% comment %}
+        <h2 id="{{ next_year }}-ref">{{next_year}}</h2>
+        <h3 id="{{ next_year }}-{{ next_month }}-ref">{{ next_month }}</h3>
+        {% endcomment %}
+        <div class="Rebellion-Blog-List">
+        {% else %}
+            {% if this_month != next_month %}
+            </div>
+            {% comment %}
+            <h3 id="{{ this_year }}-{{ next_month }}-ref">{{ next_month }}</h3>
+            {% endcomment %}
+            <div class="Rebellion-Blog-List">
+            {% endif %}
+        {% endif %}
+    {% endif %}
+{% endfor %}
+</div>

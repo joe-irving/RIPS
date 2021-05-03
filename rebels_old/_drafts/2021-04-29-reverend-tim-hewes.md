@@ -1,8 +1,8 @@
 ---
-layout: rebel
+layout: rebels
 archive: true
-title: Niki Dean
-excerpt: Unsuccessful attempt
+title: Reverend Tim Hewes
+excerpt: ''
 prison: ''
 stream_link: ''
 sentance_start: 

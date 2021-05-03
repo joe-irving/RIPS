@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+{% include head.html %}
+<body>
+    {% include header.html %}
+
+    <main class="Rebellion-Main">
+
+        {% if page.top_image %}
+            {% if layout.image_big %}
+                <div class="Rebellion-Section Rebellion-Big-Picture" style="background-image:url('{{page.top_image | google_img}}')"></div>
+            {% else %}
+                <div class="Rebellion-Section Rebellion-Half-Picture" style="background-image:url('{{page.top_image | google_img}}')"></div>
+            {% endif %}
+            {% if page.jump %}
+            <div class="Rebellion-Near-Bottom">
+                <div class="Rebellion-Flex-Line">
+                    <a href="#{{ page.jump.target }}"><span class="Rebellion-Button">{{ page.jump.text }}</span></a>
+                </div>
+            </div>
+            {% endif %}
+        {% endif %}
+
+        {% if page.contents_links %}
+            <div class="Rebellion-Section Rebellion-Contents">
+                <div class="Rebellion-Wrapper-Wide">
+                    <h2>{{ page.title }}</h2>
+                    <ol>
+                        {% for link in page.contents_links %}
+                        <li><a href="#{{link.a}}">{{link.title}}</a></li>
+                        {% endfor %}
+                    </ol>
+                </div>
+            </div>
+        {% endif %}
+
+        {% if page.top_quote %}
+            <div class="Rebellion-Section Rebellion-PullQuote">
+                <div class="Rebellion-Wrapper-Wide">
+                    <h1>{{ page.top_quote }}</h1>
+                </div>
+            </div>
+        {% endif %}
+
+        {{ content }}
+
+        {% if page.end_quote %}
+        <div class="Rebellion-Section Rebellion-PullQuote">
+            <div class="Rebellion-Wrapper-Wide">
+                <h1>{{ page.end_quote }}</h1>
+                <div class="Rebellion-Flex-Line">
+                    {% if site.join_us %}
+                        <a href="{{ site.join_us }}"><span class="Rebellion-Button">Join Us</span></a>
+                    {% endif %}
+                    {% if site.donate %}
+                        <a href="{{ site.donate }}"><span class="Rebellion-Button">Donate</span></a>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    {% endif %}
+    </main>
+
+    {% include footer.html %}
+</body>
+<script src="/assets/js.js"></script>
+</html>

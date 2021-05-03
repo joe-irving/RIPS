@@ -1,25 +1,13 @@
 ---
 layout: page
 title: Rebels in Prison - Archive
-permalink: /rebels/old/
+permalink: /rebels/all/
 main_nav_exclude: true
+archive_page: true
 ---
 
 # Rebels in Prison - Archive
 
-These people served time in prison.
+All rebels, current and past, that have spent time in prison since March 2021.
 
-{% assign posts = site.posts | sort 'date' %}
-{% for post in posts  %}
-{% if post.categories contains 'rebels' %}
-{% if post.archive == true %}
-
-## [{{ post.title }}]({{post.url | relative_url}})
-
-{% if post.prison != '' %}_{{ post.prison }}_{% endif %}
-
-{{ post.excerpt }}
-
-{% endif %}
-{% endif %}
-{% endfor %}
+{% include rebel-list.html %}

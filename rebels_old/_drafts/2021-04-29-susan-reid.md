@@ -1,5 +1,5 @@
 ---
-layout: rebel
+layout: rebels
 archive: true
 title: Susan Reid
 excerpt: Unsucessful attempt

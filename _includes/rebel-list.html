@@ -1,20 +1,26 @@
-<div class="Rebellion-Event-List">
-{% for post in site.posts %}
-  {% if post.categories contains 'rebels' %}
-    <div class="Rebellion-Event-Item">
+<div class="Rebellion-Blog-List">
+  {% assign rebels = site.rebels | sort: 'date' %}
+  {% for post in rebels  %}
+  {% if post.archive != true and post.archive != "TRUE" or page.archive_page  %}
+    <div class="Rebellion-Blog-Item">
         <div class="top">
-            <!-- <div class="date">
-                <span class="day-number">{{ post.date | date: '%d' }}</span>
-                <span class="month">{{ post.date | date: '%m' }}</span>
-            </div> -->
-            <div class="description">
-                <h3><a href="{{post.url | relative_url}}">{{ post.title }}</a></h3>
-                <time> {{ post.prison }} </time>
-                <div class="bottom-line">
-                    <p>{{ post.excerpt }}</p>
-                </div>
-            </div>
+          {% if post.sentance_start and post.sentance_start != '' %}
+          <div class="date">
+              <span class="day-number">{{ post.sentance_start | date: '%d' }}</span>
+              <span class="month">{{ post.sentance_start | date: '%b' }}</span>
+          </div>
+          {% endif %}
+          <div class="description">
+              <h2><a href="{{post.url | relative_url}}">{{ post.title }}</a></h2>
+              <time> {{ post.prison }} </time>
+              <div class="bottom-line">
+                  <p>{{ post.excerpt }}</p>
+              </div>
+          </div>
         </div>
+        {% if post.image %}
+        <a href="{{ post.url }}"><img src="{{ post.image }}" /></a>
+        {% endif %}
     </div>
   {% endif %}
 {% endfor %}
