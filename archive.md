@@ -6,9 +6,10 @@ main_nav_exclude: true
 archive_page: true
 ---
 
-# Rebels in Prison - Archive
+# Rebels in Prison - All
 
-All rebels, current and past, that have spent time in prison since March 2021.
-Alternatively, see [just the people in prison now](../).
+All rebels, current and past, that have spent time in prison in the last few years.
+Alternatively, see [just the people in prison now](../). Not an exhaustive list,
+but we are doing our best to add as many accounts as possible.
 
 {% include rebel-list.html %}
