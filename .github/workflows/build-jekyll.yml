@@ -5,7 +5,7 @@ on:
     branches:
       - master  # Here source code branch is `master`, it could be other branch
   schedule:
-    - cron:  '*/15 * * * *' # Also do every hour (sync with spreadsheet)
+    - cron:  '*/15 * * * *' # Also do every 1/4 hour (sync with spreadsheet)
 
 
 jobs:
