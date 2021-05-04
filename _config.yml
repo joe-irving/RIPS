@@ -24,7 +24,7 @@ plugins:
 
 csv:
   rebels:
-    source: "https://docs.google.com/spreadsheets/d/1oNfGY6SG0PyZeOg6HLQ18Ul0MYNAR4mdRCrYTKKKhUs/export?format=csv"
+    source: "https://docs.google.com/spreadsheets/d/1oNfGY6SG0PyZeOg6HLQ18Ul0MYNAR4mdRCrYTKKKhUs/gviz/tq?tqx=out:csv&sheet=Website"
 
 collections:
   rebels:
