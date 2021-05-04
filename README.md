@@ -25,7 +25,7 @@ orange loading blob.
 
 This website builds its [list of rebels](https://rebelsinprison.uk/rebels/all/)
 from
-[a public spreadsheet](https://docs.google.com/spreadsheets/d/1oNfGY6SG0PyZeOg6HLQ18Ul0MYNAR4mdRCrYTKKKhUs/preview)
+[a public spreadsheet](https://docs.google.com/spreadsheets/d/1oNfGY6SG0PyZeOg6HLQ18Ul0MYNAR4mdRCrYTKKKhUs/gviz/tq?tqx=out:html&sheet=Website)
 that only admins can edit.
 
 This is currently (3-May-21) being imported to the website every 15 minutes,
