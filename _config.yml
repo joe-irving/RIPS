@@ -20,6 +20,7 @@ plugins:
   - jekyll-linkpreview
   - jekyll-twitter-plugin
   - jekyll-youtube
+  - jekyll-sitemap
 
 
 csv:
