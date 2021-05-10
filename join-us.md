@@ -2,16 +2,18 @@
 layout: page
 title: Join Us
 order: 3
----
+top_image: ''
+image: ''
 
+---
 # Join us
 
-If you have any time at all to help, we would really appreciate
+If you have any time at all to help, we would really appreciate  
 any help with the following areas:
 
 ## Creative
 
-Ideally, we would like to create a monthly magazine to distribute
+Ideally, we would like to create a monthly zine to distribute
 among prisoners with activist news, activities and other engaging things.
 
 [Creative](#creative) and [Wellbeing](#wellbeing) will work together
