@@ -16,13 +16,15 @@ module Jekyll
         collection = Collection.new(site, collection_name)
         # puts csv_data
         csv_data.each do |item|
-          path = File.join(site.source, "_#{collection_name}", "#{Jekyll::Utils.slugify(item[slug_field])}.md")
-          doc = Document.new(path, collection: collection, site: site)
-          doc.merge_data!(item)
-          if site.layouts.key?(collection_name)
-            doc.merge_data!('layout' => collection_name)
+          if item[slug_field] != '' and item[slug_field]
+            path = File.join(site.source, "_#{collection_name}", "#{Jekyll::Utils.slugify(item[slug_field])}.md")
+            doc = Document.new(path, collection: collection, site: site)
+            doc.merge_data!(item)
+            if site.layouts.key?(collection_name)
+              doc.merge_data!('layout' => collection_name)
+            end
+            collection.docs << doc
           end
-          collection.docs << doc
         end
         site.collections[collection_name] = collection
       end

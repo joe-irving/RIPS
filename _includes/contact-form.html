@@ -11,7 +11,7 @@
 </p>
 <p>
   This contact form ends up in a Google Spreadsheet. If you would prefer to
-  contact them directly please email
+  contact {% if email == site.email %}us{%else%}them{%endif%} directly please email
   <a href="mailto:{{ email | replace: '@', 'DELETEME@' }}?body={{ 'Remove DELETEME in the email address above.' | url_encode | replace: '+', '%20'}}">{{ email | replace: '@', '[at]' }}</a>.
 </p>
 <form

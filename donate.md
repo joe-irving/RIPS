@@ -11,11 +11,13 @@ Account number:
 
 Sort code:
 
+{% include donation-buttons.html %}
+
 ## What we spend fund on
 
 - Emails to send and reply
-- Commissary Money
+- Commissary money
 - Sending people things in prison
-- Website + hosting
+- Our website
 - Transport + Expenses
 - In the future it would be nice to offer legal support

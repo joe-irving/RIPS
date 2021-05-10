@@ -1,0 +1,9 @@
+.Rebellion-Blog-List{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+.Rebellion-Blog-Item{
+  max-width: $content-width-narrow;
+}
