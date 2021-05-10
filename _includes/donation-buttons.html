@@ -1,0 +1,31 @@
+
+<button id="donate-button" role="link">
+Donate $5</button>
+<div id="error-message"></div>
+
+<script src="https://js.stripe.com/v3"></script>
+<script>
+  (function () {
+    // initialize Stripe using your publishable key
+    const stripe = Stripe('pk_test_51IpcKXHRCmrgd0xdrMkpnvenJR0RHPJyJWTvCo5ZGe5ossLgJvtWKK0pEAmfTGJNjj3gWxW8z7dU52LVxzj1YNU300XwdnBVjy');
+
+    // find the button and error message elements
+    const checkoutButton = document.getElementById('donate-button');
+    const errorMessage = document.getElementById('error-message');
+
+    // on click, send the user to Stripe Checkout to process the donation
+    checkoutButton.addEventListener('click', () => {
+      stripe
+        .redirectToCheckout({
+          items: [{ plan: 'price_1IpcMlHRCmrgd0xdGekYEKCq', quantity: 1 }],
+          successUrl: `${window.location.origin}#success`,
+          cancelUrl: window.location.origin,
+        })
+        .then(function (result) {
+          if (result.error) {
+            errorMessage.textContent = result.error.message;
+          }
+        });
+    });
+  })();
+</script>
