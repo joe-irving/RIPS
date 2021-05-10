@@ -21,9 +21,13 @@
               {% if post.prison and post.prison != '' %}
               at <em>{{ post.prison }}</em>
               {% endif %}
+              {% if post.excerpt and post.excerpt != '' %}
               <div class="bottom-line">
+
                   <p>{{ post.excerpt }}</p>
+
               </div>
+              {% endif %}
           </div>
         </div>
         {% if post.image %}

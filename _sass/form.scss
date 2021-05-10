@@ -1,0 +1,51 @@
+// @import "/assets/css/rebellion-style.scss";
+
+.form-submit-message:target{
+  display: block;
+}
+.form-submit-message{
+  display: none;
+}
+.Rebellion-Button{
+  border: 0;
+}
+.Rebellion-Form{
+  > *:not([hidden]){
+    display: block;
+  }
+  input[required]{
+    + label{
+      &::after{
+        content: " *";
+        color: $brand-color;
+      }
+    }
+  }
+  input[type="email"], textarea{
+    border-radius: 0;
+    width: 100%;
+    border-top-width: 0;
+    border-bottom-width: 2px;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-color: $accent-color;
+    font-size: $base-font-size;
+    font-family: $base-font-stack;
+    &:focus{
+      border-color: $brand-color;
+      border-bottom-width: 3px;
+    }
+  }
+  input[type="submit"], button{
+    margin: $spacing-unit auto;
+  }
+  textarea{
+    max-width: 100%;
+  }
+  .form-submit-message:target{
+    display: block;
+  }
+  .form-submit-message{
+    display: none;
+  }
+}

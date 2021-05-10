@@ -2,8 +2,8 @@
 layout: page
 title: About
 permalink: /about/
-top_image: /uploads/22-04-21-hsbc-broken-windows_gareth-morris-3.jpg
-image: /uploads/22-04-21-hsbc-broken-windows_gareth-morris-3.jpg
+top_image: /uploads/example-seo.jpg
+image: /uploads/example-seo.jpg
 order: 1
 ---
 # Rebels in Prison Support

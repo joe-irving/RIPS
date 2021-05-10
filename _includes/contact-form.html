@@ -1,0 +1,30 @@
+{% if page.email and page.email !='' %}
+{% assign email = page.email %}
+{% elsif site.email and site.email != '' %}
+{% assign email = site.email %}
+{%endif %}
+<p class="form-submit-message" id="submit">
+  Thank you for contacting
+  {% if page.layout == 'rebels' %}
+    {{ page.title }}
+  {% else %}us{% endif %}.
+</p>
+<p>
+  This contact form ends up in a Google Spreadsheet. If you would prefer to
+  contact them directly please email
+  <a href="mailto:{{ email | replace: '@', 'DELETEME@' }}?body={{ 'Remove DELETEME in the email address above.' | url_encode | replace: '+', '%20'}}">{{ email | replace: '@', '[at]' }}</a>.
+</p>
+<form
+  method="POST"
+  action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSflyUPtSfD__rn5FHPK1FDYovXDy3P88eQ1YWPDVLgz2QKE4g/formResponse"
+  class="Rebellion-Form">
+  <input type="text" name="entry.2134210316"
+  value="{{ site.url }}{{ page.url | relative_url }}"
+  hidden>
+  <input type="text" name="entry.94573540" value="{{ email }}" hidden>
+  <label for="email-in">Email</label>
+  <input type="email" id="email-in" name="entry.62973992" required>
+  <label for="message">Message</label>
+  <textarea type="text" id="message" name="entry.2098036641" required></textarea>
+  <button class="Rebellion-Button" type="submit">Submit</button>
+</form>
