@@ -2,21 +2,27 @@
 layout: page
 title: Join Us
 order: 3
----
+top_image: ''
+image: ''
 
+---
 # Join us
 
+<<<<<<< HEAD
 Please contact us below if you have any time to give to support activists in
 prison in the UK.
 
 {% include contact-form.html %}
 
 If you have any time at all to help, we would really appreciate
+=======
+If you have any time at all to help, we would really appreciate  
+>>>>>>> 5c240d3c7fc361cf98313add74dd62d58e2fef2d
 any help with the following areas:
 
 ## Creative
 
-Ideally, we would like to create a monthly magazine to distribute
+Ideally, we would like to create a monthly zine to distribute
 among prisoners with activist news, activities and other engaging things.
 
 [Creative](#creative) and [Wellbeing](#wellbeing) will work together
