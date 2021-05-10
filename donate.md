@@ -7,11 +7,10 @@ main_nav_exclude: true
 
 If you can donate send some money to
 
-Account number:
+Account number: 09462487
 
-Sort code:
+Sort code: 08-90-66 
 
-{% include donation-buttons.html %}
 
 ## What we spend fund on
 
