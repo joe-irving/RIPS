@@ -2,6 +2,7 @@
   {% assign rebels = site.rebels | sort: 'sentence_start' | reverse %}
   {% for post in rebels  %}
   {% if post.archive != true and post.archive != "TRUE" or page.archive_page  %}
+  {% if post.title and post.title != '' %}
     <div class="Rebellion-Blog-Item" id="{{post.title | slugify }}">
         <div class="top">
           {% if post.sentence_start and post.sentence_start != '' %}
@@ -34,6 +35,7 @@
         <a href="{{ post.url }}"><img src="{{ post.image }}" /></a>
         {% endif %}
     </div>
+    {% endif %}
   {% endif %}
 {% endfor %}
 </div>
