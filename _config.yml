@@ -7,6 +7,26 @@ description: >-
   independent organisation set up by individuals
   from Extinction Rebellion, Burning Pink & other independent groups.
 url: "https://rebelsinprison.uk"
+
+# Rebellion Config
+logo: ''
+logo_square: ''
+logo_light: ''
+facebook: ''
+twitter: ''
+instagram: ''
+copyright_notice: |
+  Assembled with love, by Websites for Dissent: https://joe.irving.me.uk
+donate: /donate/
+join_us: /join-us/
+# $xr-green, $xr-yellow, $xr-light-blue, $xr-pink, $xr-purple, $xr-dark-blue $xr-light-blue, xr-light-green, $xr-pastel-yellow
+brand_color: $xr-pink
+accent_color: $xr-dark-blue
+invert_brand_text: false
+invert_accent_text: true
+
+
+
 baseurl: ''
 
 permalink: /:categories/:title/
