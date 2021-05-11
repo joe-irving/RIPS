@@ -1,6 +1,7 @@
 ---
 label: Latest Block
 hide_body: true
+display_field: text
 fields:
 - name: collection
   type: select
