@@ -1,10 +1,12 @@
 // @import "/assets/css/rebellion-style.scss";
 
-.form-submit-message:target{
+.target:target{
   display: block;
+
 }
-.form-submit-message{
+.target{
   display: none;
+  color: $accent-color;
 }
 .Rebellion-Button{
   border: 0;

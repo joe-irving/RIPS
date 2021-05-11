@@ -9,7 +9,6 @@ end_quote: RIPS is an independent organisation set up by individuals from Extinc
   Rebellion, Burning Pink & other independent groups.
 title: ''
 image: "/uploads/22-04-21-hsbc-broken-windows_gareth-morris-3.jpg"
-
 ---
 # About
 

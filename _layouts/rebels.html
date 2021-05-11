@@ -7,20 +7,17 @@ layout: post
 {% endif %}
 
 <!-- Live Stream details -->
-
+{% include stream_video.html %}
 
 <!-- Sponsporship -->
 <h2 id="sponsor">Sponser them!</h2>
 <p>
   To go through the prison system is a tough and sometimes taumatic
   experience. With your help, we can try our best to support {{ page.title }}
-  them throughout the process. See <a href="/about">our about page</a> for more
+  throughout the process. See <a href="/about">our about page</a> for more
   info!
 </p>
-<p>
-  If this is somthing you are prepared we ask that you donate £10. See more info
-  on <a href="/donate">our donate page</a>.
-</p>
+{% include donation-buttons.html %}
 
 <!-- Contact -->
 <h2 id="contact">Contact</h2>

@@ -3,14 +3,14 @@
 {% elsif site.email and site.email != '' %}
 {% assign email = site.email %}
 {%endif %}
-<p class="form-submit-message" id="submit">
+<p class="target" id="submit">
   Thank you for contacting
   {% if page.layout == 'rebels' %}
     {{ page.title }}
   {% else %}us{% endif %}.
 </p>
 <p>
-  This contact form ends up in a Google Spreadsheet. If you would prefer to
+  This form ends up in a Google Spreadsheet. If you would prefer to
   contact {% if email == site.email %}us{%else%}them{%endif%} directly please email
   <a href="mailto:{{ email | replace: '@', 'DELETEME@' }}?body={{ 'Remove DELETEME in the email address above.' | url_encode | replace: '+', '%20'}}">{{ email | replace: '@', '[at]' }}</a>.
 </p>

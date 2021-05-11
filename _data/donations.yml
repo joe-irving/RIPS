@@ -1,0 +1,6 @@
+- name: Donate £5/month
+  id: price_1Ipjr4HRCmrgd0xdKuCglwGW
+  type: subscription
+- name: Donate £10/month
+  id: price_1Ipij6HRCmrgd0xdrcRUjgtd
+  type: subscription

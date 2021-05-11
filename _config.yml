@@ -13,7 +13,7 @@ logo: ''
 logo_square: ''
 logo_light: ''
 facebook: ''
-twitter: ''
+# twitter: ''
 instagram: ''
 copyright_notice: |
   Assembled with love, by Websites for Dissent: https://joe.irving.me.uk
@@ -42,6 +42,7 @@ plugins:
   - jekyll-youtube
   - jekyll-sitemap
 
+stripe: pk_live_51IpcKXHRCmrgd0xdhdk2I7Loilh7CHKvKTOYBGewkT1Bzifh0OpJObab1TvkSLRmLV780DP2Bb1poxLoPnuAbK7H0073MeQRpO
 
 csv:
   rebels:
