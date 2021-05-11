@@ -2,13 +2,35 @@
 label: Button
 hide_body: true
 fields:
-- name: label
-  type: text
+- name: button-select
+  type: select
+  default: Custom
   config:
     required: false
-  label: Label
-- name: link
-  type: text
-  config:
-    required: false
-  label: Link
+    options:
+    - Donation
+    - Custom
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Button Type
+- name: button
+  type: field_group
+  config: {}
+  fields:
+  - name: label
+    type: text
+    config:
+      required: false
+    label: Label
+  - name: link
+    type: text
+    config:
+      required: false
+    label: Link
+  label: Button
+  showOnly:
+    field: button-select
+    value: Custom
