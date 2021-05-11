@@ -16,3 +16,28 @@ fields:
     schema:
       format: markdown
   label: text
+- name: button-select
+  type: select
+  default: Custom
+  config:
+    required: false
+    options:
+    - Donation
+    - Custom
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Button Type
+- name: button
+  type: blocks
+  label: button
+  template_types:
+  - button
+  config:
+    min: 
+    max: 3
+  showOnly:
+    field: button-select
+    value: Custom
