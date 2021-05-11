@@ -38,3 +38,8 @@ Ideally in each support team you want:
 * Their solicitor / lawyer (although this might not be possible)
 * A family member
 * A couple of friends
+
+## Digital
+
+Help maintain the website and other digital tools. Email
+[digital@rebelsinprison.uk](mailto:digital@rebelsinprison.uk) if you are interested.
