@@ -41,6 +41,7 @@ plugins:
   - jekyll-twitter-plugin
   - jekyll-youtube
   - jekyll-sitemap
+  - jekyll-liquify
 
 stripe: pk_live_51IpcKXHRCmrgd0xdhdk2I7Loilh7CHKvKTOYBGewkT1Bzifh0OpJObab1TvkSLRmLV780DP2Bb1poxLoPnuAbK7H0073MeQRpO
 

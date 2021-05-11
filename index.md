@@ -15,7 +15,7 @@ blocks:
   text: |-
     # Contact us
 
-    {% include contact-form.html %}
+    {% include contact-form.html expand=false %}
 
 ---
 # About

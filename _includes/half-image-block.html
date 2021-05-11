@@ -1,0 +1,9 @@
+<div class="half-image-block">
+  <div class="half text">
+    <div class="content">
+      {{ include.block.text | liquify | markdownify}}
+    </div>
+  </div>
+  <div class="half image" style="background-image:url('{{include.block.half_image}}');">
+  </div>
+</div>

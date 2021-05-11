@@ -1,0 +1,31 @@
+.half-image-block{
+  > .half{
+
+  }
+  .half.image{
+    height: 80vh;
+    background: $accent-color no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .half.text {
+    padding: $spacing-unit;
+    .content{
+      max-width: $content-width-wide;
+      margin: 0 auto;
+    }
+  }
+  &:nth-child(2n+1){
+    flex-direction: row-reverse;
+  }
+}
+@media only screen and (min-width: $half-width * 2) {
+  .half-image-block{
+    display: flex;
+    > *{
+      width: 50%;
+    }
+  }
+}

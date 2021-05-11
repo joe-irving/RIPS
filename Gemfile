@@ -23,6 +23,7 @@ group :jekyll_plugins do
   gem 'jekyll-twitter-plugin'
   gem "jekyll-youtube"
   gem "jekyll-sitemap"
+  gem "jekyll-liquify"
   # gem 'jekyll-csv', :path => '/home/joe/Ruby/jekyll-csv'
 end
 

@@ -44,7 +44,7 @@
   }
   textarea{
     max-width: 100%;
-    &:focus{
+    &.expand:focus{
       height: 40vh;
     }
   }

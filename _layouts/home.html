@@ -1,0 +1,16 @@
+---
+layout: default
+image_big: true
+---
+
+
+  {% for block in page.blocks %}
+    {% if block.template == "half-image-block" %}
+    {% include half-image-block.html block=block %}
+    {% endif %}
+  {% endfor %}
+  <div class="Rebellion-Section">
+    <div class="Rebellion-Wrapper-Wide">
+        {{ content}}
+    </div>
+</div>
