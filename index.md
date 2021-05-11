@@ -16,6 +16,12 @@ blocks:
     # Contact us
 
     {% include contact-form.html expand=false %}
+- template: half-image-block
+  half_image: "/uploads/22-04-21-hsbc-broken-windows_gareth-morris-3.jpg"
+  text: |-
+    # About
+
+    For necessary action on the climate emergency we need to see hundreds of individuals in prison before the year is out and RIPS Rebels in Prison Support exists to support activists wanting to take that next step of action.
 
 ---
 # About
