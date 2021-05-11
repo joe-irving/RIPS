@@ -25,3 +25,17 @@ fields:
     schema:
       format: markdown
   label: Text
+- name: button
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - Donation
+    - Custom
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Button(s)
