@@ -10,6 +10,8 @@ end_quote: RIPS is an independent organisation set up by individuals from Extinc
 title: ''
 image: "/uploads/22-04-21-hsbc-broken-windows_gareth-morris-3.jpg"
 blocks:
+- template: latest-block
+  collection: rebels
 - template: half-image-block
   half_image: "/uploads/22-04-21-hsbc-broken-windows_gareth-morris-50.jpg"
   text: |-
@@ -30,6 +32,7 @@ blocks:
     Please consider donating some to help us support these brave people. Find out more about [how we spend the money](/donate).
 
     {% include donation-buttons.html %}
+
 
 
 ---
