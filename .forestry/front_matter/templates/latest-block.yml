@@ -25,28 +25,8 @@ fields:
     schema:
       format: markdown
   label: Text
-- name: button-select
-  type: select
-  default: []
-  config:
-    required: false
-    options:
-    - Donation
-    - Custom
-    source:
-      type: simple
-      section: 
-      file: 
-      path: 
-  label: Button(s)
 - name: button
-  type: blocks
+  type: include
+  config: {}
+  template: button
   label: Button
-  template_types:
-  - button
-  config:
-    min: 
-    max: 3
-  showOnly:
-    field: button-select
-    value: Custom
