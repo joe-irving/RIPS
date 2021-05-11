@@ -1,0 +1,32 @@
+---
+label: Home Page
+hide_body: false
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: file
+  name: top_image
+  label: top_image
+- type: field_group
+  name: jump
+  label: jump
+  fields:
+  - type: text
+    name: text
+    label: text
+  - type: text
+    name: target
+    label: target
+- type: text
+  name: top_quote
+  label: top_quote
+- type: textarea
+  name: end_quote
+  label: end_quote
+- type: text
+  name: title
+  label: title
+- type: file
+  name: image
+  label: image
