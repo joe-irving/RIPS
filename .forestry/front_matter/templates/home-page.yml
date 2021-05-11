@@ -30,7 +30,8 @@ fields:
 - name: blocks
   type: blocks
   label: Blocks
-  template_types: []
+  template_types:
+  - half-image-block
   config:
     min: 
     max: 
