@@ -1,6 +1,7 @@
 ---
 layout: page
-permalink: /help/
+permalink: "/help/"
+
 ---
 # Rebels in Prison Website
 
@@ -9,7 +10,7 @@ permalink: /help/
 This site uses a Forestry.IO content management service.
 
 1. Sign in at [/admin](https://rebelsinprison.uk/admin)
-1. Navigate to the relevant tab in the menu and start editing
+2. Navigate to the relevant tab in the menu and start editing
 
 Here you can create, edit and add:
 
@@ -31,23 +32,22 @@ For example, lets edit the [Resources](https://rebelsinprison.uk/resources/) pag
 
 * Click on Resources. ![The admin screen showing a list of page](/uploads/help/pages.png)
 * The pane of the left is for general information about the page, and the one on the
-right is for editing the content. On mobile these are navigated between. ![Resources page screen with 2 panes](/uploads/help/resources-page.png)
+  right is for editing the content. On mobile these are navigated between. ![Resources page screen with 2 panes](/uploads/help/resources-page.png)
 * Let's edit the "top image", which is the image that is half shown at the top of
-the page.
+  the page.
 * Either drag a local file into the box, or click on it to see files already uploaded.
-If you click on it this screen is shown: ![Media screen](/uploads/help/media.png)
+  If you click on it this screen is shown: ![Media screen](/uploads/help/media.png)
 * Select or upload the image you want, e.g. we chose this one: ![Resources page screen with 2 panes](/uploads/help/resources-page-2.png)
 * Click the "eye" logo next to save to preview your chanages: ![Preview of resources page](/uploads/help/resources-preview.png)
 * NB to edit the resources shown on the list, you can to go to "Resources" in the
-menu - under the **Data** header.
-
+  menu - under the **Data** header.
 
 ### Editing the home page
 
 The home page is different to all the others, and a little harder to edit. Unlike
 the main pages, the home pages doesn't have 2 pannels to edit, just one.
 
-First of all, you need to go to the page called **index.md**
+First of all, you need to go to **"Home Page"** in the menu.
 
 There are lots of sections, hopefully the following goes some why in explaining
 them:
@@ -56,14 +56,14 @@ them:
 * **"Jump To" Button**: for the button at the bottom of the top image.
   * **Text**: button text
   * **Taget**: the name of the header to jumo to. Lower-case with spaces turned
-  into hyphens
+    into hyphens
 * **Top quote**: The top big section of the page.
 * **End quote**: The section at the end before the footer.
 * **Social media preivew image**: An image that is not bigger than 1200px wide,
   for previewing on Facebook etc
 * **Blocks**: templated sections. For example:
   * **Half Image Block**: Shows text on one side and an image on the other. Alternates
-  from image on the right to the left.
+    from image on the right to the left.
     * **Image**: This image shown on one half
     * **Text**: the next formatted on the other half
 

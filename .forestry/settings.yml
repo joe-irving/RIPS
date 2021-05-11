@@ -13,7 +13,6 @@ sections:
 - type: document
   path: index.md
   label: Home Page
-  match: "**/*"
 - type: heading
   label: Data
 - type: document
