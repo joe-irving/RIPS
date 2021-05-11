@@ -40,5 +40,15 @@ fields:
       format: markdown
   label: Bio
   description: Title and text before the custom bio text about the person
+- name: fdsajhdk
+  type: field_group
+  config: {}
+  fields:
+  - name: fdsflkdfj
+    type: text
+    config:
+      required: false
+    label: fdsflkdfj
+  label: fdsajhdk
 pages:
 - _data/profile-template.yml
