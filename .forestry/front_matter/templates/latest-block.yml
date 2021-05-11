@@ -1,4 +1,18 @@
 ---
 label: Latest Block
 hide_body: true
-fields: []
+fields:
+- name: collection
+  type: select
+  default: posts
+  config:
+    required: true
+    options:
+    - posts
+    - rebels
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Collection
