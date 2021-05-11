@@ -25,8 +25,17 @@ fields:
     schema:
       format: markdown
   label: Text
-- name: button
-  type: include
-  config: {}
-  template: button
-  label: Button
+- name: button-select
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - Donation
+    - Custom
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Button type
