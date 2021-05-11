@@ -66,6 +66,7 @@ them:
     from image on the right to the left.
     * **Image**: This image shown on one half
     * **Text**: the next formatted on the other half
+  * **Latest Block**: Shows either the latest post or latest imprisonment 
 
 ## The Rebel Database
 
