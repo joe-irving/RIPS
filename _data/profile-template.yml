@@ -3,6 +3,6 @@ video: Watch the video
 donation: |-
   ## Adopt {{ page.title }}!
 
-  To go through the prison system is a tough and sometimes taumatic experience. With your help, we can try our best to support {{ page.title }} throughout the process. See [our about page](https://rebelsinprison.uk/about) for more info!
+  To go through the prison system is a tough and sometimes taumatic experience. With your help, we can try our best to support {{ page.title }} throughout the process. See [our about page](https://rebelsinprison.uk/about) for more info.
 contact: "## Contact"
 bio: "## About {{ page.title }}"
