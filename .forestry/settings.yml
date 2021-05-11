@@ -7,7 +7,6 @@ sections:
 - type: document
   path: _data/profile-template.yml
   label: Profile Template
-  match: "**/*"
 - type: jekyll-posts
   label: Blog
   create: all

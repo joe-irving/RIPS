@@ -34,3 +34,5 @@ fields:
     schema:
       format: markdown
   label: Bio
+pages:
+- _data/profile-template.yml
