@@ -33,6 +33,7 @@ fields:
   label: Blocks
   template_types:
   - half-image-block
+  - latest-block
   config:
     min: 
     max: 
