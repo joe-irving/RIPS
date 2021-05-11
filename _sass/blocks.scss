@@ -1,6 +1,5 @@
 .half-image-block{
   > .half{
-
   }
   .half.image{
     height: 80vh;
@@ -11,8 +10,11 @@
     background-size: cover;
   }
   .half.text {
-    padding: $spacing-unit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     .content{
+      padding: $spacing-unit;
       max-width: $content-width-wide;
       margin: 0 auto;
     }
@@ -24,7 +26,7 @@
 @media only screen and (min-width: $half-width * 2) {
   .half-image-block{
     display: flex;
-    > *{
+    > .half{
       width: 50%;
     }
   }

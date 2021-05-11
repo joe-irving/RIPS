@@ -9,8 +9,11 @@ image_big: true
     {% include half-image-block.html block=block %}
     {% endif %}
   {% endfor %}
-  <div class="Rebellion-Section">
+{% assign test = content | lstrip %}
+{% if test != '' %}
+<div class="Rebellion-Section">
     <div class="Rebellion-Wrapper-Wide">
-        {{ content}}
+        {{ content }}
     </div>
 </div>
+{% endif %}

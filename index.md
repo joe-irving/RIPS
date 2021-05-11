@@ -24,6 +24,3 @@ blocks:
     For necessary action on the climate emergency we need to see hundreds of individuals in prison before the year is out and RIPS Rebels in Prison Support exists to support activists wanting to take that next step of action.
 
 ---
-# About
-
-For necessary action on the climate emergency we need to see hundreds of individuals in prison before the year is out and RIPS Rebels in Prison Support exists to support activists wanting to take that next step of action.
