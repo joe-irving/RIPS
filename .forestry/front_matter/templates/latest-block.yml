@@ -16,3 +16,12 @@ fields:
       file: 
       path: 
   label: Collection
+- name: text
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Text
