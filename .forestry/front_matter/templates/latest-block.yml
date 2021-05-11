@@ -42,10 +42,11 @@ fields:
 - name: button
   type: blocks
   label: Button
-  template_types: []
+  template_types:
+  - button
   config:
     min: 
-    max: 
+    max: 3
   showOnly:
     field: button-select
     value: Custom
