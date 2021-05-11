@@ -5,6 +5,7 @@ fields:
 - type: text
   name: layout
   label: layout
+  hidden: true
 - type: file
   name: top_image
   label: Top Image
