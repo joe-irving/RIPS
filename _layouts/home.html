@@ -3,12 +3,9 @@ layout: default
 image_big: true
 ---
 
-
-  {% for block in page.blocks %}
-    {% if block.template == "half-image-block" %}
-    {% include half-image-block.html block=block %}
-    {% endif %}
-  {% endfor %}
+{% for block in page.blocks %}
+  {% include {{block.template}}.html half_image=block.half_image text=block.text %}
+{% endfor %}
 {% assign test = content | lstrip %}
 {% if test != '' %}
 <div class="Rebellion-Section">

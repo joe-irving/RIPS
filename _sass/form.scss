@@ -8,8 +8,12 @@
   display: none;
   color: $accent-color;
 }
-.Rebellion-Button{
+button.Rebellion-Button{
   border: 0;
+  font-size: 1em;
+}
+input[type="submit"], button{
+  margin: $spacing-unit auto;
 }
 .Rebellion-Form{
   > *:not([hidden]){

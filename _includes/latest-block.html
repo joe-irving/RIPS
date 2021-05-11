@@ -1,0 +1,18 @@
+{% assign data = '' %}
+{% assign posts = site.collections | where: "label", "rebels" | sort: "date"| first  %}
+{% assign latest = posts.docs | where: "archive", "FALSE" |sort: "date"| last %}
+{% capture text %}
+{% if latest.prison and latest.prison != '' %}
+{{ includes.text | markdownify }}
+<p>
+  <a href="{{latest.url}}">{{latest.title}}</a>
+  is the latest person to be sentenced on
+  {{latest.date | date: "%e %b %Y" }}
+  {% if latest.sentence_end and latest.sentence_end!='' %}
+  and is expected to be released on {{latest.sentence_end | date: "%e %b %Y" }}
+  {% endif %}. They are being held at {{ latest.prison }}.
+</p>
+{% endif %}
+{% endcapture %}
+{% assign half_image=latest.image %}
+{% include half-image-block.html half_image=half_image text=text %}
