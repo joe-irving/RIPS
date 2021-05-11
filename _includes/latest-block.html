@@ -3,7 +3,7 @@
 {% assign latest = posts.docs | where: "archive", "FALSE" |sort: "date"| last %}
 {% capture text %}
 {% if latest.prison and latest.prison != '' %}
-{{ includes.text | markdownify }}
+{{ include.text | markdownify }}
 <p>
   <a href="{{latest.url}}">{{latest.title}}</a>
   is the latest person to be sentenced on
@@ -15,4 +15,4 @@
 {% endif %}
 {% endcapture %}
 {% assign half_image=latest.image %}
-{% include half-image-block.html half_image=half_image text=text %}
+{% include half-image-block.html half_image=half_image text=text block=include.block %}
