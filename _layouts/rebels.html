@@ -10,21 +10,15 @@ layout: post
 {% include stream_video.html %}
 
 <!-- Sponsporship -->
-<h2 id="sponsor">Sponser them!</h2>
-<p>
-  To go through the prison system is a tough and sometimes taumatic
-  experience. With your help, we can try our best to support {{ page.title }}
-  throughout the process. See <a href="/about">our about page</a> for more
-  info!
-</p>
+{{ site.data.profile-template.donation | markdownify | liquify }}
 {% include donation-buttons.html %}
 
 <!-- Contact -->
-<h2 id="contact">Contact</h2>
+{{ site.data.profile-template.contact | markdownify | liquify }}
 {% include contact-form.html %}
 
 <!-- Biography -->
 {% if page.bio and page.bio != ''%}
-<h2 id="bio">About {{page.title}}</h2>
+{{ site.data.profile-template.bio  | markdownify | liquify   }}
 {{ page.bio | markdownify }}
 {% endif %}
