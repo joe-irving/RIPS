@@ -22,12 +22,6 @@ fields:
 - type: text
   name: top_quote
   label: Top Quote
-- type: textarea
-  name: end_quote
-  label: End Quote
-- type: file
-  name: image
-  label: Social Media Preview Image
 - name: blocks
   type: blocks
   label: Blocks
@@ -37,6 +31,12 @@ fields:
   config:
     min: 
     max: 
+- type: textarea
+  name: end_quote
+  label: End Quote
+- type: file
+  name: image
+  label: Social Media Preview Image
 pages:
 - index.md
 - index.md
