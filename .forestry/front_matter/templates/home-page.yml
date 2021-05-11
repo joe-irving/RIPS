@@ -32,7 +32,7 @@ fields:
   label: Blocks
   template_types: []
   config:
-    min:
-    max:
+    min: 
+    max: 
 pages:
 - index.md
