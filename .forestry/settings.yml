@@ -24,6 +24,10 @@ sections:
 - type: document
   path: _config.yml
   label: Site Configuration
+- type: document
+  path: _data/donations.yml
+  label: Donations
+  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
