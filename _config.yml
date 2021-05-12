@@ -48,12 +48,19 @@ stripe: pk_live_51IpcKXHRCmrgd0xdhdk2I7Loilh7CHKvKTOYBGewkT1Bzifh0OpJObab1TvkSLR
 csv:
   rebels:
     source: "https://docs.google.com/spreadsheets/d/1oNfGY6SG0PyZeOg6HLQ18Ul0MYNAR4mdRCrYTKKKhUs/gviz/tq?tqx=out:csv&sheet=Website"
+  prisons:
+    source: "https://docs.google.com/spreadsheets/d/1oNfGY6SG0PyZeOg6HLQ18Ul0MYNAR4mdRCrYTKKKhUs/gviz/tq?tqx=out:csv&sheet=Prisons"
+
 
 collections:
   rebels:
     output: true
+  prisons:
+    output: true
   posts:
     permalink:  /blog/:categories/:title/
+  templates:
+    output: false
 
 # Rebellion Config
 #logo: /assets/logo-black.svg

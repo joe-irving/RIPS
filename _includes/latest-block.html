@@ -1,5 +1,5 @@
 {% assign data = '' %}
-{% assign posts = site.collections | where: "label", "rebels" | first  %}
+{% assign posts = site.collections | where: "label", include.block.collection | first  %}
 {% assign latest = posts.docs | where: "archive", "FALSE" | last %}
 {% capture text %}
 {{ include.text | markdownify | liquify }}

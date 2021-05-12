@@ -1,0 +1,21 @@
+---
+layout: post
+---
+{% assign rebels = site.rebels | where: "archive", "FALSE" | where: "prison", page.title %}
+
+{% capture prisoners-now %}
+  {% assign rebels = site.rebels | where: "archive", "FALSE" | where: "prison", page.title %}
+  {% include rebel-list.html rebels=rebels %}
+{% endcapture %}
+
+{% capture address %}
+<address>
+  {{ page.title }}<br>
+  {{ page.address | replace: ",", "<br>" }}
+</address>
+{% endcapture %}
+
+
+{% assign t = site.templates | where: "title", "prison" | first %}
+
+{{ t.content | markdownify | liquify }}

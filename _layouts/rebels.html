@@ -1,27 +1,46 @@
 ---
-layout: post
+layout: page
 ---
 
 {% assign name = page.title %}
+{% assign prison = site.prisons | where: "title", page.prison | first %}
 
-<!-- Summary -->
-{% if page.excerpt and page.excerpt != '' %}
-<p><em>{{ page.excerpt }}</em></p>
-{% endif %}
+{% capture nowunix %}{{ 'now' | date: "%s" }}{% endcapture %}
+{% capture startunix %}{{ page.sentence_start | date: "%s" }}{% endcapture %}
+{% capture days %}{{ nowunix | minus: startunix | divided_by: 86400}}{% endcapture %}
 
-<!-- Live Stream details -->
-{% include stream_video.html %}
+{% capture excerpt %}
+  {% if page.excerpt and page.excerpt != '' %}
+  <p><em>{{ page.excerpt }}</em></p>
+  {% endif %}
+{% endcapture %}
 
-<!-- Sponsporship -->
-{{ site.data.profile-template.donation | markdownify | liquify }}
-{% include donation-buttons.html %}
+{% capture image %}
+  {% if page.image and page.excerpt != '' %}
+  <img src="{{ page.image }}" alt="Photo of {{ page.title }}">
+  {% endif %}
+{% endcapture %}
 
-<!-- Contact -->
-{{ site.data.profile-template.contact | markdownify | liquify }}
-{% include contact-form.html %}
+{% capture video %}
+  {% if page.stream_link and page.stream_link != '' %}
+  {% include stream_video.html %}
+  {% endif %}
+{% endcapture %}
 
-<!-- Biography -->
+{% capture donate-buttons %}
+  {% include donation-buttons.html %}
+{% endcapture %}
+
+{% capture contact-form %}
+  {% include contact-form.html %}
+{% endcapture %}
+
+{% capture bio %}
 {% if page.bio and page.bio != ''%}
-{{ site.data.profile-template.bio  | markdownify | liquify   }}
-{{ page.bio | markdownify }}
+  {{ site.data.profile-template.bio  | markdownify | liquify   }}
+  {{ page.bio | markdownify }}
 {% endif %}
+{% endcapture %}
+
+<!-- Content -->
+{{ site.data.profile-template.body | markdownify | liquify }}

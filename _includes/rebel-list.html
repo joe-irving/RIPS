@@ -1,8 +1,8 @@
 <div class="Rebellion-Blog-List">
-  {% assign rebels = site.rebels | sort: 'sentence_start' | reverse %}
-  {% for post in rebels  %}
+  {% for post in include.rebels %}
   {% if post.archive != true and post.archive != "TRUE" or page.archive_page  %}
   {% if post.title and post.title != '' %}
+    {% assign prison = site.prisons | where: "title", post.prison | first %}
     <div class="Rebellion-Blog-Item" id="{{post.title | slugify }}">
         <div class="top">
           {% if post.sentence_start and post.sentence_start != '' %}
@@ -22,7 +22,7 @@
               at
               {% endif %}{% endif %}
               {% if post.prison and post.prison != '' %}
-              <em>{{ post.prison }}</em>
+              <em><a href="{{ prison.url }}">{{ prison.title }}</a></em>
               {% endif %}
           </div>
         </div>
