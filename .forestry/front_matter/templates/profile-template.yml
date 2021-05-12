@@ -8,28 +8,6 @@ fields:
     required: false
   label: Video
   description: The title above the video/livestream
-- name: donation
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: true
-    schema:
-      format: markdown
-  label: Donation
-  description: The text about donating to RIPS. Donation buttons are added on the
-    bottom
-- name: contact
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: true
-    schema:
-      format: markdown
-  label: Contact
-  description: text about contacting the person. The contact from will be added on
-    the bottom
 - name: bio
   type: textarea
   default: ''
@@ -38,7 +16,16 @@ fields:
     wysiwyg: true
     schema:
       format: markdown
-  label: Bio
-  description: Title and text before the custom bio text about the person
+      label: Bio
+      description: Title and text before the custom bio text about the person
+- name: body
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Main Template
 pages:
 - _data/profile-template.yml
