@@ -18,16 +18,11 @@
                 {{ post.sentence_start | date: "%d %b %Y" }} to
                 {{ post.date_released | date: "%d %b %Y"}}
               </time>
-              {% endif %}
               {% if post.prison and post.prison != '' %}
-              at <em>{{ post.prison }}</em>
-              {% endif %}
-              {% if post.excerpt and post.excerpt != '' %}
-              <div class="bottom-line">
-
-                  <p>{{ post.excerpt }}</p>
-
-              </div>
+              at
+              {% endif %}{% endif %}
+              {% if post.prison and post.prison != '' %}
+              <em>{{ post.prison }}</em>
               {% endif %}
           </div>
         </div>

@@ -1,19 +1,24 @@
 {% assign data = '' %}
-{% assign posts = site.collections | where: "label", "rebels" | sort: "date"| first  %}
-{% assign latest = posts.docs | where: "archive", "FALSE" |sort: "date"| last %}
+{% assign posts = site.collections | where: "label", "rebels" | first  %}
+{% assign latest = posts.docs | where: "archive", "FALSE" | last %}
 {% capture text %}
 {{ include.text | markdownify | liquify }}
 {% if include.block.collection == 'rebels' %}
 <p>
   <a href="{{latest.url}}">{{latest.title}}</a>
-  is the latest person to be sentenced on
-  {{latest.date | date: "%e %b %Y" }}
-  {% if latest.sentence_end and latest.sentence_end!='' %}
-  and is expected to be released on {{latest.sentence_end | date: "%e %b %Y" }}{% endif %}.
+  is the latest person to be sentenced{% if latest.sentence_start and latest.sentence_start != '' %}
+    on {{latest.sentence_start | date: "%e %b %Y" }}{% endif %}{% if latest.sentence_end and latest.sentence_end!=''  %}
+    {% if latest.sentence_start and latest.sentence_start != '' %}
+    and is {% else %}. They are {% endif %}
+    expected to be released on {{latest.sentence_end | date: "%e %b %Y" | strip }}
+  {% endif %}.
   {% if latest.prison and latest.prison != '' %}
   They are being held at {{ latest.prison | strip}}.
   {% endif %}
 </p>
+{% if latest.excerpt and latest.excerpt!='' %}
+  <p>{{latest.excerpt}}</p>
+{% endif %}
 {% endif %}
 {% endcapture %}
 {% assign half_image=latest.image %}
