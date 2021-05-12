@@ -2,7 +2,7 @@
 video: Watch the video
 bio: "## About {{ name }}"
 body: |-
-  ## {{ name }}
+  # {{ name }}
 
   {{  excerpt }}
 
