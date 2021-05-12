@@ -28,5 +28,12 @@ fields:
     schema:
       format: markdown
   label: Main Template
+  description: 'The main template. Available tags are:<br>* <strong>{{ bio }}</strong>:
+    the Bio section above with the custom bio added.<br>* <strong>{{ name }}</strong>:
+    their name<br>* <strong>{{ image }}</strong>: their image<br>* <strong>{{ video
+    }}</strong>: their video with title as above<br>* <strong>{{ donate-buttons }}</strong>:
+    buttons for donating certain amounts<br>* <strong>{{ contact-form }}</strong>:
+    the contact form for this person<br>* <strong>{{ days }}</strong>: the days since
+    being imprisoned'
 pages:
 - _data/profile-template.yml
