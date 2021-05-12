@@ -2,6 +2,14 @@
 video: Watch the video
 bio: "## About {{ name }}"
 body: |-
+  ## {{ name }}
+
+  {{  excerpt }}
+
+  {{ image }}
+
+  {{ video }}
+
   ## Donate for {{ name }}!
 
   To go through the prison system is a tough and sometimes taumatic
@@ -9,4 +17,10 @@ body: |-
   {{ page.title }} throughout the process. See
   [our about page](https://rebelsinprison.uk/about) for more info.
 
+  {{ donation-buttons }}
+
   ## Contact
+
+  {{ contact-form }}
+
+  {{ bio }}
