@@ -18,6 +18,7 @@ fields:
       format: markdown
       label: Bio
       description: Title and text before the custom bio text about the person
+  label: Bio
 - name: body
   type: textarea
   default: ''
