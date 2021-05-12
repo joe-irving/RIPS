@@ -3,7 +3,7 @@ layout: page
 ---
 
 {% assign name = page.title %}
-{% assign prison = site.prisons | where: "title", page.prison | first %}
+{% assign prison-data = site.prisons | where: "title", page.prison | first %}
 
 {% capture nowunix %}{{ 'now' | date: "%s" }}{% endcapture %}
 {% capture startunix %}{{ page.sentence_start | date: "%s" }}{% endcapture %}
@@ -40,6 +40,9 @@ layout: page
   {{ site.data.profile-template.bio  | markdownify | liquify   }}
   {{ page.bio | markdownify }}
 {% endif %}
+{% endcapture %}
+{% capture prison %}
+  <a href="{{prison-data.url}}">{{prison-data.title}}</a>
 {% endcapture %}
 
 <!-- Content -->

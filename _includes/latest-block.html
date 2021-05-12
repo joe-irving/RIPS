@@ -4,6 +4,8 @@
 {% capture text %}
 {{ include.text | markdownify | liquify }}
 {% if include.block.collection == 'rebels' %}
+{% assign prison-data = site.prisons | where: "title", latest.prison | first %}
+{% capture prison %}<a href="{{prison-data.url}}">{{prison-data.title | strip }}</a>{% endcapture %}
 <p>
   <a href="{{latest.url}}">{{latest.title}}</a>
   is the latest person to be sentenced{% if latest.sentence_start and latest.sentence_start != '' %}
@@ -13,7 +15,7 @@
     expected to be released on {{latest.sentence_end | date: "%e %b %Y" | strip }}
   {% endif %}.
   {% if latest.prison and latest.prison != '' %}
-  They are being held at {{ latest.prison | strip}}.
+  They are being held at {{ prison }}.
   {% endif %}
 </p>
 {% if latest.excerpt and latest.excerpt!='' %}
