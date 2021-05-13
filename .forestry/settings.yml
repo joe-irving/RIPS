@@ -7,7 +7,6 @@ sections:
 - type: document
   path: _templates/prison.md
   label: Prison template
-  match: "**/*"
 - type: jekyll-posts
   label: Blog
   create: all
