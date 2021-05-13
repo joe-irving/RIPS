@@ -2,6 +2,7 @@ title: RiPS
 
 tagline: Support for activists in prison in the UK
 email: rebelsinprison@gmail.com
+# email: joe@bicycle.ga
 description: >-
   Exists to support activists in prison in the UK. RIPS is an
   independent organisation set up by individuals
@@ -42,6 +43,7 @@ plugins:
   - jekyll-youtube
   - jekyll-sitemap
   - jekyll-liquify
+  - jekyll-leaflet
 
 stripe: pk_live_51IpcKXHRCmrgd0xdhdk2I7Loilh7CHKvKTOYBGewkT1Bzifh0OpJObab1TvkSLRmLV780DP2Bb1poxLoPnuAbK7H0073MeQRpO
 

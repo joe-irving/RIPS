@@ -6,8 +6,8 @@ image_big: true
 {% for block in page.blocks %}
   {% include {{block.template}}.html half_image=block.half_image text=block.text block=block %}
 {% endfor %}
-{% assign test = content | lstrip %}
-{% if test != '' %}
+{% assign text = content | lstrip %}
+{% if text != '' %}
 <div class="Rebellion-Section">
     <div class="Rebellion-Wrapper-Wide">
         {{ content }}

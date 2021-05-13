@@ -1,0 +1,16 @@
+{% assign prisons = site.prisons | where: "used", "TRUE" %}
+{% capture map %}
+  {% leaflet_map {"zoom":6,
+                  "divId": "full-prison-map"  }%}
+    {%- for p in prisons -%}
+      {% assign rebels = site.rebels | where: "archive", "FALSE" | where: "prison", p.title %}
+      {% capture rebel-list%}{% if rebels %}<ul>{% for r in rebels %}<li><a href='{{r.url}}'>{{ r.title }}</a></li>{% endfor %}</ul>{% endif %}{% endcapture %}
+      {% if p.lat !='' and p.lng!='' %}
+        {% capture label %}<a href='{{ 'prisons' | relative_url }}/{{ p.title | slugify }}'>{{p.title}}</a>{{rebel-list}}{% endcapture %}
+        {% leaflet_marker { "latitude" : {{p.lat}},
+                            "longitude" : {{p.lng}},
+                            "popupContent" : "{{ label }}" } %}
+      {% endif %}
+    {% endfor %}
+  {% endleaflet_map %}
+{% endcapture %}

@@ -7,12 +7,20 @@ layout: post
   {% assign rebels = site.rebels | where: "archive", "FALSE" | where: "prison", page.title %}
   {% include rebel-list.html rebels=rebels %}
 {% endcapture %}
+{% capture w3w %}<a href="https://what3words.com/{{ page.w3w }}">///{{ page.w3w }}</a>{% endcapture %}
 
 {% capture address %}
 <address>
   {{ page.title }}<br>
   {{ page.address | replace: ",", "<br>" }}
 </address>
+{% endcapture %}
+{% capture map %}
+  {% leaflet_map {"zoom" : 13 } %}
+  {% leaflet_marker { "latitude" : {{page.lat}},
+                     "longitude" : {{ page.lng }},
+                     "popupContent" : "{{ page.title }}"  } %}
+  {% endleaflet_map %}
 {% endcapture %}
 
 

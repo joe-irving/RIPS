@@ -25,7 +25,7 @@ group :jekyll_plugins do
   gem "jekyll-youtube"
   gem "jekyll-sitemap"
   gem "jekyll-liquify"
-  # gem 'jekyll-csv', :path => '/home/joe/Ruby/jekyll-csv'
+  gem "jekyll-leaflet"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem

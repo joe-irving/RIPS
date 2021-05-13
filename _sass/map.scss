@@ -1,0 +1,15 @@
+#full-prison-map{
+  flex-grow: 2;
+  height: 100%;
+  width: 100%;
+}
+.Rebellion-Map{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding-bottom: 0;
+}
+.map-block{
+  height: 40vh;
+  width: 100%;
+}

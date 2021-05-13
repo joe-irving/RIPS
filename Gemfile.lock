@@ -10,7 +10,6 @@ GEM
     em-websocket (0.5.2)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
-    espeak-ruby (1.0.4)
     eventmachine (1.2.7)
     faraday (1.1.0)
       multipart-post (>= 1.2, < 3)
@@ -49,6 +48,7 @@ GEM
       terminal-table (~> 2.0)
     jekyll-feed (0.15.1)
       jekyll (>= 3.7, < 5.0)
+    jekyll-leaflet (0.2.1)
     jekyll-linkpreview (0.4.0)
       jekyll (>= 3.5, < 5.0)
       metainspector (~> 5.9)
@@ -118,9 +118,9 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  espeak-ruby
   jekyll (~> 4.0)
   jekyll-feed (~> 0.9)
+  jekyll-leaflet
   jekyll-linkpreview
   jekyll-liquify
   jekyll-rebellion
