@@ -28,6 +28,7 @@ fields:
   template_types:
   - half-image-block
   - latest-block
+  - map-block
   config:
     min: 
     max: 
