@@ -18,7 +18,28 @@ blocks:
   - template: button
     label: View all rebels
     link: "/rebels"
-- template: map-block
+- template: half-map-block
+  text: |-
+    ## Prisons
+
+    The prisons people have been held in across the UK
+  button:
+  - template: button
+    label: Big Map
+    link: "/prisons"
+- template: half-image-block
+  half_image: "/uploads/tracy-m.jpeg"
+  text: |+
+    # Donate
+
+    Please consider donating some to help us support these brave people. Find out more about [how we spend the money](/donate).
+
+    {% include donation-buttons.html %}
+
+
+
+  button-select: ''
+  button: []
 - template: half-image-block
   half_image: "/uploads/22-04-21-hsbc-broken-windows_gareth-morris-50.jpg"
   text: |-
@@ -38,18 +59,5 @@ blocks:
   - template: button
     label: Find out more
     link: "/about"
-- template: half-image-block
-  half_image: "/uploads/tracy-m.jpeg"
-  text: |+
-    # Donate
-
-    Please consider donating some to help us support these brave people. Find out more about [how we spend the money](/donate).
-
-    {% include donation-buttons.html %}
-
-
-
-  button-select: ''
-  button: []
 
 ---
