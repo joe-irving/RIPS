@@ -5,7 +5,7 @@
 
     <main class="Rebellion-Main">
 
-        {% if page.top_image %}
+        {% if page.top_image and page.top_image !='' %}
             {% if layout.image_big %}
                 <div class="Rebellion-Section Rebellion-Big-Picture" style="background-image:url('{{page.top_image }}')"></div>
             {% else %}
