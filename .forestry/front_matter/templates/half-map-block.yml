@@ -11,8 +11,11 @@ fields:
     schema:
       format: markdown
   label: Text
-- name: buttons
-  type: include
-  config: {}
-  template: button
-  label: Buttons
+- name: button
+  type: blocks
+  label: Button
+  template_types:
+  - button
+  config:
+    min: 
+    max: 
