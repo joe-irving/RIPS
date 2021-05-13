@@ -11,14 +11,6 @@ fields:
     schema:
       format: markdown
   label: Text
-- name: button
-  type: blocks
-  label: Button
-  template_types:
-  - button
-  config:
-    min: 
-    max: 
 - name: button-select
   type: select
   default: []
@@ -33,3 +25,14 @@ fields:
       file: 
       path: 
   label: Button Type
+- name: button
+  type: blocks
+  label: Button
+  template_types:
+  - button
+  config:
+    min: 
+    max: 
+  showOnly:
+    field: button-select
+    value: Custom
