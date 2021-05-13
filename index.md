@@ -18,6 +18,7 @@ blocks:
   - template: button
     label: View all rebels
     link: "/rebels"
+- template: map-block
 - template: half-image-block
   half_image: "/uploads/22-04-21-hsbc-broken-windows_gareth-morris-50.jpg"
   text: |-
