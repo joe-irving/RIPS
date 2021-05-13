@@ -19,3 +19,17 @@ fields:
   config:
     min: 
     max: 
+- name: button-select
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - Custom
+    - Donation
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Button Type
