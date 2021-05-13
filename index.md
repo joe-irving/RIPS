@@ -20,15 +20,10 @@ blocks:
     link: "/rebels"
 - template: half-image-block
   half_image: "/uploads/tracy-m.jpeg"
-  text: |+
+  text: |-
     # Donate
 
     Please consider donating some to help us support these brave people. Find out more about [how we spend the money](/donate).
-
-    {% include donation-buttons.html %}
-
-
-
   button-select: Donation
   button: []
 - template: half-image-block
