@@ -29,6 +29,8 @@ fields:
   - half-image-block
   - latest-block
   - map-block
+  - half-map-block
+  - map-block
   config:
     min: 
     max: 
