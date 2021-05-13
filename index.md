@@ -44,9 +44,9 @@ blocks:
     link: "/about"
 - template: half-map-block
   text: |-
-    ## Prisons
+    # Prisons
 
-    The prisons people have been held in across the UK
+    The prisons people have been held in across the UK. Click on the markers to see who is there now.
   button:
   - template: button
     label: Big Map
