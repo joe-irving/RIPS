@@ -16,7 +16,7 @@ layout: page
 {% endcapture %}
 
 {% capture image %}
-  {% if page.image and page.excerpt != '' %}
+  {% if page.image and page.image != '' %}
   <img src="{{ page.image }}" alt="Photo of {{ page.title }}">
   {% endif %}
 {% endcapture %}
