@@ -1,4 +1,18 @@
 ---
 label: Half Map Block
 hide_body: true
-fields: []
+fields:
+- name: text
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Text
+- name: buttons
+  type: include
+  config: {}
+  template: button
+  label: Buttons
