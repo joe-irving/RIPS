@@ -33,7 +33,7 @@ baseurl: ''
 permalink: /:categories/:title/
 
 locale: en_GB
-lang: en_GB
+lang: en
 
 # Build settings
 theme: jekyll-rebellion
