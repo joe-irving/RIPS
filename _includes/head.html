@@ -1,0 +1,12 @@
+<head lang="en">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,700&display=swap" rel="stylesheet">
+    {%- seo -%}
+    <link rel="stylesheet" href="{{ "/assets/css/rebellion-style.css" | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+    {%- feed_meta -%}
+    {%- if jekyll.environment == 'production' and site.google_analytics -%}
+      {%- include google-analytics.html -%}
+    {%- endif -%}
+</head>
