@@ -1,13 +1,11 @@
 {% include map.html %}
 <div class="half-image-block">
-  <div class="half image">
-    {{ map }}
-  </div>
+  {{ map }}
   <div class="half text">
     <div class="content">
       {{ include.text | liquify | markdownify}}
       {% if include.block.button-select == "Donation"%}
-      {% include donation-buttons.html %}{% endif %}
+        {% include donation-buttons.html %}{% endif %}
       {% if include.block.button-select == "Custom" %}
       <div class="Rebellion-Flex-Line">
         {% for b in include.block.button %}
