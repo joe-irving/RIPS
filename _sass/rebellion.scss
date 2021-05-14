@@ -7,13 +7,20 @@
     src:url("../fucxedcaps-v2-webfont.woff2") format("woff2"),url("../assets/fucxedcaps-v2-webfont.woff") format("woff");
     font-display:swap
 }
+@font-face{
+    font-family:"Stencilia";
+    font-style:normal;
+    font-weight:normal;
+    src:url("../fonts/Stencilia-A.ttf") format("truetype"),url("/assets/fonts/Stencilia-A.ttf") format("truetype");
+    font-display:swap
+}
 
 // Fonts
 $base-font-stack: "Crimson Text", serif !default;
 $base-font-size:   16pt !default;
 $base-font-weight: 400 !default;
 $base-line-height: 1.5 !default;
-$header-font-stack: "FucXed","Helvetica Neue",Helvetica,Arial,sans-serif;
+$header-font-stack: "Stencilia","Helvetica Neue",Helvetica,Arial,sans-serif;
 $small-font-size:  $base-font-size * 0.875 !default;
 $smaller-font-size:  $base-font-size * 0.7 !default;
 

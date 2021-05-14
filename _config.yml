@@ -6,8 +6,8 @@ description: Exists to support activists in prison in the UK. RIPS is an indepen
   organisation set up by individuals from Extinction Rebellion, Burning Pink & other
   groups.
 url: https://rebelsinprison.uk
-logo: ''
-logo_square: ''
+logo: 'uploads/rips-rec.png'
+logo_square: 'uploads/RIPS-square.png'
 logo_light: ''
 facebook: ''
 instagram: ''
@@ -16,9 +16,9 @@ copyright_notice: 'Assembled with love, by Websites for Dissent: https://joe.irv
 '
 donate: "/donate/"
 join_us: "/join-us/"
-brand_color: "$xr-pink"
-accent_color: "$xr-dark-blue"
-invert_brand_text: false
+brand_color: "#000"
+accent_color: "#ff00c3"
+invert_brand_text: true
 invert_accent_text: true
 baseurl: ''
 permalink: "/:categories/:title/"
