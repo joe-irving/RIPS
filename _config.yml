@@ -1,109 +1,65 @@
+---
 title: RiPS
-
 tagline: Support for activists in prison in the UK
 email: rebelsinprison@gmail.com
-# email: joe@bicycle.ga
-description: >-
-  Exists to support activists in prison in the UK. RIPS is an
-  independent organisation set up by individuals
-  from Extinction Rebellion, Burning Pink & other independent groups.
-url: "https://rebelsinprison.uk"
-
-# Rebellion Config
+description: Exists to support activists in prison in the UK. RIPS is an independent
+  organisation set up by individuals from Extinction Rebellion, Burning Pink & other
+  groups.
+url: https://rebelsinprison.uk
 logo: ''
 logo_square: ''
 logo_light: ''
 facebook: ''
-# twitter: ''
 instagram: ''
-copyright_notice: |
-  Assembled with love, by Websites for Dissent: https://joe.irving.me.uk
-donate: /donate/
-join_us: /join-us/
-# $xr-green, $xr-yellow, $xr-light-blue, $xr-pink, $xr-purple, $xr-dark-blue $xr-light-blue, xr-light-green, $xr-pastel-yellow
-brand_color: $xr-pink
-accent_color: $xr-dark-blue
+copyright_notice: 'Assembled with love, by Websites for Dissent: https://joe.irving.me.uk
+
+'
+donate: "/donate/"
+join_us: "/join-us/"
+brand_color: "$xr-pink"
+accent_color: "$xr-dark-blue"
 invert_brand_text: false
 invert_accent_text: true
-
-
-
 baseurl: ''
-
-permalink: /:categories/:title/
-
+permalink: "/:categories/:title/"
 locale: en_GB
 lang: en
-
-# Build settings
 theme: jekyll-rebellion
 plugins:
-  - jekyll-feed
-  - jekyll-linkpreview
-  - jekyll-twitter-plugin
-  - jekyll-youtube
-  - jekyll-sitemap
-  - jekyll-liquify
-  - jekyll-leaflet
-
+- jekyll-feed
+- jekyll-linkpreview
+- jekyll-twitter-plugin
+- jekyll-youtube
+- jekyll-sitemap
+- jekyll-liquify
+- jekyll-leaflet
 stripe: pk_live_51IpcKXHRCmrgd0xdhdk2I7Loilh7CHKvKTOYBGewkT1Bzifh0OpJObab1TvkSLRmLV780DP2Bb1poxLoPnuAbK7H0073MeQRpO
-
 csv:
   rebels:
-    source: "https://docs.google.com/spreadsheets/d/1oNfGY6SG0PyZeOg6HLQ18Ul0MYNAR4mdRCrYTKKKhUs/gviz/tq?tqx=out:csv&sheet=Website"
+    source: https://docs.google.com/spreadsheets/d/1oNfGY6SG0PyZeOg6HLQ18Ul0MYNAR4mdRCrYTKKKhUs/gviz/tq?tqx=out:csv&sheet=Website
   prisons:
-    source: "https://docs.google.com/spreadsheets/d/1oNfGY6SG0PyZeOg6HLQ18Ul0MYNAR4mdRCrYTKKKhUs/gviz/tq?tqx=out:csv&sheet=Prisons"
-
-
+    source: https://docs.google.com/spreadsheets/d/1oNfGY6SG0PyZeOg6HLQ18Ul0MYNAR4mdRCrYTKKKhUs/gviz/tq?tqx=out:csv&sheet=Prisons
 collections:
   rebels:
     output: true
   prisons:
     output: true
   posts:
-    permalink:  /blog/:categories/:title/
+    permalink: "/blog/:categories/:title/"
   templates:
     output: false
-
-# Rebellion Config
-#logo: /assets/logo-black.svg
-#logo_square: /assets/logo-square.svg
-#logo_light: /assets/logo-white.svg
-# facebook: \#
-# twitter: \#
-# instagram: \#
-copyright_notice: |
-  Assembled with love, by Websites for Dissent: https://joe.irving.me.uk
-donate: /donate/
-join_us: /join-us/
-# $xr-green, $xr-yellow, $xr-light-blue, $xr-pink, $xr-purple, $xr-dark-blue $xr-light-blue, xr-light-green, $xr-pastel-yellow
-brand_color: $xr-pink
-accent_color: $xr-dark-blue
-invert_brand_text: false
-invert_accent_text: true
-theme_tiny: 250
-theme_small: 425
-theme_medium: 570
-theme_large: 770
-#main_nav_exclude_layouts: # Array of layout names to exclude from the main nav.
-# header_pages: Array of pages (filepaths) to include in header nav
-
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
+theme_tiny: "250"
+theme_small: "425"
+theme_medium: "570"
+theme_large: "770"
 exclude:
-  - .sass-cache/
-  - .jekyll-cache/
-  - gemfiles/
-  - Gemfile
-  - Gemfile.lock
-  - node_modules/
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
+- ".sass-cache/"
+- ".jekyll-cache/"
+- gemfiles/
+- Gemfile
+- Gemfile.lock
+- node_modules/
+- vendor/bundle/
+- vendor/cache/
+- vendor/gems/
+- vendor/ruby/
