@@ -9,8 +9,10 @@ url: https://rebelsinprison.uk
 logo: "/uploads/rips-rec.png"
 logo_square: "/uploads/RIPS-square.png"
 logo_light: ''
-facebook: ''
-instagram: ''
+rebellion_theme:
+  facebook: 'https://www.facebook.com/Rebels-in-Prison-Support-105007688415583'
+  instagram: 'https://www.instagram.com/RebelsInPrison'
+  twitter: 'https://twitter.com/RebelsInPrison'
 copyright_notice: 'Assembled with love, by Websites for Dissent: https://joe.irving.me.uk'
 donate: "/donate/"
 join_us: "/join-us/"
