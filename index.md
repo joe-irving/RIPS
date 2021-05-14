@@ -52,7 +52,7 @@ blocks:
   text: |-
     # Contact us
 
-    {% include contact-form.html expand=false %}
+    {% include contact-form.html expand=true %}
   button-select: ''
   button: []
 

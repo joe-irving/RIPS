@@ -26,7 +26,7 @@
 @media only screen and (min-width: $half-width * 2) {
   .half-image-block{
     display: flex;
-    > .half{
+    > .half, > #full-prison-map{
       width: 50%;
     }
   }
