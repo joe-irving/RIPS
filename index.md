@@ -31,7 +31,7 @@ blocks:
   text: |-
     # About
 
-    For necessary action on the climate emergency we need to see hundreds of individuals in prison before the year is out and RIPS Rebels in Prison Support exists to support activists wanting to take that next step of action.
+    For necessary action on the climate emergency we need to take urgent, radical, direct action. As the government continues to fight us, more and more people will be held on remand - in prison - before they get a trial. Rebels in Prison Support exists to support activists wanting to take that next step of action.
   button-select: Custom
   button:
   - template: button
