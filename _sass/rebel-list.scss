@@ -1,11 +1,10 @@
-.Rebellion-Rebel-List{
-  .Rebellion-Blog-List{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items:flex-start;
-  }
-  .Rebellion-Blog-Item{
-    max-width: $content-width-narrow;
-  }
+
+.Rebellion-Blog-List.Rebellion-Rebel-List{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items:flex-start;
+}
+.Rebellion-Blog-Item{
+  max-width: $content-width-narrow;
 }
