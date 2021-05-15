@@ -1,0 +1,13 @@
+.Rebellion-PullQuote, .Rebellion-Header{
+  a:hover{
+    color: unset;
+  }
+  .desktop .page-link{
+    &:hover{
+      color: unset;
+    }
+  }
+  .mobile .mobile-drawer-container .mobile-drawer .mobile-nav .page-link{
+    color: unset;
+  }
+}
