@@ -5,6 +5,7 @@ GEM
       public_suffix (>= 2.0.2, < 5.0)
     colorator (1.1.0)
     concurrent-ruby (1.1.8)
+    deep_merge (1.2.1)
     domain_name (0.5.20190701)
       unf (>= 0.0.5, < 1.0.0)
     em-websocket (0.5.2)
@@ -48,6 +49,9 @@ GEM
       terminal-table (~> 2.0)
     jekyll-feed (0.15.1)
       jekyll (>= 3.7, < 5.0)
+    jekyll-get-json (1.0.0)
+      deep_merge (~> 1.2)
+      jekyll (>= 3.0)
     jekyll-leaflet (0.2.1)
     jekyll-linkpreview (0.4.0)
       jekyll (>= 3.5, < 5.0)
@@ -120,6 +124,7 @@ PLATFORMS
 DEPENDENCIES
   jekyll (~> 4.0)
   jekyll-feed (~> 0.9)
+  jekyll-get-json
   jekyll-leaflet
   jekyll-linkpreview
   jekyll-liquify

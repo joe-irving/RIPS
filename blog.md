@@ -6,5 +6,5 @@ order: 4
 ---
 # Blog
 
-{% assign posts = site.posts | sort: 'date' %}
+{% assign posts = site.posts | sort: 'date' | reverse %}
 {% include blog-list.html %}

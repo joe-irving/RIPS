@@ -33,6 +33,10 @@ plugins:
 - jekyll-sitemap
 - jekyll-liquify
 - jekyll-leaflet
+- jekyll-get-json
+jekyll_get_json:
+  - data: insta
+    json: 'https://profilepageimages.usecue.com/images/rebelsinprison/images.json'
 stripe: pk_live_51IpcKXHRCmrgd0xdhdk2I7Loilh7CHKvKTOYBGewkT1Bzifh0OpJObab1TvkSLRmLV780DP2Bb1poxLoPnuAbK7H0073MeQRpO
 csv:
   rebels:
