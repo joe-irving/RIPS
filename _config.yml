@@ -16,7 +16,7 @@ rebellion_theme:
 copyright_notice: 'Assembled with love, by Websites for Dissent: https://joe.irving.me.uk'
 donate: "/donate/"
 join_us: "/join-us/"
-brand_color: "#000"
+brand_color: "#333"
 accent_color: "#ff00c3"
 invert_brand_text: true
 invert_accent_text: true
