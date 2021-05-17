@@ -9,7 +9,7 @@ body: |-
   {{ image }}
 
   {{ video }}
-  {% if page.exclude_donations = "FALSE" %}
+  {% if page.exclude_donations == "FALSE" %}
   ## Donate for {{ name }}!
 
   To go through the prison system is a tough and sometimes traumatic experience. With your help, we can try our best to support {{ name }} throughout the process. See [our about page](https://rebelsinprison.uk/about) for more info.
