@@ -19,7 +19,7 @@ blocks:
     label: View all rebels
     link: "/rebels"
 - template: half-image-block
-  half_image: "/uploads/tracy-m.jpeg"
+  half_image: "/uploads/22-04-21-hsbc-broken-windows_gareth-morris-58.jpg"
   text: |-
     # Donate
 
