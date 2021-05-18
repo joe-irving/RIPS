@@ -1,8 +1,10 @@
 ---
 layout: page
-top_image:
+top_image: ''
 title: Blog
 order: 4
+image: "/uploads/RIPS-square.jpeg"
+
 ---
 # Blog
 
