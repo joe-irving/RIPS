@@ -24,6 +24,11 @@ baseurl: ''
 permalink: "/:categories/:title/"
 locale: en_GB
 lang: en
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /uploads/RIPS-square.jpeg
 theme: jekyll-rebellion
 plugins:
 - jekyll-feed
