@@ -24,7 +24,7 @@ fields:
   config:
     maxSize: 64
   label: Social Media Image
-  default: "/uploads/22-04-21-hsbc-broken-windows_gareth-morris-3.jpg"
+  default: "/uploads/RIPS-square.jpeg"
 pages:
 - about.md
 - archive.md
