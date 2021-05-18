@@ -8,7 +8,7 @@ description: Exists to support activists in prison in the UK. RIPS is an indepen
 url: https://rebelsinprison.uk
 logo: "/uploads/rips-rec.png"
 logo_square: "/uploads/RIPS-square.png"
-logo_light: ''
+logo_light: '/uploads/rips-rec.png'
 rebellion_theme:
   facebook: https://www.facebook.com/Rebels-in-Prison-Support-105007688415583
   instagram: https://www.instagram.com/RebelsInPrison
