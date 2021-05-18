@@ -3,7 +3,7 @@ layout: page
 title: Join Us
 order: 3
 top_image: ''
-image: ''
+image: "/uploads/RIPS-square.jpeg"
 
 ---
 # Join us
