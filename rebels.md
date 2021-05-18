@@ -3,7 +3,7 @@ layout: rebel-list
 title: Rebels in Prison
 order: 2
 top_image: ''
-image: ''
+image: "/uploads/22-04-21-hsbc-broken-windows_gareth-morris-3-small.jpg"
 
 ---
 # Rebels in Prison
