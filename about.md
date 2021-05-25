@@ -11,11 +11,18 @@ order: 1
 
 **Exists to support activists in prison in the UK.**
 
-For necessary action on the climate emergency we need to see hundreds of individuals in prison before the year is out and RIPS Rebels in Prison Support exists to support activists wanting to take that next step of action.
+**What we spend money on:**
+
+\- Emails to send and reply via emailaprisoner.com  
+\- Commissary Money  
+\- Sending people things in prison (printing & postage)  
+\- Website + hosting  
+\- Transport + Expenses  
+\- In the future it would be nice to offer legal support
+
+For necessary action on the climate emergency we need to see hundreds of individuals in prison before the year is out and RIPS Rebels in Prison Support exists to support activists able to take that next step of action.
 
 RIPS is an independent organisation set up by individuals from Extinction Rebellion, Burning Pink & other independent groups.
-
-Support we offer: sending packages of exercises & activities, forwarding (& paying for) emails from wellwishers around the world, keeping your story alive on the outside, financial support for commissary in prison, a support network from volunteers to keep everyone necessary in the loop
 
 ## Who do we support?
 
@@ -31,7 +38,7 @@ There is a lot of time, work and effort put into these actions, and none of thes
 
 After witnessing such emotional scenes like this, I couldn’t shake the feeling that I had to do something to support them through their time inside. Try to bring some colour and a bit of peace and positivity into their cells, just do whatever I could to support them. So the letters began...
 
-When I first reached out for support, Gabbriella Ditton immediately replied with all sorts of fantastic ideas of how else we could support future rebels, and has been a constant source of inspiration and motivation for which I’m eternally grateful.
+When I first reached out for support, Gabriella Ditton immediately replied with all sorts of fantastic ideas of how else we could support future rebels, and has been a constant source of inspiration and motivation for which I’m eternally grateful.
 
 Many thanks to [Joe Irving](https://joe.irving.me.uk) for swiftly creating this amazing website, and helping us create databases for our rebels.
 
