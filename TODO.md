@@ -1,13 +1,14 @@
 ---
 layout: page
+sitemap: false
 ---
 
-* [ ] Set up social media
-  * [ ] Facebook
-  * [ ] Instagram
-* [ ] Design  
-  * [ ] main and accent colour
-  * [ ] A square logo
-  * [ ] A rectangular logo (dark)
-  * [ ] A rectangular logo (light)
+* [x] Set up social media
+  * [x] Facebook
+  * [x] Instagram
+* [x] Design  
+  * [x] main and accent colour
+  * [x] A square logo
+  * [x] A rectangular logo (dark)
+  * [x] A rectangular logo (light)
 * [ ] Support for multiple stretches in prison
