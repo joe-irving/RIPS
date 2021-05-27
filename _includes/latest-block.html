@@ -24,4 +24,7 @@
 {% endif %}
 {% endcapture %}
 {% assign half_image=latest.image %}
-{% include half-image-block.html half_image=half_image text=text block=include.block %}
+
+{% if latest %}
+  {% include half-image-block.html half_image=half_image text=text block=include.block %}
+{% endif %}
