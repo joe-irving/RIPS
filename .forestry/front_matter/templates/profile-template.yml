@@ -45,6 +45,7 @@ fields:
     }}</strong>: their video with title as above<br>* <strong>{{ donate-buttons }}</strong>:
     buttons for donating certain amounts<br>* <strong>{{ contact-form }}</strong>:
     the contact form for this person<br>* <strong>{{ days }}</strong>: the days since
-    being imprisoned'
+    being imprisoned<br>* <strong>{{ donate }}</strong>: the optional donation section
+    (above) for people who are okay with us asking for donations'
 pages:
 - _data/profile-template.yml
