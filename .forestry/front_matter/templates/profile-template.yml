@@ -29,7 +29,7 @@ fields:
       format: markdown
       label: Donate section
       description: Text about donations, only shown if the person consents.
-  label: Bio
+  label: Donate
 - name: body
   type: textarea
   default: ''

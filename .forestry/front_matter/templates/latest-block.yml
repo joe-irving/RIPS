@@ -13,9 +13,9 @@ fields:
     - sentences
     source:
       type: simple
-      section:
-      file:
-      path:
+      section: 
+      file: 
+      path: 
   label: Collection
 - name: text
   type: textarea
@@ -36,9 +36,9 @@ fields:
     - Custom
     source:
       type: simple
-      section:
-      file:
-      path:
+      section: 
+      file: 
+      path: 
   label: Button type
 - name: button
   type: blocks
@@ -46,7 +46,7 @@ fields:
   template_types:
   - button
   config:
-    min:
+    min: 
     max: 3
   showOnly:
     field: button-select
