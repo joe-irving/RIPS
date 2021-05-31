@@ -19,6 +19,17 @@ fields:
       label: Bio
       description: Title and text before the custom bio text about the person
   label: Bio
+- name: donate
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+      label: Donate section
+      description: Text about donations, only shown if the person consents.
+  label: Bio
 - name: body
   type: textarea
   default: ''

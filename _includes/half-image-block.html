@@ -3,7 +3,7 @@
   </div>
   <div class="half text">
     <div class="content">
-      {{ include.text | liquify | markdownify}}
+      {{ include.text  | markdownify | liquify }}
       {% if include.block.button-select == "Donation"%}
       {% include donation-buttons.html %}{% endif %}
       {% if include.block.button-select == "Custom" %}

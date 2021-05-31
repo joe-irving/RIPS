@@ -11,7 +11,7 @@ title: ''
 image: "/uploads/22-04-21-hsbc-broken-windows_gareth-morris-3-small.jpg"
 blocks:
 - template: latest-block
-  collection: rebels
+  collection: sentences
   text: "# Latest imprisonment"
   button-select: Custom
   button:

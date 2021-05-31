@@ -45,7 +45,9 @@ jekyll_get_json:
 stripe: pk_live_51IpcKXHRCmrgd0xdhdk2I7Loilh7CHKvKTOYBGewkT1Bzifh0OpJObab1TvkSLRmLV780DP2Bb1poxLoPnuAbK7H0073MeQRpO
 csv:
   rebels:
-    source: https://docs.google.com/spreadsheets/d/1oNfGY6SG0PyZeOg6HLQ18Ul0MYNAR4mdRCrYTKKKhUs/gviz/tq?tqx=out:csv&sheet=Website
+    source: https://docs.google.com/spreadsheets/d/1oNfGY6SG0PyZeOg6HLQ18Ul0MYNAR4mdRCrYTKKKhUs/gviz/tq?tqx=out:csv&sheet=Rebels
+  sentences:
+    source: https://docs.google.com/spreadsheets/d/1oNfGY6SG0PyZeOg6HLQ18Ul0MYNAR4mdRCrYTKKKhUs/gviz/tq?tqx=out:csv&sheet=Sentences
   prisons:
     source: https://docs.google.com/spreadsheets/d/1oNfGY6SG0PyZeOg6HLQ18Ul0MYNAR4mdRCrYTKKKhUs/gviz/tq?tqx=out:csv&sheet=Prisons
 collections:

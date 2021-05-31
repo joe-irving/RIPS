@@ -12,3 +12,4 @@ sitemap: false
   * [x] A rectangular logo (dark)
   * [x] A rectangular logo (light)
 * [ ] Support for multiple stretches in prison
+* [ ] Exclude donate button

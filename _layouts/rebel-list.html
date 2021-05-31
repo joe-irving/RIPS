@@ -5,6 +5,6 @@ layout: default
   <div class="Rebellion-Wrapper-Wide">
     {{ content }}
   </div>
-  {% assign rebels = site.rebels | sort: 'sentence_start' | reverse %}
+  {% assign rebels = site.rebels | sort: 'start' | reverse %}
   {% include rebel-list.html rebels=rebels %}
 </div>

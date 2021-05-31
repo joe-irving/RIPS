@@ -4,6 +4,8 @@ layout: page
 
 {% assign name = page.title %}
 {% assign prison-data = site.prisons | where: "title", page.prison | first %}
+{% assign sentences = site.sentences | where: "title", page.title | sort: "start" %}
+{% assign sentence_latest = sentences | first %}
 
 {% capture nowunix %}{{ 'now' | date: "%s" }}{% endcapture %}
 {% capture startunix %}{{ page.sentence_start | date: "%s" }}{% endcapture %}
@@ -22,8 +24,8 @@ layout: page
 {% endcapture %}
 
 {% capture video %}
-  {% if page.stream_link and page.stream_link != '' %}
-  {% include stream_video.html %}
+  {% if sentence_latest.stream_link and sentence_latest.stream_link != '' %}
+  {% include stream_video.html link=sentence_latest.stream_link %}
   {% endif %}
 {% endcapture %}
 
@@ -36,13 +38,33 @@ layout: page
 {% endcapture %}
 
 {% capture bio %}
-{% if page.bio and page.bio != ''%}
-  {{ site.data.profile-template.bio  | markdownify | liquify   }}
-  {{ page.bio | markdownify }}
-{% endif %}
+  {% if page.bio and page.bio != ''%}
+    {{ site.data.profile-template.bio  | markdownify | liquify   }}
+    {{ page.bio | markdownify | liquify }}
+  {% endif %}
 {% endcapture %}
+
+{% capture donate %}
+  {% if page.exclude_donations != "TRUE" and page.exclude_donations != true  %}
+    {{ site.data.profile-template.donate  | markdownify | liquify   }}
+  {% endif %}
+{% endcapture %}
+
 {% capture prison %}
   <a href="{{prison-data.url}}">{{prison-data.title}}</a>
+{% endcapture %}
+
+{% capture sentence_list %}
+<h2>Stretches in prison</h2>
+<ul>
+  {% for sentence in sentences %}
+    {% assign sentence_prison = site.prisons | where: "title", sentence.prison | first %}
+    <li>
+      From {{ sentence.start | date: "%d %b %Y" }} to {{ sentence.released | date: "%d %b %Y" }}
+      at <a href="{{ sentence_prison.url }}">{{ sentence_prison.title }}</a>.
+    </li>
+  {% endfor %}
+</ul>
 {% endcapture %}
 
 <!-- Content -->
