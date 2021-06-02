@@ -5,14 +5,13 @@ main_nav_exclude: true
 ---
 # Donate
 
-If you can donate send some money to
-
-* Account number: 09462487
-* Sort code: 08-90-66
-
-Or donate using a **subscription** below:
+If you can donate use a **subscription** below:
 
 {% include donation-buttons.html %}
+
+Or donate to our fundraiser:
+
+<iframe width="100%" height="380" src="https://www.chuffed.org/iframe/82352/25aae1" frameborder="0" allowfullscreen style="border:0px solid #fff;margin:0 auto;"></iframe>
 
 ## What we spend fund on
 
