@@ -10,6 +10,14 @@ end_quote: RIPS is an independent organisation set up by individuals from Extinc
 title: ''
 image: "/uploads/22-04-21-hsbc-broken-windows_gareth-morris-3-small.jpg"
 blocks:
+- template: latest-block
+  collection: sentences
+  text: "# Latest imprisonment"
+  button-select: Custom
+  button:
+  - template: button
+    label: View all rebels
+    link: "/rebels"
 - template: half-image-block
   half_image: "/uploads/22-04-21-hsbc-broken-windows_gareth-morris-58.jpg"
   text: |-
@@ -20,14 +28,6 @@ blocks:
     <iframe width="100%" height="380" src="https://www.chuffed.org/iframe/82352/25aae1" frameborder="0" allowfullscreen style="border:0px solid #fff;margin:0 auto;"></iframe>
   button-select: Donation
   button: []
-- template: latest-block
-  collection: sentences
-  text: "# Latest imprisonment"
-  button-select: Custom
-  button:
-  - template: button
-    label: View all rebels
-    link: "/rebels"
 - template: half-image-block
   half_image: "/uploads/22-04-21-hsbc-broken-windows_gareth-morris-3-small.jpg"
   text: |-
