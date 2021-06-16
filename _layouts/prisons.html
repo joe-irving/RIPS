@@ -4,7 +4,12 @@ layout: post
 {% assign rebels = site.rebels | where: "archive", "FALSE" | where: "prison", page.title %}
 
 {% capture prisoners-now %}
-  {% assign rebels = site.rebels | where: "archive", "FALSE" | where: "prison", page.title %}
+  {% assign sentences = site.sentences | where: "archive", "FALSE" | where: "prison", page.title %}
+  {% assign rebels = "" | split: '' %}
+  {% for sentence in sentences %}
+    {% assign rebel = site.rebels | where: "title", sentence.title %}
+    {% assign rebels = rebels | concat: rebel %}
+  {% endfor %}
   {% include rebel-list.html rebels=rebels %}
 {% endcapture %}
 {% capture w3w %}<a href="https://what3words.com/{{ page.w3w }}">///{{ page.w3w }}</a>{% endcapture %}
