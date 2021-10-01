@@ -8,9 +8,9 @@ description: Exists to support activists in prison in the UK. RIPS is an indepen
 url: https://rebelsinprison.uk
 logo: "/uploads/rips-rec.png"
 logo_square: "/uploads/RIPS-square.png"
-logo_light: '/uploads/rips-rec.png'
+logo_light: "/uploads/rips-rec.png"
 rebellion_theme:
-  facebook: https://www.facebook.com/Rebels-in-Prison-Support-105007688415583
+  facebook: https://www.facebook.com/rebelsinprison/
   instagram: https://www.instagram.com/RebelsInPrison
   twitter: https://twitter.com/RebelsInPrison
 copyright_notice: 'Assembled with love, by Websites for Dissent: https://joe.irving.me.uk'
@@ -25,10 +25,10 @@ permalink: "/:categories/:title/"
 locale: en_GB
 lang: en
 defaults:
-  - scope:
-      path: ""
-    values:
-      image: /uploads/RIPS-square.jpeg
+- scope:
+    path: ''
+  values:
+    image: "/uploads/RIPS-square.jpeg"
 theme: jekyll-rebellion
 plugins:
 - jekyll-feed
@@ -40,8 +40,8 @@ plugins:
 - jekyll-leaflet
 - jekyll-get-json
 jekyll_get_json:
-  - data: insta
-    json: 'https://profilepageimages.usecue.com/images/rebelsinprison/images.json'
+- data: insta
+  json: https://profilepageimages.usecue.com/images/rebelsinprison/images.json
 stripe: pk_live_51IpcKXHRCmrgd0xdhdk2I7Loilh7CHKvKTOYBGewkT1Bzifh0OpJObab1TvkSLRmLV780DP2Bb1poxLoPnuAbK7H0073MeQRpO
 csv:
   rebels:
