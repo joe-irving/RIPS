@@ -48,6 +48,9 @@ input[type="submit"], button{
   }
   textarea{
     max-width: 100%;
+    &:not(.expand){
+      height: 40vh;
+    }
     &.expand:focus{
       height: 40vh;
     }

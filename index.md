@@ -54,7 +54,7 @@ blocks:
   text: |-
     # Contact us
 
-    {% include contact-form.html expand=true %}
+    {% include contact-form.html expand=false %}
   button-select: ''
   button: []
 
