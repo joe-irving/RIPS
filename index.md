@@ -1,6 +1,6 @@
 ---
 layout: home
-top_image: "/uploads/23-04-21-lloyds-london-coal-protest-joao-daniel-pereira-dsf7919.jpg"
+top_image: "/uploads/courts-of-justice-insulate-britain-13.jpg"
 jump:
   text: Find out more
   target: Latest imprisonment
@@ -19,7 +19,7 @@ blocks:
     label: View all rebels
     link: "/rebels"
 - template: half-image-block
-  half_image: "/uploads/22-04-21-hsbc-broken-windows_gareth-morris-58.jpg"
+  half_image: "/uploads/courts-of-justice-insulate-britain-4.jpg"
   text: |-
     # Donate
 
