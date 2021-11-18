@@ -19,8 +19,6 @@ body: |-
 
   {{ video }}
 
-  {{ donate }}
-
   ## Contact
 
   {{ contact-form }}
