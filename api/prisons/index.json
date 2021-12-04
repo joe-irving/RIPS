@@ -1,0 +1,11 @@
+---
+sitemap: false
+---
+{% assign prisons = site.prisons | where: "slug", "hmp-thameside" %}
+{% assign rebels = site.rebels %}
+{
+  {% for p in prisons %}
+  "{{ p.slug }}": {{ p | jsonify }}
+  {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+}

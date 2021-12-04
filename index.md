@@ -10,13 +10,16 @@ end_quote: RIPS is an independent organisation set up by individuals from Extinc
 title: ''
 image: "/uploads/22-04-21-hsbc-broken-windows_gareth-morris-3-small.jpg"
 blocks:
-- template: latest-block
-  collection: sentences
-  text: "# Latest imprisonment"
+- template: wide-block
+  text: |-
+    # Latest imprisonment
+
+    {% assign rebels = site.rebels %}
+    {% include rebel-list.html rebels=rebels limit=3 %}
   button-select: Custom
   button:
   - template: button
-    label: View all rebels
+    label: See all prisoners
     link: "/rebels"
 - template: half-image-block
   half_image: "/uploads/courts-of-justice-insulate-britain-4.jpg"

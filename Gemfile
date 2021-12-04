@@ -12,7 +12,8 @@ gem "jekyll", "~> 4.0"
 # gem "minima", "~> 2.5"
 gem "jekyll-rebellion"
 # gem "espeak-ruby", require: "espeak"
-
+gem "nokogiri"
+gem "css_parser"
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
 # gem "github-pages", group: :jekyll_plugins
@@ -27,6 +28,7 @@ group :jekyll_plugins do
   gem "jekyll-liquify"
   gem "jekyll-leaflet"
   gem "jekyll-get-json"
+  gem "jekyll-airtable-import", path: "/home/joe/Documents/Work/TippingPointUK/Tools/Plugins/jekyll-airtable-import"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
