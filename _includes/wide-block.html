@@ -1,0 +1,12 @@
+<div class="Rebellion-Wrapper">
+  {{ include.block.text | markdownify | liquify }}
+  {% if include.block.button-select == "Donation"%}
+  {% include donation-buttons.html %}{% endif %}
+  {% if include.block.button-select == "Custom" %}
+  <div class="Rebellion-Flex-Line">
+    {% for b in include.block.button %}
+    <a href="{{b.link }}"><span class="Rebellion-Button">{{b.label}}</span></a>
+    {% endfor %}
+  </div>
+  {% endif %}
+</div>

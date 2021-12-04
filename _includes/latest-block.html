@@ -1,12 +1,12 @@
 {% assign data = '' %}
 {% assign posts = site.collections | where: "label", include.block.collection | first  %}
-{% assign latest = posts.docs | where: "archive", "FALSE" | last %}
+{% assign latest = posts.docs | last %}
 {% capture text %}
   <div>
   {{ include.text | markdownify | liquify }}
   {% if include.block.collection == 'sentences' %}
-    {% assign prison-data = site.prisons | where: "title", latest.prison | first %}
-    {% assign rebel = site.rebels | where: "title", latest.title | first  %}
+    {% assign prison-data = latest.prison %}
+    {% assign rebel = latest.title  %}
     {% capture prison %}<a href="{{prison-data.url}}">{{prison-data.title | strip }}</a>{% endcapture %}
     <p>
       <a href="{{rebel.url}}">{{latest.title}}</a>

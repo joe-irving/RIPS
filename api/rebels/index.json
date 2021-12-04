@@ -1,0 +1,15 @@
+---
+sitemap: false
+---
+{% assign rebels = site.rebels %}
+{
+  {% for r in rebels %}
+  "{{ r.slug }}": {{ r | jsonify }},
+  "{{ r.slug }}-sentences": [
+    {% for s in r.sentences %}
+      {{ s | jsonify }}{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ]
+  {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+}

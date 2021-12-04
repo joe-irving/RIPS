@@ -1,0 +1,10 @@
+---
+sitemap: false
+---
+{
+  {% for p in site.sentences %}
+  "{{ p.slug }}": {{ p | jsonify }},
+  "{{ p.slug }}-prison": {{ p.prison | first | jsonify }}
+  {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+}

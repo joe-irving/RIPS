@@ -1,0 +1,16 @@
+{% assign prisons = site.prisons %}
+
+{% leaflet_map {"zoom":6,
+                "divId": "full-prison-map",
+                "providerBasemap": "Stamen.Watercolor"}%}
+  {%- for p in prisons -%}
+    {% assign rebels = p.rebels_inside %}
+    {% capture rebel-list%}{% if rebels %}<ul>{% for r in rebels %}<li><a href='{{r.url}}'>{{ r.title }}</a></li>{% endfor %}</ul>{% endif %}{% endcapture %}
+    {% if p.lat !='' and p.lng!='' %}
+      {% capture label %}<a href='{{ p.url }}'>{{p.title}}</a>{{rebel-list}}{% endcapture %}
+      {% leaflet_marker { "latitude" : {{p.lat}},
+                          "longitude" : {{p.lng}},
+                          "popupContent" : "{{ label }}" } %}
+    {% endif %}
+  {% endfor %}
+{% endleaflet_map %}

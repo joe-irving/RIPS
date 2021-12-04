@@ -43,13 +43,65 @@ jekyll_get_json:
 - data: insta
   json: https://profilepageimages.usecue.com/images/rebelsinprison/images.json
 stripe: pk_live_51IpcKXHRCmrgd0xdhdk2I7Loilh7CHKvKTOYBGewkT1Bzifh0OpJObab1TvkSLRmLV780DP2Bb1poxLoPnuAbK7H0073MeQRpO
-csv:
+
+airtable:
   rebels:
-    source: https://docs.google.com/spreadsheets/d/1oNfGY6SG0PyZeOg6HLQ18Ul0MYNAR4mdRCrYTKKKhUs/gviz/tq?tqx=out:csv&sheet=Rebels
+    app: appD1nzvI2yLA0zM9
+    table: tbltguBhsThr3jjj1
+    view: viwewngaEo7ZLR7Yt
+    fields:
+      - Title
+      - Age
+      - Bio link
+      - Image
+      - Sentences
+      - Posts
+      - Email
+      - Prisons
+      - In Prison
+      - Date
+    collection: true
   sentences:
-    source: https://docs.google.com/spreadsheets/d/1oNfGY6SG0PyZeOg6HLQ18Ul0MYNAR4mdRCrYTKKKhUs/gviz/tq?tqx=out:csv&sheet=Sentences
+    table: tblVox2dKp85p1aBH
+    view: viwdVtFLTJdeUadFH
+    collection:
+      layout: none
+    fields:
+      - Counter
+      - Title
+      - Prison
+      - Video
+      - Start
+      - End
+      - Released
+      - Archive
+      - Image
+      - Duration
+      - Incomplete
+      - Duration if complete
   prisons:
-    source: https://docs.google.com/spreadsheets/d/1oNfGY6SG0PyZeOg6HLQ18Ul0MYNAR4mdRCrYTKKKhUs/gviz/tq?tqx=out:csv&sheet=Prisons
+    table: tblR3Z88fV4tANKxD
+    view: viwsgyyQj7Bj3oE8D
+    collection: true
+    fields:
+      - Title
+      - Address
+      - formatted_address
+      - osm_url
+      - w3w
+      - lat
+      - lng
+      - Sentences
+      - Rebels inside
+      - About
+  posts:
+    table: tbl108RmpoHAxzpv0
+    collection: true
+  resources:
+    table: tblSNnu4zcDit91vJ
+
+
+
 collections:
   rebels:
     output: true

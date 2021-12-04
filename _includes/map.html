@@ -1,17 +1,13 @@
-{% assign prisons = site.prisons | where: "used", "TRUE" %}
-{% capture map %}
-  {% leaflet_map {"zoom":6,
-                  "divId": "full-prison-map",
-                  "providerBasemap": "Stamen.Watercolor"}%}
-    {%- for p in prisons -%}
-      {% assign rebels = site.rebels | where: "archive", "FALSE" | where: "prison", p.title %}
-      {% capture rebel-list%}{% if rebels %}<ul>{% for r in rebels %}<li><a href='{{r.url}}'>{{ r.title }}</a></li>{% endfor %}</ul>{% endif %}{% endcapture %}
-      {% if p.lat !='' and p.lng!='' %}
-        {% capture label %}<a href='{{ p.url }}'>{{p.title}}</a>{{rebel-list}}{% endcapture %}
-        {% leaflet_marker { "latitude" : {{p.lat}},
-                            "longitude" : {{p.lng}},
-                            "popupContent" : "{{ label }}" } %}
-      {% endif %}
-    {% endfor %}
-  {% endleaflet_map %}
-{% endcapture %}
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+      integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+      crossorigin=""/>
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+        integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+        crossorigin=""></script>
+<div class="Map" id="full-prison-map"></div>
+<script type="text/javascript">
+  var prisons = [{% for p in site.prisons %}
+    {{ p | jsonify }}
+    {% unless forloop.last %},{% endunless %}
+    {% endfor %}];
+</script>

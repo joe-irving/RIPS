@@ -8,5 +8,5 @@ order: 10
 Some external resources you may find useful.
 
 {% for link in site.data.resources %}
-{% linkpreview link %}
+{% raw %}{% linkpreview link.link %}{% endraw %}
 {% endfor %}
