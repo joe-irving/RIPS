@@ -94,6 +94,7 @@ airtable:
       - Sentences
       - Rebels inside
       - About
+      - used
   posts:
     table: tbl108RmpoHAxzpv0
     collection: true
