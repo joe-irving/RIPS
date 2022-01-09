@@ -21,6 +21,8 @@ body: |-
 
   ## Contact
 
+  If you are having issues with the form, you can also email {{ name }} on {{ page.email }}.
+
   {{ contact-form }}
 
   {{ sentence_list }}

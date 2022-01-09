@@ -1,0 +1,17 @@
+#can_embed_form {
+  > #can_embed_form_inner {
+    > *:not(form):not(#can_letter_one_col){
+      display: none;
+    }
+    #can_letter_one_col{
+      > .line:not(form), #action_info{
+        display: none;
+      }
+    }
+    #new_delivery{
+      #form-zip_code{
+        display: none;
+      }
+    }
+  }
+}

@@ -50,16 +50,17 @@ airtable:
     table: tbltguBhsThr3jjj1
     view: viwewngaEo7ZLR7Yt
     fields:
-      - Title
+      - title
       - Age
       - Bio link
       - Image
       - Sentences
       - Posts
-      - Email
+      - email
       - Prisons
       - In Prison
       - Date
+      - zip_code
     collection: true
   sentences:
     table: tblVox2dKp85p1aBH

@@ -33,9 +33,33 @@ layout: page
   {% include donation-buttons.html %}
 {% endcapture %}
 
-{% capture contact-form %}
+{% capture contact-form-old %}
   {% include contact-form.html expand=false %}
 {% endcapture %}
+
+{% capture contact-form %}
+    <link href='https://actionnetwork.org/css/style-embed-whitelabel-v3.css' rel='stylesheet' type='text/css' /><script src='https://actionnetwork.org/widgets/v4/letter/write-to-prisoners?format=js&source=widget' await></script><div id='can-letter-area-write-to-prisoners' style='width: 100%'><!-- this div is the target for our HTML insertion --></div>
+    <script type="text/javascript">
+      var zipCodeField = null
+      var waitFormLoad = setInterval(function() {
+        if (zipCodeField == null){
+          var zipCodeField = document.getElementById('form-zip_code');
+          if (zipCodeField == null) return;
+        }
+        if (zipCodeField.value == "{{ page.zip_code }}") return;
+        zipCodeField.value = "{{ page.zip_code }}";
+        // clearInterval(waitFormLoad);
+      }, 500)
+    </script>
+    <style media="screen">
+      #can_embed_form > #can_embed_form_inner > #new_delivery ,
+      #can_embed_form > #can_embed_form_inner  .international_link-wrap
+      {
+        display: none;
+      }
+    </style>
+{% endcapture %}
+
 
 {% capture bio %}
   {% if page.bio %}
