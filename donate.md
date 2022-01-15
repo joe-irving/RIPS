@@ -20,7 +20,7 @@ Please consider making a recurring monthly donation if you can. It will help us 
 
 ## How we spend the money:
 
-* Emails to send and reply
+* Emails to send and reply via the Email a Prisoner service
 * Commissary money
 * Sending people things in prison
 * Our website
