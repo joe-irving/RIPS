@@ -20,9 +20,9 @@ Please consider making a recurring monthly donation if you can. It will help us 
 
 ## How we spend the money:
 
-* Emails to send and reply via the Email a Prisoner service
+* Communicating with people in prison via the Email a Prisoner service
 * Commissary money
-* Sending things to people in prison
+* Sending letters and packages to people in prison
 * Our website
 * Transport + Expenses
 * In the future it would be nice to offer legal support
