@@ -8,7 +8,7 @@ image: ''
 ---
 # Donate
 
-Donations can be made to the Rebels in Prison Support bank account.
+Donations can be made to the Rebels in Prison Support bank account:
 
 Account Name: RIPS
 
