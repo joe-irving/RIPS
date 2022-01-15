@@ -2,22 +2,27 @@
 title: Donate
 layout: page
 main_nav_exclude: true
+top_image: ''
+image: ''
+
 ---
 # Donate
 
-If you can donate use a **subscription** below:
+Donations can be made to the Rebels in Prison Support bank account.
 
-{% include donation-buttons.html %}
+Account Name: RIPS
 
-Or donate to our fundraiser:
+Sort Code: 08-90-66
 
-<iframe width="100%" height="380" src="https://www.chuffed.org/iframe/82352/25aae1" frameborder="0" allowfullscreen style="border:0px solid #fff;margin:0 auto;"></iframe>
+Account Number: 09462487
+
+Please consider making a recurring monthly donation if you can. It will help us plan our activities effectively.
 
 ## What we spend fund on
 
-- Emails to send and reply
-- Commissary money
-- Sending people things in prison
-- Our website
-- Transport + Expenses
-- In the future it would be nice to offer legal support
+* Emails to send and reply
+* Commissary money
+* Sending people things in prison
+* Our website
+* Transport + Expenses
+* In the future it would be nice to offer legal support
