@@ -18,7 +18,7 @@ Account Number: 09462487
 
 Please consider making a recurring monthly donation if you can. It will help us plan our activities effectively.
 
-## What we spend fund on
+## How we spend the money:
 
 * Emails to send and reply
 * Commissary money
