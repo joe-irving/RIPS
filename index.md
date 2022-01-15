@@ -34,7 +34,7 @@ blocks:
     Account Number: 09462487
 
     Please consider making a recurring monthly donation if you can. It will help us plan our activities effectively.
-  button-select: Donation
+  button-select: ''
   button: []
 - template: half-image-block
   half_image: "/uploads/22-04-21-hsbc-broken-windows_gareth-morris-3-small.jpg"
