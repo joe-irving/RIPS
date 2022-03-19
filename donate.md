@@ -10,6 +10,8 @@ image: ''
 
 Donations can be made to the [Rebels in Prison Support crowdfunding campaign](https://www.crowdfunder.co.uk/p/rebelsinprisonsupport).
 
+Please consider making a recurring monthly donation if you can. It will help us plan our activities effectively.
+
 ## How we spend the money:
 
 * Communicating with people in prison via the Email a Prisoner service
