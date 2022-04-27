@@ -25,7 +25,11 @@ blocks:
 
     Please consider donating some to help us support these brave people. Find out more about [how we spend the money](/donate).
 
-    Donations can be made to the [Rebels in Prison Support crowdfunding campaign](https://www.crowdfunder.co.uk/p/rebelsinprisonsupport).
+    Account Name: Alice Reid
+
+    Sort Code: 08-90-66
+
+    Account Number: 09462487
 
     Please consider making a recurring monthly donation if you can. It will help us plan our activities effectively.
   button-select: ''
