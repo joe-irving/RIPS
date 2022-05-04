@@ -41,5 +41,4 @@ Ideally in each support team you want:
 
 ## Digital
 
-Help maintain the website and other digital tools. Email
-[digital@rebelsinprison.uk](mailto:digital@rebelsinprison.uk) if you are interested.
+Help maintain the website and other digital tools. Email rebelsinprison@protonmail.com if you are interested.
