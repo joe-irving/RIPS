@@ -14,6 +14,8 @@ image: ''
 * [Form For Potential Prisoners](https://form.jotform.com/rebelsinprison/form-for-potential-prisoners "Form for potential prisoners")
 * [Prison Support Briefing](https://docs.google.com/document/d/1gGYOGKxuammDzSwhSUBjiabNqAMWSNUIoK7DO8DEv84/edit?usp=sharing "Prison Support Briefing")
 * [Prisoner Buddy Briefing](https://docs.google.com/document/d/1_QlgO149_iTqJE21jRacwITPmxt65pkyQrfbsvffqNM/edit?usp=sharing "Prisoner Buddy Briefing")
+* [Template For Requesting Prisoner Info](https://docs.google.com/document/d/1an5An_lo7VVGKAgV3wHq3x-THuci2Lek0nZWyXbW5Gw/edit?usp=drivesdk "Template For Requesting Prisoner Info")
+* [A Note About Data Protection](https://docs.google.com/document/d/1oQAGNWWcr842ImJ2SjM5GlkQJzlCkW8LyDspmdVJHtM/edit?usp=drivesdk "A Note About Data Protection")
 
 #### External resources you may find useful:
 
