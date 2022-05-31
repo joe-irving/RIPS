@@ -25,7 +25,7 @@ blocks:
 
     Please consider donating some to help us support these brave people. Find out more about [how we spend the money](/donate).
 
-    Please consider donating to the [Rebels in Prison Support fundraiser](https://www.crowdfunder.co.uk/p/rebelsinprisonsupport-1). Donations can also be made to the Rebels in Prison Support bank account:
+    Donations can be made to the [Rebels in Prison Support fundraiser](https://www.crowdfunder.co.uk/p/rebelsinprisonsupport-1). You can also donate to the Rebels in Prison Support bank account:
 
     Account Name: Alice Reid
 
