@@ -1,12 +1,12 @@
 ---
 layout: page
 top_image: ''
-title: Blog
+title: Letters
 order: 4
 image: "/uploads/RIPS-square.jpeg"
 
 ---
-# Blog
+# Letters
 
 {% assign posts = site.posts | sort: 'date' | reverse %}
 {% include blog-list.html %}

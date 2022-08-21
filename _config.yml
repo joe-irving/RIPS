@@ -101,6 +101,7 @@ airtable:
     collection: true
   resources:
     table: tblSNnu4zcDit91vJ
+    view: viwSZB9PxxIb3JcUz
 
 
 

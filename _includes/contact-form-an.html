@@ -1,0 +1,36 @@
+{% if page.email and page.email !='' %}
+{% assign email = page.email %}
+{% elsif site.email and site.email != '' %}
+{% assign email = site.email %}
+{%endif %}
+<p class="target" id="submit">
+  Thank you for contacting
+  {% if page.layout == 'rebels' %}
+    {{ page.title }}
+  {% else %}us{% endif %}.
+</p>
+<p>
+  This form is processed in Action Network. If you would prefer to
+  contact {% if email == site.email %}us{%else%}them{%endif%} directly please email
+  {{ email | replace: '@', '<span>&#64;</span>' }} instead. In submitting this form you 
+  conscent to being contacted by RiPS.
+</p>
+<form
+  method="POST"
+  action="https://actionnetwork.org/api/v2/forms/12c03d3a-a179-4637-8ca7-e51e82695081/submissions"
+  class="Rebellion-Form action-network-sign-up">
+  <input type="text" name="url"
+  value="{{ site.url }}{{ page.url | relative_url }}"
+  hidden>
+  <input type="text" name="page_title" value="{{ page.title }}" hidden>
+  <input type="text" name="contact_email" value="{{ email }}" hidden>
+  <label for="email-in">Email</label>
+  <input type="email" id="email-in" name="email" required>
+  <label for="message">Message</label>
+  <textarea
+  {% if include.expand != false %}class="expand"{% endif %}
+  type="text" id="message" name="contact_form_message" required></textarea>
+  <button class="Rebellion-Button" type="submit">Submit</button>
+  <p class="form-error error" style="display: none;">Oops, looks like there was an error submitting the form. Please try again</p>
+  <p class="form-success success" style="display: none;">Thanks! That worked.</p>
+</form>
