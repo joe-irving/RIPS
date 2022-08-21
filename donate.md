@@ -2,22 +2,29 @@
 title: Donate
 layout: page
 main_nav_exclude: true
+top_image: ''
+image: ''
+
 ---
 # Donate
 
-If you can donate use a **subscription** below:
+Please consider donating to the [Rebels in Prison Support fundraiser](https://www.crowdfunder.co.uk/p/rebelsinprisonsupport-1).
 
-{% include donation-buttons.html %}
+Donations can also be made to the Rebels in Prison Support bank account:
 
-Or donate to our fundraiser:
+Account Name: Alice Reid
 
-<iframe width="100%" height="380" src="https://www.chuffed.org/iframe/82352/25aae1" frameborder="0" allowfullscreen style="border:0px solid #fff;margin:0 auto;"></iframe>
+Sort Code: 08-90-66
 
-## What we spend fund on
+Account Number: 09462487
 
-- Emails to send and reply
-- Commissary money
-- Sending people things in prison
-- Our website
-- Transport + Expenses
-- In the future it would be nice to offer legal support
+Please consider making a recurring monthly donation if you can. It will help us plan our activities effectively.
+
+## How we spend the money:
+
+* Communicating with people in prison via the Email a Prisoner service
+* Commissary money
+* Sending letters and packages to people in prison
+* Our website
+* Transport + Expenses
+* In the future it would be nice to offer legal support

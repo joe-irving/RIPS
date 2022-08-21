@@ -8,6 +8,8 @@ image: "/uploads/RIPS-square.jpeg"
 ---
 # Join us
 
+Please contact us below if you have any time to give to support activists in
+prison in the UK.
 
 <link href='https://actionnetwork.org/css/style-embed-whitelabel-v3.css' rel='stylesheet' type='text/css' /><script src='https://actionnetwork.org/widgets/v4/form/rips?format=js&source=widget'></script><div id='can-form-area-rips' style='width: 100%'><!-- this div is the target for our HTML insertion --></div>
 
@@ -39,5 +41,4 @@ Ideally in each support team you want:
 
 ## Digital
 
-Help maintain the website and other digital tools. Email
-[digital@rebelsinprison.uk](mailto:digital@rebelsinprison.uk) if you are interested.
+Help maintain the website and other digital tools. Email rebelsinprison@protonmail.com if you are interested.

@@ -1,6 +1,6 @@
 ---
 layout: home
-top_image: "/uploads/courts-of-justice-insulate-britain-13.jpg"
+top_image: "/uploads/23-04-21-lloyds-london-coal-protest-joao-daniel-pereira-dsf7919.jpg"
 jump:
   text: Find out more
   target: Latest imprisonment
@@ -22,14 +22,22 @@ blocks:
     label: See all prisoners
     link: "/rebels"
 - template: half-image-block
-  half_image: "/uploads/courts-of-justice-insulate-britain-4.jpg"
+  half_image: "/uploads/22-04-21-hsbc-broken-windows_gareth-morris-58.jpg"
   text: |-
     # Donate
 
     Please consider donating some to help us support these brave people. Find out more about [how we spend the money](/donate).
 
-    <iframe width="100%" height="380" src="https://www.chuffed.org/iframe/82352/25aae1" frameborder="0" allowfullscreen style="border:0px solid #fff;margin:0 auto;"></iframe>
-  button-select: Donation
+    Donations can be made to the [Rebels in Prison Support fundraiser](https://www.crowdfunder.co.uk/p/rebelsinprisonsupport-1). You can also donate to the Rebels in Prison Support bank account:
+
+    Account Name: Alice Reid
+
+    Sort Code: 08-90-66
+
+    Account Number: 09462487
+
+    Please consider making a recurring monthly donation if you can. It will help us plan our activities effectively.
+  button-select: ''
   button: []
 - template: half-image-block
   half_image: "/uploads/22-04-21-hsbc-broken-windows_gareth-morris-3-small.jpg"
