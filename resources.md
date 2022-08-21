@@ -17,8 +17,4 @@ image: ''
 * [Template For Requesting Prisoner Info](https://docs.google.com/document/d/1an5An_lo7VVGKAgV3wHq3x-THuci2Lek0nZWyXbW5Gw/edit?usp=drivesdk "Template For Requesting Prisoner Info")
 * [A Note About Data Protection](https://docs.google.com/document/d/1oQAGNWWcr842ImJ2SjM5GlkQJzlCkW8LyDspmdVJHtM/edit?usp=drivesdk "A Note About Data Protection")
 
-#### External resources you may find useful:
 
-{% for link in site.data.resources %}
-{% linkpreview link %}
-{% endfor %}
