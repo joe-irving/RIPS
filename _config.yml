@@ -50,7 +50,7 @@ airtable:
     table: tbltguBhsThr3jjj1
     view: viwewngaEo7ZLR7Yt
     fields:
-      - title
+      - Title
       - Age
       - Bio link
       - Image
@@ -68,7 +68,7 @@ airtable:
     collection:
       layout: none
     fields:
-      - Counter
+      # - Counter
       - Title
       - Prison
       - Video
