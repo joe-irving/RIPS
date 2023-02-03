@@ -5,5 +5,11 @@
   align-items:flex-start;
   .Rebellion-Blog-Item{
     max-width: $content-width-narrow;
+    .background-image {
+      height: 250px;
+      width: 100%;
+      background: white no-repeat center center;
+      background-size: cover;
+    }
   }
 }

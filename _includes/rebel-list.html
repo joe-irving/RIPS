@@ -7,7 +7,7 @@
     {% if no_sentences == 0 %}{% continue %}{% endif %}
     {% assign sentence = sentences | sort: "start" | first %}
     {% assign archive = sentence.archive %}
-    {% assign prison = site.prisons | where: "title", sentence.prison | first %}
+    {% assign prison = site.prisons | find: "title", sentence.prison %}
 
     {% if archive != true and archive != "TRUE" or page.archive_page  %}
         <div class="Rebellion-Blog-Item" id="{{post.title | slugify }}">
@@ -20,21 +20,17 @@
             {% endif %}
             <div class="description">
                 <h3><a href="{{post.url | relative_url}}">{{ post.title }}</a></h3>
-                {% if sentence.released and sentence.released!='' and sentence.start and sentence.start != '' %}
+                {% if sentence.days and sentence.days!='' %}
                 <time>
-                  {{ sentence.start | date: "%d %b %Y" }} to
-                  {{ sentence.released | date: "%d %b %Y"}}
+                  {{ sentence.days }} days
                 </time>
                 {% if prison and prison != '' %}
-                  at
+                  at <em><a href="{{ prison.url }}">{{ prison.title }}</a></em>
                 {% endif %}{% endif %}
-                {% if prison and prison != '' %}
-                  <em><a href="{{ prison.url }}">{{ prison.title }}</a></em>
-                {% endif %}
             </div>
           </div>
           {% if post.image %}
-            <a href="{{ post.url }}"><img src="{{ post.image }}" /></a>
+            <a class="background-image" href="{{ post.url }}" style="background-image: url('{{ post.image  }}');"></a>
           {% endif %}
         </div>
     {% endif %}
