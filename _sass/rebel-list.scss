@@ -1,14 +1,16 @@
+$rebel-listing-width: 250px;
+
 .Rebellion-Rebel-List{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items:flex-start;
   .Rebellion-Blog-Item{
-    max-width: $content-width-narrow;
+    max-width: $rebel-listing-width;
     .background-image {
-      height: 250px;
+      height: $rebel-listing-width;
       width: 100%;
-      max-width: 250px;
+      max-width: $rebel-listing-width;
       background: white no-repeat center center;
       background-size: cover;
     }
