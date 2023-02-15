@@ -5,7 +5,7 @@
     {% assign sentences = site.sentences | where: "title", post.title %}
     {% assign no_sentences = sentences | size %}
     {% if no_sentences == 0 %}{% continue %}{% endif %}
-    {% assign sentence = sentences | sort: "start" | first %}
+    {% assign sentence = sentences | sort: "start" | last %}
     {% assign archive = sentence.archive %}
     {% assign prison = site.prisons | find: "title", sentence.prison %}
 
