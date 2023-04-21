@@ -4,8 +4,9 @@ title: Resources
 order: 10
 top_image: ''
 image: ''
-
+_template: page
 ---
+
 # Resources
 
 #### Resources created by Rebels In Prison Support:

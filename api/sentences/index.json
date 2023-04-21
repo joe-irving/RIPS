@@ -1,0 +1,3 @@
+---
+---
+{{ site.sentences | where: "title", "David Nixon" | jsonify }}

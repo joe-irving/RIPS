@@ -1,6 +1,5 @@
----
 video: Watch the video
-bio: "## About {{ name }}"
+bio: '## About {{ name }}'
 donate: |-
   ## Donate for {{ name }}!
 
@@ -26,3 +25,4 @@ body: |-
   {{ sentence_list }}
 
   {{ bio }}
+_template: profile_template
