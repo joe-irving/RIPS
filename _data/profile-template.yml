@@ -21,9 +21,7 @@ body: |-
 
   ## Contact
 
-  If you are having issues with the form, you can also email {{ name }} on {{ page.email }}.
-
-  {{ contact-form }}
+  You can email {{ name }} on {{ page.email }}, all messages are really appreciated.
 
   {{ sentence_list }}
 
