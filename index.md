@@ -30,7 +30,7 @@ blocks:
 
 
       Donations can be made to the [Rebels in Prison Support
-      fundraiser](https://www.crowdfunder.co.uk/p/rebels-in-prison-support). You
+      fundraiser](https://chuffed.org/project/rebels-in-prison). You
       can also donate to the Rebels in Prison Support bank account:
 
 
