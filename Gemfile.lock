@@ -1,6 +1,5 @@
-GIT
-  remote: https://github.com/tippingpointuk/jekyll-airtable-import/
-  revision: edf5175fda089cf3927428772ac185d9dd59f7fe
+PATH
+  remote: /home/joe/Documents/Work/TippingPointUK/Tools/Plugins/jekyll-airtable-import
   specs:
     jekyll-airtable-import (0.1.8)
       activesupport (~> 6.1)
@@ -182,8 +181,5 @@ DEPENDENCIES
   tzinfo-data
   wdm (~> 0.1.1)
 
-RUBY VERSION
-   ruby 2.7.0p0
-
 BUNDLED WITH
-   2.2.14
+   2.4.10

@@ -3,9 +3,10 @@ layout: page
 title: Join Us
 order: 3
 top_image: ''
-image: "/uploads/RIPS-square.jpeg"
-
+image: /uploads/RIPS-square.jpeg
+_template: page
 ---
+
 # Join us
 
 Please contact us below if you have any time to give to support activists in

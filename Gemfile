@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-ruby '~> 2.7.0'
+# ruby '~> 2.7.1'
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
 # file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
@@ -30,7 +30,8 @@ group :jekyll_plugins do
   gem "jekyll-liquify"
   gem "jekyll-leaflet"
   gem "jekyll-get-json"
-  gem "jekyll-airtable-import", git: "https://github.com/tippingpointuk/jekyll-airtable-import/"
+  # gem "jekyll-airtable-import", git: "https://github.com/tippingpointuk/jekyll-airtable-import/"
+  gem "jekyll-airtable-import", path: "/home/joe/Documents/Work/TippingPointUK/Tools/Plugins/jekyll-airtable-import"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem

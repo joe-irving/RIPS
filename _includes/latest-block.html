@@ -1,6 +1,8 @@
 {% assign data = '' %}
 {% assign posts = site.collections | where: "label", include.block.collection | first  %}
+{{ posts | jsonify }}
 {% assign latest = posts.docs | last %}
+{{ latest | jsonify }}
 {% capture text %}
   <div>
   {{ include.text | markdownify | liquify }}
@@ -9,7 +11,7 @@
     {% assign rebel = latest.title  %}
     {% capture prison %}<a href="{{prison-data.url}}">{{prison-data.title | strip }}</a>{% endcapture %}
     <p>
-      <a href="{{rebel.url}}">{{latest.title}}</a>
+      <a href="{{rebel.url}}">{{rebel.title}}</a>
       is the latest person to be sentenced{% if latest.start and latest.start != '' %}
         on {{latest.start | date: "%e %b %Y" }}{% endif %}{% if latest.end and latest.end!=''  %}
         {% if latest.start and latest.start != '' %}

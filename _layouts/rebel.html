@@ -85,8 +85,7 @@ layout: page
   {% for sentence in page.sentences %}
     {% assign prison = sentence.prison | first %}
     <li>
-      From {{ sentence.start | date: "%d %b %Y" }} to {{ sentence.released | date: "%d %b %Y" }}
-      at <a href="{{ prison.url }}">{{ prison.title }}</a>.
+      {{ sentence.days }} days at <a href="{{ prison.url }}">{{ prison.title }}</a>.
     </li>
   {% endfor %}
 </ul>

@@ -4,11 +4,12 @@ layout: page
 main_nav_exclude: true
 top_image: ''
 image: ''
-
+_template: page
 ---
+
 # Donate
 
-Please consider donating to the [Rebels in Prison Support fundraiser](https://www.crowdfunder.co.uk/p/rebelsinprisonsupport-1).
+Please consider donating to the [Rebels in Prison Support fundraiser](https://www.crowdfunder.co.uk/p/rebels-in-prison-support).
 
 Donations can also be made to the Rebels in Prison Support bank account:
 
