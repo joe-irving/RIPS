@@ -9,15 +9,7 @@ _template: page
 
 # Donate
 
-Please consider donating to the [Rebels in Prison Support fundraiser](https://chuffed.org/project/rebels-in-prison).
-
-Donations can also be made to the Rebels in Prison Support bank account:
-
-Account Name: Alice Reid
-
-Sort Code: 08-90-66
-
-Account Number: 09462487
+Please consider donating to the [Rebels in Prison Support fundraiser](https://chuffed.org/project/rips).
 
 Please consider making a recurring monthly donation if you can. It will help us plan our activities effectively.
 
