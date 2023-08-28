@@ -14,6 +14,8 @@ import { rebelFields } from "./templates";
 // Your hosting provider likely exposes this as an environment variable
 const branch = process.env.HEAD || process.env.VERCEL_GIT_COMMIT_REF || "main";
 
+console.log(`Using branch ${branch}`)
+
 export default defineConfig({
   branch,
   clientId: "c1eaf89a-3683-4fec-8a80-f96bb4c98019", // Get this from tina.io
@@ -21,7 +23,7 @@ export default defineConfig({
   client: { skip: true },
   build: {
     outputFolder: "./",
-    publicFolder: "./",
+    publicFolder: "admin",
   },
   media: {
     tina: {
