@@ -6,7 +6,7 @@
   {{ include.text | markdownify | liquify }}
   {% if include.block.collection == 'sentences' %}
     {% assign prison-data = latest.prison | first %}
-    {% assign rebel = latest.title | first %}
+    {% assign rebel = latest.rebel | first %}
     {% capture prison %}<a href="{{prison-data.url}}">{{prison-data.title | strip }}</a>{% endcapture %}
     <p>
       <a href="{{rebel.url}}">{{rebel.title}}</a>

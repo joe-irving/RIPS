@@ -20,7 +20,7 @@ body: |-
 
   ## Contact
 
-  You can email {{ name }} on {{ page.email }}, all messages are really appreciated.
+  You can email {{ name }} on {{ page.email_address }}, all messages are really appreciated.
 
   {{ sentence_list }}
 

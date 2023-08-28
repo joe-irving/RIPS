@@ -56,7 +56,7 @@ airtable:
       - Image
       - Sentences
       - Posts
-      - email
+      - Email Address
       - Prisons
       - In Prison
       - Date
@@ -69,7 +69,7 @@ airtable:
       layout: none
     fields:
       # - Counter
-      - Title
+      - Rebel
       - Prison
       - Video
       - Start
