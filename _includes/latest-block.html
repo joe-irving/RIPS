@@ -1,14 +1,12 @@
 {% assign data = '' %}
 {% assign posts = site.collections | where: "label", include.block.collection | first  %}
-{{ posts | jsonify }}
 {% assign latest = posts.docs | last %}
-{{ latest | jsonify }}
 {% capture text %}
   <div>
   {{ include.text | markdownify | liquify }}
   {% if include.block.collection == 'sentences' %}
-    {% assign prison-data = latest.prison %}
-    {% assign rebel = latest.title  %}
+    {% assign prison-data = latest.prison | first %}
+    {% assign rebel = latest.title | first %}
     {% capture prison %}<a href="{{prison-data.url}}">{{prison-data.title | strip }}</a>{% endcapture %}
     <p>
       <a href="{{rebel.url}}">{{rebel.title}}</a>
