@@ -4,10 +4,8 @@ top_image: /uploads/23-04-21-lloyds-london-coal-protest-joao-daniel-pereira-dsf7
 jump:
   text: Find out more
   target: Latest imprisonment
-top_quote: 'Exists to support activists in prison in the UK. '
-end_quote: >-
-  RIPS is an independent organisation set up by individuals from Extinction
-  Rebellion, Burning Pink & other independent groups.
+top_quote: Exists to support activists in prison in the UK
+end_quote: RiPS is an independent organisation set up to support activists in the UK
 title: ''
 image: /uploads/22-04-21-hsbc-broken-windows_gareth-morris-3-small.jpg
 blocks:

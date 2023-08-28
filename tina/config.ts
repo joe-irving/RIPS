@@ -18,8 +18,8 @@ console.log(`Using branch ${branch}`)
 
 export default defineConfig({
   branch,
-  clientId: "c1eaf89a-3683-4fec-8a80-f96bb4c98019", // Get this from tina.io
-  token: "d59577ca16854738f5c6b5598e55440bb2cd6734", // Get this from tina.io
+  clientId: process.env.TINA_CLIENT_ID, // Get this from tina.io
+  token: process.env.TINA_TOKEN, // Get this from tina.io
   client: { skip: true },
   build: {
     outputFolder: "admin",
