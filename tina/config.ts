@@ -16,17 +16,17 @@ const branch = process.env.HEAD || process.env.VERCEL_GIT_COMMIT_REF || "main";
 
 export default defineConfig({
   branch,
-  clientId: "691a3973-339f-41a2-9b46-0153ffb1171d", // Get this from tina.io
-  token: "cb06b22df5a4efa991cab0887aaf5b976b08bbdd", // Get this from tina.io
+  clientId: "c1eaf89a-3683-4fec-8a80-f96bb4c98019", // Get this from tina.io
+  token: "b934307ffd0093b1b98e0a9d01469be59ad4e14a", // Get this from tina.io
   client: { skip: true },
   build: {
     outputFolder: "admin",
-    publicFolder: "assets",
+    publicFolder: "uploads",
   },
   media: {
     tina: {
       mediaRoot: "",
-      publicFolder: "assets",
+      publicFolder: "uploads",
     },
   },
   schema: {
@@ -35,7 +35,7 @@ export default defineConfig({
         format: "md",
         label: "Home Page",
         name: "home_page",
-        path: ".",
+        path: "/",
         ui: {
           allowedActions: {
             create: false,
@@ -115,12 +115,6 @@ export default defineConfig({
                 label: "Half Map Block",
                 name: "half_map_block",
                 nameOverride: "half-map-block",
-              },
-              {
-                fields: map_blockFields(),
-                label: "Map Block",
-                name: "map_block",
-                nameOverride: "map-block",
               },
             ],
           },
@@ -237,7 +231,7 @@ export default defineConfig({
         format: "yml",
         label: "Site Configuration",
         name: "site_configuration",
-        path: ".",
+        path: "",
         ui: {
           allowedActions: {
             create: false,
@@ -249,38 +243,38 @@ export default defineConfig({
         },
         fields: [
           {
-            name: "dummy",
-            label: "Dummy field",
+            name: "title",
+            label: "Title",
             type: "string",
             description:
-              "This is a dummy field, please replace it with the fields you want to edit. See https://tina.io/docs/schema/ for more info",
+              "The site title",
           },
         ],
       },
-      {
-        format: "yml",
-        label: "Donations",
-        name: "donations",
-        path: "_data",
-        ui: {
-          allowedActions: {
-            create: false,
-            delete: false,
-          },
-        },
-        match: {
-          include: "donations",
-        },
-        fields: [
-          {
-            name: "dummy",
-            label: "Dummy field",
-            type: "string",
-            description:
-              "This is a dummy field, please replace it with the fields you want to edit. See https://tina.io/docs/schema/ for more info",
-          },
-        ],
-      },
+      // {
+      //   format: "yml",
+      //   label: "Donations",
+      //   name: "donations",
+      //   path: "_data",
+      //   ui: {
+      //     allowedActions: {
+      //       create: false,
+      //       delete: false,
+      //     },
+      //   },
+      //   match: {
+      //     include: "donations",
+      //   },
+      //   fields: [
+      //     {
+      //       name: "dummy",
+      //       label: "Dummy field",
+      //       type: "string",
+      //       description:
+      //         "This is a dummy field, please replace it with the fields you want to edit. See https://tina.io/docs/schema/ for more info",
+      //     },
+      //   ],
+      // },
     ],
   },
 });
