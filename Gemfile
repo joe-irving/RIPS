@@ -30,8 +30,8 @@ group :jekyll_plugins do
   gem "jekyll-liquify"
   gem "jekyll-leaflet"
   gem "jekyll-get-json"
-  # gem "jekyll-airtable-import", git: "https://github.com/tippingpointuk/jekyll-airtable-import/"
-  gem "jekyll-airtable-import", path: "/home/joe/Documents/Work/TippingPointUK/Tools/Plugins/jekyll-airtable-import"
+  gem "jekyll-airtable-import", git: "https://github.com/tippingpointuk/jekyll-airtable-import/", branch: "ruby-3.2.2-"
+  # gem "jekyll-airtable-import", path: "/home/joe/Documents/Work/TippingPointUK/Tools/Plugins/jekyll-airtable-import"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
