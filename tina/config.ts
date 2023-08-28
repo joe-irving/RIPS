@@ -17,16 +17,16 @@ const branch = process.env.HEAD || process.env.VERCEL_GIT_COMMIT_REF || "main";
 export default defineConfig({
   branch,
   clientId: "c1eaf89a-3683-4fec-8a80-f96bb4c98019", // Get this from tina.io
-  token: "b934307ffd0093b1b98e0a9d01469be59ad4e14a", // Get this from tina.io
+  token: "d59577ca16854738f5c6b5598e55440bb2cd6734", // Get this from tina.io
   client: { skip: true },
   build: {
-    outputFolder: "admin",
-    publicFolder: "uploads",
+    outputFolder: "./",
+    publicFolder: "./",
   },
   media: {
     tina: {
-      mediaRoot: "",
-      publicFolder: "uploads",
+      mediaRoot: "uploads",
+      publicFolder: "./",
     },
   },
   schema: {

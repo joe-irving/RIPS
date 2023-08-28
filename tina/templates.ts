@@ -453,7 +453,11 @@ export function latest_blockFields() {
   ] as TinaField[];
 }
 export function map_blockFields() {
-  return [] as TinaField[];
+  return [{
+    "type": "string",
+    "name": "title",
+    "label": "Title"
+  }] as TinaField[];
 }
 export function pageFields() {
   return [

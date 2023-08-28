@@ -4,23 +4,22 @@ top_image: /uploads/23-04-21-lloyds-london-coal-protest-joao-daniel-pereira-dsf7
 jump:
   text: Find out more
   target: Latest imprisonment
-top_quote: Exists to support activists in prison in the UK.
+top_quote: 'Exists to support activists in prison in the UK. '
 end_quote: >-
   RIPS is an independent organisation set up by individuals from Extinction
   Rebellion, Burning Pink & other independent groups.
 title: ''
 image: /uploads/22-04-21-hsbc-broken-windows_gareth-morris-3-small.jpg
 blocks:
-  - template: latest-block
-    collection: sentences
+  - collection: sentences
     text: '# Latest imprisonment'
     button-select: Custom
     button:
-      - template: button
-        label: View all rebels
+      - label: View all rebels
         link: /rebels
-  - template: half-image-block
-    half_image: /uploads/22-04-21-hsbc-broken-windows_gareth-morris-58.jpg
+        template: button
+    template: latest-block
+  - half_image: /uploads/22-04-21-hsbc-broken-windows_gareth-morris-58.jpg
     text: >-
       # Donate
 
@@ -47,8 +46,8 @@ blocks:
       help us plan our activities effectively.
     button-select: ''
     button: []
-  - template: half-image-block
-    half_image: /uploads/22-04-21-hsbc-broken-windows_gareth-morris-3-small.jpg
+    template: half-image-block
+  - half_image: /uploads/22-04-21-hsbc-broken-windows_gareth-morris-3-small.jpg
     text: >-
       # About
 
@@ -60,32 +59,29 @@ blocks:
       next step of action.
     button-select: Custom
     button:
-      - template: button
-        label: Find out more
+      - label: Find out more
         link: /about
-  - template: half-map-block
-    text: >-
+        template: button
+    template: half-image-block
+  - text: >-
       # Prisons
 
 
       The prisons people have been held in across the UK. Click on the markers
       to see who is there now.
-    button:
-      - template: button
-        label: Big Map
-        link: /prisons
     button-select: Custom
-  - template: half-image-block
-    half_image: /uploads/22-04-21-hsbc-broken-windows_gareth-morris-50.jpg
+    button:
+      - label: Big Map
+        link: /prisons
+        template: button
+    template: half-map-block
+  - half_image: /uploads/22-04-21-hsbc-broken-windows_gareth-morris-50.jpg
     text: |-
       # Contact us
 
       {% include contact-form.html expand=false %}
     button-select: ''
     button: []
-_template: home_page
+    template: half-image-block
 ---
-
-
-
 
