@@ -261,19 +261,16 @@ export function half_image_blockFields() {
       label: "Image",
     },
     {
-      type: "string",
+      type: "rich-text",
       name: "text",
       label: "text",
-      ui: {
-        component: "textarea",
-      },
     },
     {
       type: "string",
       name: "button_select",
       nameOverride: "button-select",
       label: "Button Type",
-      options: ["Donation", "Custom"],
+      options: ["Custom"],
     },
     {
       type: "object",
@@ -294,19 +291,16 @@ export function half_image_blockFields() {
 export function half_map_blockFields() {
   return [
     {
-      type: "string",
+      type: "rich-text",
       name: "text",
       label: "Text",
-      ui: {
-        component: "textarea",
-      },
     },
     {
       type: "string",
       name: "button_select",
       nameOverride: "button-select",
       label: "Button Type",
-      options: ["Custom", "Donation"],
+      options: ["Donation"],
     },
     {
       type: "object",
@@ -326,11 +320,11 @@ export function half_map_blockFields() {
 }
 export function home_pageFields() {
   return [
-    {
-      type: "string",
-      name: "layout",
-      label: "layout",
-    },
+    // {
+    //   type: "string",
+    //   name: "layout",
+    //   label: "layout",
+    // },
     {
       type: "image",
       name: "top_image",
@@ -422,12 +416,9 @@ export function latest_blockFields() {
       required: true,
     },
     {
-      type: "string",
+      type: "rich-text",
       name: "text",
       label: "Text",
-      ui: {
-        component: "textarea",
-      },
     },
     {
       type: "string",
@@ -461,11 +452,11 @@ export function map_blockFields() {
 }
 export function pageFields() {
   return [
-    {
-      type: "string",
-      name: "layout",
-      label: "layout",
-    },
+    // {
+    //   type: "string",
+    //   name: "layout",
+    //   label: "layout",
+    // },
     {
       type: "string",
       name: "title",

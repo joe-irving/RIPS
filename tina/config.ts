@@ -28,7 +28,7 @@ export default defineConfig({
   media: {
     tina: {
       mediaRoot: "uploads",
-      publicFolder: "./",
+      publicFolder: "",
     },
   },
   schema: {
@@ -48,18 +48,6 @@ export default defineConfig({
           include: "index",
         },
         fields: [
-          {
-            type: "rich-text",
-            name: "body",
-            label: "Body of Document",
-            description: "This is the markdown body",
-            isBody: true,
-          },
-          {
-            type: "string",
-            name: "layout",
-            label: "layout",
-          },
           {
             type: "image",
             name: "top_image",
@@ -156,28 +144,19 @@ export default defineConfig({
             label: "Video",
           },
           {
-            type: "string",
+            type: "rich-text",
             name: "bio",
             label: "Bio",
-            ui: {
-              component: "textarea",
-            },
           },
           {
-            type: "string",
+            type: "rich-text",
             name: "donate",
             label: "Donate",
-            ui: {
-              component: "textarea",
-            },
           },
           {
-            type: "string",
+            type: "rich-text",
             name: "body",
             label: "Main Template",
-            ui: {
-              component: "textarea",
-            },
           },
         ],
       },
@@ -251,32 +230,49 @@ export default defineConfig({
             description:
               "The site title",
           },
+          {
+            name: "tagline",
+            label: "Tag Line",
+            type: "string",
+            description:
+              "The site tag line.",
+          },
         ],
       },
-      // {
-      //   format: "yml",
-      //   label: "Donations",
-      //   name: "donations",
-      //   path: "_data",
-      //   ui: {
-      //     allowedActions: {
-      //       create: false,
-      //       delete: false,
-      //     },
-      //   },
-      //   match: {
-      //     include: "donations",
-      //   },
-      //   fields: [
-      //     {
-      //       name: "dummy",
-      //       label: "Dummy field",
-      //       type: "string",
-      //       description:
-      //         "This is a dummy field, please replace it with the fields you want to edit. See https://tina.io/docs/schema/ for more info",
-      //     },
-      //   ],
-      // },
+      {
+        format: "md",
+        label: "Pages",
+        name: "pages",
+        path: "",
+        match: {
+          exclude: "index"
+        },
+        fields: [
+          {
+            name: "title",
+            label: "Title",
+            type: "string",
+            isTitle: true,
+            required: true
+          },
+          {
+            name: "image",
+            label: "Share Image",
+            type: "image",
+          },
+          {
+            name: "top_image",
+            label: "Top Image",
+            type: "image",
+          },
+          {
+            name: "body",
+            label: "Body",
+            type: "rich-text",
+            isBody: true
+          }
+        ]
+      }
     ],
   },
 });
