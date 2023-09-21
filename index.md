@@ -10,7 +10,8 @@ title: ''
 image: /uploads/22-04-21-hsbc-broken-windows_gareth-morris-3-small.jpg
 blocks:
   - collection: sentences
-    text: '# Latest imprisonment'
+    text: |
+      # Latest imprisonment
     button-select: Custom
     button:
       - label: View all rebels
@@ -18,7 +19,7 @@ blocks:
         template: button
     template: latest-block
   - half_image: /uploads/22-04-21-hsbc-broken-windows_gareth-morris-58.jpg
-    text: >-
+    text: >
       # Donate
 
 
@@ -46,11 +47,11 @@ blocks:
     button: []
     template: half-image-block
   - half_image: /uploads/22-04-21-hsbc-broken-windows_gareth-morris-3-small.jpg
-    text: >-
+    text: >
       # About
 
 
-      For necessary action on the climate emergency we need to take urgent,
+      For necessary action on the climate emergency, we need to take urgent,
       radical, direct action. As the government continues to fight us, more and
       more people will be held on remand - in prison - before they get a trial.
       Rebels in Prison Support exists to support activists wanting to take that
@@ -61,7 +62,7 @@ blocks:
         link: /about
         template: button
     template: half-image-block
-  - text: >-
+  - text: >
       # Prisons
 
 
@@ -74,7 +75,7 @@ blocks:
         template: button
     template: half-map-block
   - half_image: /uploads/22-04-21-hsbc-broken-windows_gareth-morris-50.jpg
-    text: |-
+    text: |
       # Contact us
 
       {% include contact-form.html expand=false %}
@@ -82,4 +83,5 @@ blocks:
     button: []
     template: half-image-block
 ---
+
 
