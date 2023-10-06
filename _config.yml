@@ -61,7 +61,8 @@ airtable:
       - In Prison
       - Date
       - zip_code
-    collection: true
+    collection:
+      layout: rebel
   sentences:
     table: tblVox2dKp85p1aBH
     view: viwdVtFLTJdeUadFH
