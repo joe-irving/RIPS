@@ -1,0 +1,7 @@
+post.title,excerpt,stream_link,sentance_start,sentece_end,date_released,archive,top_image
+{% assign posts = site.posts | sort 'date' %}
+{% for post in posts  %}
+{% if post.categories contains 'rebels' %}
+{{post.title}},{{post.excerpt}},{{post.stream_link}},{{post.sentance_start}},{{post.sentece_end}},{{post.date_released}},{{post.archive}},{{post.top_image}}
+{% endif %}
+{% endfor %}
