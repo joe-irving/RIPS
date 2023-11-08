@@ -1,39 +1,35 @@
 <div class="Rebellion-Rebel-List Rebellion-Blog-List">
 {% assign listed_rebels = '' %}
-{% for post in include.rebels %}
-  {% if post.title and post.title != '' %}
-    {% assign sentences = site.sentences | where: "title", post.title %}
-    {% assign no_sentences = sentences | size %}
-    {% if no_sentences == 0 %}{% continue %}{% endif %}
-    {% assign sentence = sentences | sort: "start" | last %}
-    {% assign archive = sentence.archive %}
-    {% assign prison = site.prisons | find: "title", sentence.prison %}
-
-    {% if archive != true and archive != "TRUE" or page.archive_page  %}
-        <div class="Rebellion-Blog-Item" id="{{post.title | slugify }}">
-          <div class="top">
-            {% if sentence.start and sentence.start != '' %}
-            <div class="date">
-                <span class="day-number">{{ sentence.start | date: '%d' }}</span>
-                <span class="month">{{ sentence.start | date: '%b' }}</span>
-            </div>
-            {% endif %}
-            <div class="description">
-                <h3><a href="{{post.url | relative_url}}">{{ post.title }}</a></h3>
-                {% if sentence.days and sentence.days!='' %}
-                <time>
-                  {{ sentence.days }} days
-                </time>
-                {% if prison and prison != '' %}
-                  at <em><a href="{{ prison.url }}">{{ prison.title }}</a></em>
-                {% endif %}{% endif %}
-            </div>
+{% assign limit = include.limit | default: include.rebels.size  %}
+{% for rebel in include.rebels limit:limit  %}
+  {% assign sentences = rebel.sentences %}
+  {% assign no_sentences = sentences | size %}
+  {% if no_sentences == 0 %}{% continue %}{% endif %}
+  {% assign total_days = 0 %}
+  {% for s in sentences %}{% assign total_days = total_days | plus: s.duration %}{% endfor %}
+  {% assign sentence = sentences | sort: "start" | reverse | first %}
+  {% assign prison = rebel.prisons | first %}
+  {% if archive != true and archive != "TRUE" or page.archive_page  %}
+      <div class="Rebellion-Blog-Item" id="{{rebel.title | slugify }}">
+        <div class="top">
+          {% if sentence.start and sentence.start != '' %}
+          <div class="date">
+              <span class="day-number">{{ total_days }}</span>
+              <span class="month">days</span>
           </div>
-          {% if post.image %}
-            <a class="background-image" href="{{ post.url }}" style="background-image: url('{{ post.image  }}');"></a>
           {% endif %}
+          <div class="description">
+              <h3><a href="{{rebel.url | relative_url}}">{{ rebel.title }}</a></h3>
+              {% if prison and prison != '' %}
+                <em><a href="{{ prison.url }}">{{ prison.title }}</a></em>
+              {% endif %}
+          </div>
         </div>
-    {% endif %}
+        {% if rebel.image %}
+          <a class="background-image" href="{{ rebel.url }}" style="background-image: url('{{ rebel.image  }}');"></a>
+        {% endif %}
+      </div>
   {% endif %}
 {% endfor %}
 </div>
+

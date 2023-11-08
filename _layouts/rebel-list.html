@@ -5,6 +5,10 @@ layout: default
   <div class="Rebellion-Wrapper-Wide">
     {{ content }}
   </div>
-  {% assign rebels = site.rebels | sort: 'start' | reverse %}
+  {% if page.archive_page %}
+    {% assign rebels = site.rebels | sort: 'start' | reverse %}
+  {% else %}
+    {% assign rebels = site.rebels | where: "in_prison", 1 | sort: 'start' | reverse %}
+  {% endif %}
   {% include rebel-list.html rebels=rebels %}
 </div>

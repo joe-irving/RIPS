@@ -1,0 +1,15 @@
+
+{% assign tags = site.data.resources | map: "type" | uniq | reverse %}
+
+{% for tag in tags %}
+{% assign resources = site.data.resources | where: "type", tag %}
+## {{ tag }}
+<ul>
+{% for resource in resources %}
+    <li>
+        <a target="_blank" href="{{ resource.link }}">{{ resource.title }}</a>
+        {% if resource.description %} - {{ resource.description }}{% endif %}
+    </li>
+{% endfor %}
+</ul>
+{% endfor %}

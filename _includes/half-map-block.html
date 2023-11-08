@@ -1,6 +1,6 @@
-{% include map.html %}
+
 <div class="half-image-block">
-  {{ map }}
+  {% include map.html %}
   <div class="half text">
     <div class="content">
       {{ include.text | liquify | markdownify}}

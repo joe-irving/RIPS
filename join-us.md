@@ -7,12 +7,15 @@ image: /uploads/RIPS-square.jpeg
 _template: page
 ---
 
+
+
+
 # Join us
 
 Please contact us below if you have any time to give to support activists in
 prison in the UK.
 
-{% include contact-form.html %}
+<link href='https://actionnetwork.org/css/style-embed-whitelabel-v3.css' rel='stylesheet' type='text/css' /><script src='https://actionnetwork.org/widgets/v4/form/rips?format=js&source=widget'></script><div id='can-form-area-rips' style='width: 100%'><!-- this div is the target for our HTML insertion --></div>
 
 If you have any time at all to help, we would really appreciate any help with the following areas:
 

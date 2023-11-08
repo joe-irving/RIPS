@@ -9,20 +9,28 @@ donate: |-
   for more info.
 
   {{ donate-buttons }}
-body: |-
+body: >-
   # {{ name }}
+
 
   {{  excerpt }}
 
+
   {{ image }}
+
 
   {{ video }}
 
+
   ## Contact
 
-  {{ contact-form }}
+
+  You can email {{ name }} on {{ page.email_address }}, all messages are really
+  appreciated.
+
 
   {{ sentence_list }}
+
 
   {{ bio }}
 _template: profile_template

@@ -1,0 +1,10 @@
+---
+sitemap: false
+---
+{% assign prisons = site.prisons %}
+{
+  {% for p in prisons %}
+  "{{ p.slug }}": {{ p | jsonify }}
+  {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+}

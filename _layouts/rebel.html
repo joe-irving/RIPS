@@ -24,8 +24,8 @@ layout: page
 {% endcapture %}
 
 {% capture video %}
-  {% if sentence_latest.stream_link and sentence_latest.stream_link != '' %}
-  {% include stream_video.html link=sentence_latest.stream_link %}
+  {% if sentence_latest.video and sentence_latest.video != '' %}
+  {% include stream_video.html link=sentence_latest.video %}
   {% endif %}
 {% endcapture %}
 
@@ -33,14 +33,39 @@ layout: page
   {% include donation-buttons.html %}
 {% endcapture %}
 
-{% capture contact-form %}
+{% capture contact-form-old %}
   {% include contact-form.html expand=false %}
 {% endcapture %}
 
+{% capture contact-form %}
+    <link href='https://actionnetwork.org/css/style-embed-whitelabel-v3.css' rel='stylesheet' type='text/css' /><script src='https://actionnetwork.org/widgets/v4/letter/write-to-prisoners?format=js&source=widget' await></script><div id='can-letter-area-write-to-prisoners' style='width: 100%'><!-- this div is the target for our HTML insertion --></div>
+    <script type="text/javascript">
+      var zipCodeField = null
+      var waitFormLoad = setInterval(function() {
+        if (zipCodeField == null){
+          var zipCodeField = document.getElementById('form-zip_code');
+          if (zipCodeField == null) return;
+        }
+        if (zipCodeField.value == "{{ page.zip_code }}") return;
+        zipCodeField.value = "{{ page.zip_code }}";
+        // clearInterval(waitFormLoad);
+      }, 500)
+    </script>
+    <style media="screen">
+      #can_embed_form > #can_embed_form_inner > #new_delivery ,
+      #can_embed_form > #can_embed_form_inner  .international_link-wrap
+      {
+        display: none;
+      }
+    </style>
+{% endcapture %}
+
+
 {% capture bio %}
-  {% if page.bio and page.bio != ''%}
-    {{ site.data.profile-template.bio  | markdownify | liquify   }}
-    {{ page.bio | markdownify | liquify }}
+  {% if page.bio %}
+    {{ page.bio | liquify | markdownify }}
+  {% elsif page.bio_link %}
+    {{ page.bio_link | parse_gdoc }}
   {% endif %}
 {% endcapture %}
 
@@ -57,10 +82,10 @@ layout: page
 {% capture sentence_list %}
 <h2>Stretches in prison</h2>
 <ul>
-  {% for sentence in sentences %}
-    {% assign sentence_prison = site.prisons | where: "title", sentence.prison | first %}
+  {% for sentence in page.sentences %}
+    {% assign prison = sentence.prison | first %}
     <li>
-      {{ sentence.days }} days at <a href="{{ sentence_prison.url }}">{{ sentence_prison.title }}</a>.
+      {{ sentence.days }} days at <a href="{{ prison.url }}">{{ prison.title }}</a>.
     </li>
   {% endfor %}
 </ul>
