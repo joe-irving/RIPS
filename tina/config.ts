@@ -14,19 +14,21 @@ import { rebelFields } from "./templates";
 // Your hosting provider likely exposes this as an environment variable
 const branch = process.env.HEAD || process.env.VERCEL_GIT_COMMIT_REF || "main";
 
+console.log(`Using branch ${branch}`)
+
 export default defineConfig({
   branch,
-  clientId: "691a3973-339f-41a2-9b46-0153ffb1171d", // Get this from tina.io
-  token: "cb06b22df5a4efa991cab0887aaf5b976b08bbdd", // Get this from tina.io
+  clientId: process.env.TINA_CLIENT_ID, // Get this from tina.io
+  token: process.env.TINA_TOKEN, // Get this from tina.io
   client: { skip: true },
   build: {
     outputFolder: "admin",
-    publicFolder: "assets",
+    publicFolder: "./",
   },
   media: {
     tina: {
-      mediaRoot: "",
-      publicFolder: "assets",
+      mediaRoot: "uploads",
+      publicFolder: "",
     },
   },
   schema: {
@@ -35,7 +37,7 @@ export default defineConfig({
         format: "md",
         label: "Home Page",
         name: "home_page",
-        path: ".",
+        path: "/",
         ui: {
           allowedActions: {
             create: false,
@@ -46,18 +48,6 @@ export default defineConfig({
           include: "index",
         },
         fields: [
-          {
-            type: "rich-text",
-            name: "body",
-            label: "Body of Document",
-            description: "This is the markdown body",
-            isBody: true,
-          },
-          {
-            type: "string",
-            name: "layout",
-            label: "layout",
-          },
           {
             type: "image",
             name: "top_image",
@@ -116,12 +106,6 @@ export default defineConfig({
                 name: "half_map_block",
                 nameOverride: "half-map-block",
               },
-              {
-                fields: map_blockFields(),
-                label: "Map Block",
-                name: "map_block",
-                nameOverride: "map-block",
-              },
             ],
           },
           {
@@ -160,28 +144,19 @@ export default defineConfig({
             label: "Video",
           },
           {
-            type: "string",
+            type: "rich-text",
             name: "bio",
             label: "Bio",
-            ui: {
-              component: "textarea",
-            },
           },
           {
-            type: "string",
+            type: "rich-text",
             name: "donate",
             label: "Donate",
-            ui: {
-              component: "textarea",
-            },
           },
           {
-            type: "string",
+            type: "rich-text",
             name: "body",
             label: "Main Template",
-            ui: {
-              component: "textarea",
-            },
           },
         ],
       },
@@ -237,7 +212,7 @@ export default defineConfig({
         format: "yml",
         label: "Site Configuration",
         name: "site_configuration",
-        path: ".",
+        path: "",
         ui: {
           allowedActions: {
             create: false,
@@ -249,38 +224,55 @@ export default defineConfig({
         },
         fields: [
           {
-            name: "dummy",
-            label: "Dummy field",
+            name: "title",
+            label: "Title",
             type: "string",
             description:
-              "This is a dummy field, please replace it with the fields you want to edit. See https://tina.io/docs/schema/ for more info",
+              "The site title",
+          },
+          {
+            name: "tagline",
+            label: "Tag Line",
+            type: "string",
+            description:
+              "The site tag line.",
           },
         ],
       },
       {
-        format: "yml",
-        label: "Donations",
-        name: "donations",
-        path: "_data",
-        ui: {
-          allowedActions: {
-            create: false,
-            delete: false,
-          },
-        },
+        format: "md",
+        label: "Pages",
+        name: "pages",
+        path: "",
         match: {
-          include: "donations",
+          exclude: "index"
         },
         fields: [
           {
-            name: "dummy",
-            label: "Dummy field",
+            name: "title",
+            label: "Title",
             type: "string",
-            description:
-              "This is a dummy field, please replace it with the fields you want to edit. See https://tina.io/docs/schema/ for more info",
+            isTitle: true,
+            required: true
           },
-        ],
-      },
+          {
+            name: "image",
+            label: "Share Image",
+            type: "image",
+          },
+          {
+            name: "top_image",
+            label: "Top Image",
+            type: "image",
+          },
+          {
+            name: "body",
+            label: "Body",
+            type: "rich-text",
+            isBody: true
+          }
+        ]
+      }
     ],
   },
 });
