@@ -18,8 +18,8 @@ console.log(`Using branch ${branch}`)
 
 export default defineConfig({
   branch,
-  clientId: process.env.TINA_CLIENT_ID, // Get this from tina.io
-  token: process.env.TINA_TOKEN, // Get this from tina.io
+  clientId: process.env.TINA_CLIENT_ID || '', // Get this from tina.io
+  token: process.env.TINA_TOKEN || '', // Get this from tina.io
   client: { skip: true },
   build: {
     outputFolder: "admin",
@@ -37,7 +37,7 @@ export default defineConfig({
         format: "md",
         label: "Home Page",
         name: "home_page",
-        path: "/",
+        path: ".",
         ui: {
           allowedActions: {
             create: false,
@@ -212,7 +212,7 @@ export default defineConfig({
         format: "yml",
         label: "Site Configuration",
         name: "site_configuration",
-        path: "",
+        path: "./",
         ui: {
           allowedActions: {
             create: false,
@@ -243,9 +243,10 @@ export default defineConfig({
         format: "md",
         label: "Pages",
         name: "pages",
-        path: "",
+        path: "./",
         match: {
-          exclude: "index"
+          exclude: "index",
+          include: "*"
         },
         fields: [
           {
