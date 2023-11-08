@@ -37,7 +37,7 @@ export default defineConfig({
         format: "md",
         label: "Home Page",
         name: "home_page",
-        path: ".",
+        path: "/",
         ui: {
           allowedActions: {
             create: false,
@@ -212,7 +212,7 @@ export default defineConfig({
         format: "yml",
         label: "Site Configuration",
         name: "site_configuration",
-        path: "./",
+        path: "/",
         ui: {
           allowedActions: {
             create: false,
@@ -243,7 +243,7 @@ export default defineConfig({
         format: "md",
         label: "Pages",
         name: "pages",
-        path: "./",
+        path: "/",
         match: {
           exclude: "index",
           include: "*"
