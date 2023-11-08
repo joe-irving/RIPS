@@ -5,7 +5,6 @@ _site
 vendor
 Gemfile.lock
 example-form-link.txt
-
 .env
 node_modules
 
