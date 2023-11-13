@@ -1,10 +1,10 @@
 ---
-title: About.
+title: About
 image: /uploads/RIPS-square.jpeg
 top_image: /uploads/22-04-21-hsbc-broken-windows_gareth-morris-3-small.jpg
 ---
 
-Set up by the family and friends of people held in prison after climate protests in early 2021, Rebels in Prison support is a organisation set up to support activists who have been imprisoned fighting for a new world. We are an independent organisation set up by individuals from Extinction Rebellion, Burning Pink & other independent groups.
+Set up by the family and friends of people held in prison after climate protests in early 2021, Rebels in Prison is a organisation set up to support activists who have been imprisoned fighting for a new world. We are an independent organisation set up by individuals from Extinction Rebellion, Burning Pink & other independent groups.
 
 ## What we spend money on:
 
