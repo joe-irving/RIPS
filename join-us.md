@@ -1,14 +1,8 @@
 ---
-layout: page
 title: Join Us
-order: 3
-top_image: ''
 image: /uploads/RIPS-square.jpeg
-_template: page
+top_image: ''
 ---
-
-
-
 
 # Join us
 
@@ -45,4 +39,4 @@ Ideally in each support team you want:
 
 ## Digital
 
-Help maintain the website and other digital tools. Email rebelsinprison@protonmail.com if you are interested.
+Help maintain the website and other digital tools. Email [rebelsinprison@gmail.com](mailto:rebelsinprison@gmail.com "rebelsinprison@gmail.com") if you are interested.
