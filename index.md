@@ -1,4 +1,5 @@
 ---
+layout: home
 top_image: /uploads/23-04-21-lloyds-london-coal-protest-joao-daniel-pereira-dsf7919.jpg
 jump:
   text: Find out more
