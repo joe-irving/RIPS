@@ -85,7 +85,7 @@ layout: page
   {% for sentence in page.sentences %}
     {% assign prison = sentence.prison | first %}
     <li>
-      {{ sentence.days }} days at <a href="{{ prison.url }}">{{ prison.title }}</a>.
+      {{ sentence.duration }} days at <a href="{{ prison.url }}">{{ prison.title }}</a>.
     </li>
   {% endfor %}
 </ul>
