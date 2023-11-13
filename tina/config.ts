@@ -121,6 +121,18 @@ export default defineConfig({
             name: "image",
             label: "Social Media Preview Image",
           },
+          {
+            type: "string",
+            name: "layout",
+            label: "Layout",
+            options: [
+              {
+                label: "Home",
+                value: "home"
+              }
+            ],
+            required: true
+          }
         ],
       },
       {
@@ -257,6 +269,12 @@ export default defineConfig({
             required: true
           },
           {
+            name: "slug",
+            label: "Slug",
+            type: "string",
+            required: true
+          },
+          {
             name: "image",
             label: "Share Image",
             type: "image",
@@ -271,6 +289,18 @@ export default defineConfig({
             label: "Body",
             type: "rich-text",
             isBody: true
+          },
+          {
+            type: "string",
+            name: "layout",
+            label: "Layout",
+            options: [
+              {
+                label: "Page",
+                value: "page"
+              }
+            ],
+            required: true
           }
         ]
       }

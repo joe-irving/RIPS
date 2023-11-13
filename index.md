@@ -1,5 +1,4 @@
 ---
-layout: home
 top_image: /uploads/23-04-21-lloyds-london-coal-protest-joao-daniel-pereira-dsf7919.jpg
 jump:
   text: Find out more
@@ -69,7 +68,8 @@ blocks:
     button-select: ''
     button: []
     template: half-image-block
-end_quote: RiPS is an independent organisation set up to support activists in the UK
+end_quote: 'RiPS is an independent organisation set up to support activists in the UK '
 image: /uploads/22-04-21-hsbc-broken-windows_gareth-morris-3-small.jpg
+layout: home
 ---
 

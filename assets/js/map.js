@@ -7,12 +7,12 @@ var prisonMap = L.map("prison-map",{
                 });
 
 var titleLayer = L.tileLayer(
-  "https://stamen-tiles-{s}.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.jpg",
+  "https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.{ext}",
   {
-    "attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.",
+    "attribution": '&copy; <a href="https://www.stadiamaps.com/" target="_blank">Stadia Maps</a> &copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
     "detectRetina": false,
-    "maxNativeZoom": 18,
-    "maxZoom": 18,
+    "maxNativeZoom": 20,
+    "maxZoom": 20,
     "minZoom": 2,
     "noWrap": false,
     "opacity": 1,
@@ -20,6 +20,7 @@ var titleLayer = L.tileLayer(
     // "updateWhenIdle": true,
     // "subdomains": "abc",
     "tms": false,
+    "ext": "png"
 
   }
 ).addTo(prisonMap);

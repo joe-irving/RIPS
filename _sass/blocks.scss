@@ -1,5 +1,5 @@
 .half-image-block{
-  > .half,#full-prison-map{
+  > .half,#full-prison-map, #prison-map{
     min-height: 80vh;
   }
   .half.image, #full-prison-map{
@@ -21,6 +21,9 @@
   }
   &:nth-of-type(even){
     flex-direction: row-reverse;
+  }
+  > * {
+    flex-basis: 50%;
   }
 }
 @media only screen and (min-width: $half-width * 2) {

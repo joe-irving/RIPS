@@ -1,11 +1,21 @@
 ---
 layout: default
 image_big: true
+leaflet: 'true'
 ---
+{% capture map_block %}{% for block in page.blocks %}{% if block.template == 'half-image-block' %}something{% endif %}{% endfor %}{% endcapture %}
+{% if map_block.size > 0 %}
+{% include map/head.html %}
+{% endif %}
 
 {% for block in page.blocks %}
   {% include {{block.template}}.html half_image=block.half_image text=block.text block=block %}
 {% endfor %}
+
+{% if map_block.size > 0 %}
+    {% include map/footer.html %}
+    {% endif %}
+
 {% assign text = content | lstrip %}
 {% if text != '' %}
 <div class="Rebellion-Section">
