@@ -7,7 +7,7 @@ top_quote: Exists to support activists in prison in the UK.
 blocks:
   - collection: sentences
     text: |
-      # Latest imprisonment.
+      # Latest imprisonment
     button-select: Custom
     button:
       - label: View all rebels
