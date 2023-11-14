@@ -7,7 +7,7 @@ top_quote: Exists to support activists in prison in the UK.
 blocks:
   - collection: sentences
     text: |
-      # Latest imprisonment.
+      # Latest imprisonment
     button-select: Custom
     button:
       - label: View all rebels
@@ -68,7 +68,7 @@ blocks:
     button-select: ''
     button: []
     template: half-image-block
-end_quote: 'RiPS is an independent organisation set up to support activists in the UK '
+end_quote: RiPS is an independent organisation set up to support activists in the UK.
 image: /uploads/22-04-21-hsbc-broken-windows_gareth-morris-3-small.jpg
 layout: home
 ---
