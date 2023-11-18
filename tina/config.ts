@@ -221,37 +221,6 @@ export default defineConfig({
         ],
       },
       {
-        format: "yml",
-        label: "Site Configuration",
-        name: "site_configuration",
-        path: "/",
-        ui: {
-          allowedActions: {
-            create: false,
-            delete: false,
-          },
-        },
-        match: {
-          include: "_config",
-        },
-        fields: [
-          {
-            name: "title",
-            label: "Title",
-            type: "string",
-            description:
-              "The site title",
-          },
-          {
-            name: "tagline",
-            label: "Tag Line",
-            type: "string",
-            description:
-              "The site tag line.",
-          },
-        ],
-      },
-      {
         format: "md",
         label: "Pages",
         name: "pages",
