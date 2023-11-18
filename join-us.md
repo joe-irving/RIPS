@@ -1,7 +1,9 @@
 ---
 title: Join Us
+slug: join-us
 image: /uploads/RIPS-square.jpeg
 top_image: ''
+layout: page
 ---
 
 # Join us
