@@ -64,7 +64,7 @@ blocks:
     text: |
       # Contact us
 
-      {% include contact-form.html expand=false %}
+      Please email rebelsinprison\@gmail.com.
     button-select: ''
     button: []
     template: half-image-block
