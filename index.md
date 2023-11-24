@@ -65,7 +65,7 @@ blocks:
       # Contact us
 
       Please email rebelsinprison\@gmail.com.
-    button-select: ''
+    button-select: Custom
     button:
       - label: Email us
         link: 'mailto:rebelsinprison@gmail.com'
