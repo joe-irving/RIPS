@@ -96,6 +96,7 @@ airtable:
       - Rebels inside
       - About
       - used
+      - in_use
   posts:
     table: tbl108RmpoHAxzpv0
     collection: true

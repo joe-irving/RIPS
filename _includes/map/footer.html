@@ -1,6 +1,6 @@
 <script type="text/javascript">
     {% assign fields = "title,url,lat,lng,rebels_inside" | split: "," %}
-    {% assign prisons = site.prisons | where: "used", 1  %}
+    {% assign prisons = site.prisons | where: "in_use", 1  %}
     var prisons = [{% for p in prisons %}
       {
         {% for val in fields %}
