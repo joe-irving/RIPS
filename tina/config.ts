@@ -244,11 +244,6 @@ export default defineConfig({
             required: true
           },
           {
-            name: "image",
-            label: "Share Image",
-            type: "image",
-          },
-          {
             name: "top_image",
             label: "Top Image",
             type: "image",
@@ -258,6 +253,16 @@ export default defineConfig({
             label: "Body",
             type: "rich-text",
             isBody: true
+          },
+          {
+            name: "description",
+            label: "Meta Description",
+            type: "string",
+          },
+          {
+            name: "image",
+            label: "Meta Image (Sharing Image)",
+            type: "image",
           },
           {
             type: "string",
