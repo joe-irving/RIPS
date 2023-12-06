@@ -64,9 +64,12 @@ blocks:
     text: |
       # Contact us
 
-      {% include contact-form.html expand=false %}
-    button-select: ''
-    button: []
+      Please email rebelsinprison\@gmail.com.
+    button-select: Custom
+    button:
+      - label: Email us
+        link: 'mailto:rebelsinprison@gmail.com'
+        template: button
     template: half-image-block
 end_quote: RiPS is an independent organisation set up to support activists in the UK..
 image: /uploads/22-04-21-hsbc-broken-windows_gareth-morris-3-small.jpg
