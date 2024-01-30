@@ -61,10 +61,12 @@ blocks:
         template: button
     template: half-map-block
   - half_image: /uploads/22-04-21-hsbc-broken-windows_gareth-morris-50.jpg
-    text: |
+    text: >
       # Contact us
 
-      Please email rebelsinprison\@gmail.com.
+
+      Please email [rebelsinprison@gmail.com](mailto:rebelsinprison@gmail.com
+      "rebelsinprison@gmail.com").
     button-select: Custom
     button:
       - label: Email us
