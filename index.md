@@ -14,7 +14,7 @@ blocks:
         link: /rebels
         template: button
     template: latest-block
-  - half_image: /uploads/22-04-21-hsbc-broken-windows_gareth-morris-58.jpg
+  - half_image: /uploads/signal-2022-04-27-010351_019.jpeg
     text: >
       # Donate
 
