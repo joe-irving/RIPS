@@ -1,14 +1,14 @@
 ---
 title: Join Us
 slug: join-us
-image: /uploads/RIPS-square.jpeg
 top_image: ''
+image: /uploads/RIPS-square.jpeg
 layout: page
 ---
 
 # Join us
 
-Please email rebelsinprison\@gmail.com if you have any time to give to support activists in
+Please email [rebelsinprison@gmail.com](mailto:rebelsinprison@gmail.com "rebelsinprison@gmail.com") if you have any time to give to support activists in
 prison in the UK.
 
 We would really appreciate any help with the following areas:
