@@ -32,7 +32,7 @@ blocks:
     button-select: ''
     button: []
     template: half-image-block
-  - half_image: /uploads/22-04-21-hsbc-broken-windows_gareth-morris-3-small.jpg
+  - half_image: /uploads/Insulate Britain_HMP Wandsworth release_14_01_2022.jpg
     text: >
       # About
 
