@@ -1,8 +1,8 @@
 ---
 title: About
 slug: about
+top_image: /uploads/insulate_1000.jpg
 image: /uploads/RIPS-square.jpeg
-top_image: /uploads/22-04-21-hsbc-broken-windows_gareth-morris-3-small.jpg
 layout: page
 ---
 
