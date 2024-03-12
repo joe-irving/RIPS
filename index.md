@@ -60,7 +60,7 @@ blocks:
         link: /prisons
         template: button
     template: half-map-block
-  - half_image: /uploads/Animal Rising. Epsom Derby. 03_06_2023 PNG.PNG
+  - half_image: /uploads/road_line_sq.jpg
     text: >
       # Contact us
 
