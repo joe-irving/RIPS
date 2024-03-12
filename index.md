@@ -14,7 +14,7 @@ blocks:
         link: /rebels
         template: button
     template: latest-block
-  - half_image: /uploads/signal-2022-04-27-010351_019.jpeg
+  - half_image: /uploads/Van-Gogh.png
     text: >
       # Donate
 
