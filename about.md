@@ -6,7 +6,18 @@ image: /uploads/RIPS-square.jpeg
 layout: page
 ---
 
-Set up by the family and friends of people held in prison after climate protests in early 2021, Rebels in Prison is set up to support activists who have been imprisoned fighting for a new world. We are an independent organisation set up by individuals from Extinction Rebellion, Burning Pink & other independent groups.
+Rebels in Prison Support (RIPS) was set up by the family and friends of people held on remand in prison after climate protests in 2021. 
+
+We have supported {{ site.rebels | size }} individuals in Prison since 2021 ranging from remand for days/weeks to sentences up to 3 years!
+
+RIPS exists to support activists who have been imprisoned for non-violent/peaceful protest.
+
+RIPS supports activists from a range of organisations including Just Stop Oil, Insulate Britain, Palestine Action, Extinction Rebellion, Animal Rising and more.
+
+We are a volunteer core team coordinating a wider network of buddies and helpers. We work to ensure that all those taking non-violent action that may result in prison are prepared and supported both practically and emotionally.
+
+
+
 
 ## What we spend money on:
 
