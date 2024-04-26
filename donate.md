@@ -1,14 +1,14 @@
 ---
-title: Donate
-layout: page
 main_nav_exclude: true
+title: Donate
+slug: donate
 top_image: ''
+description: >-
+  Help fund vital prison support activities including email communication,
+  commissary funds, and legal support
 image: ''
-_template: page
+layout: page
 ---
-
-
-
 
 # Donate
 
