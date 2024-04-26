@@ -15,7 +15,7 @@ We have supported {{ site.rebels | size }} individuals in Prison since 2021 rang
 
 RIPS exists to support activists who have been imprisoned for non-violent/peaceful protest.
 
-RIPS supports activists from a range of organisations including Just Stop Oil, Insulate Britain, Palestine Action, Extinction Rebellion, Animal Rising and more.
+RIPS supports activists from a range of organisations including [Just Stop Oil](https://juststopoil.org/), [Insulate Britain](https://insulatebritain.com/), [Palestine Action](https://www.palestineaction.org/), [Extinction Rebellion](https://extinctionrebellion.uk/), [Animal Rising](https://www.animalrising.org/) and more.
 
 We are a volunteer core team coordinating a wider network of buddies and helpers. We work to ensure that all those taking non-violent action that may result in prison are prepared and supported both practically and emotionally.
 
