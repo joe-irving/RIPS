@@ -19,7 +19,7 @@ blocks:
       # Donate
 
 
-      Please consider donating some to help us support these brave people. Find
+      Please consider donating to help us support these brave individuals. Find
       out more about [how we spend the money](/donate).
 
 
@@ -27,8 +27,7 @@ blocks:
       fundraiser](https://chuffed.org/project/rips).
 
 
-      Please consider making a recurring monthly donation if you can. It will
-      help us plan our activities effectively.
+      Please consider making a recurring monthly donation if you can.
     button-select: ''
     button: []
     template: half-image-block
