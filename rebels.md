@@ -1,14 +1,14 @@
 ---
-layout: rebel-list
-title: Political Prisoners
 order: 2
+title: Political Prisoners
+slug: rebels
 top_image: ''
+description: >-
+  Discover the list of current political prisoners in need of support at
+  rebelsinprison.uk
 image: /uploads/22-04-21-hsbc-broken-windows_gareth-morris-3-small.jpg
-_template: page
+layout: rebel-list
 ---
-
-
-
 
 # Current Political Prisoners
 
