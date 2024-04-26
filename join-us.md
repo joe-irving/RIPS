@@ -21,7 +21,7 @@ This could be articles/puzzles/exercises or anything that can be sent by email o
 
 ## Media
 
-Social media accounts, sharing stories, talking to other organisations, communication, pointing volunteers in the right direction
+Could you post on our social media accounts, sharing stories, talking to other organisations, encouraging others to support RIPS?
 
 ## Wellbeing
 
