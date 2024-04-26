@@ -6,7 +6,7 @@ top_image: ''
 description: >-
   Help fund vital prison support activities including email communication,
   commissary funds, and legal support
-image: ''
+image: /uploads/RIPS-square.jpeg
 layout: page
 ---
 
