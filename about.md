@@ -30,7 +30,9 @@ We are a volunteer core team coordinating a wider network of buddies and helpers
 
 ## **Who do we support?**
 
-Although set up to support climate activists, RIPS will support any individual in prison for law-breaking pushing for a better world. We will support any non-violent action defined by no intentional damage to a human or animal body.
+Although initially set up to support climate activists, RIPS will support any individual in prison for non-violent\* protest.
+
+\*Non-violence is defined as not causing harm to any human or animal. In the context of protest, non-violence is defined as using peaceful means rather than force to bring about change.
 
 ## **Thanks to…**
 
