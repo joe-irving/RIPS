@@ -26,7 +26,7 @@ We are a volunteer core team coordinating a wider network of buddies and helpers
 * Sending people things in prison (printing & postage)
 * Website and hosting
 * Transport and Expenses
-* In the future it would be nice to offer legal support
+* Post Prison support – including gatherings and debriefs
 
 ## **Who do we support?**
 
