@@ -15,11 +15,9 @@ We would really appreciate any help with the following areas:
 
 ## Creative
 
-Ideally, we would like to create a monthly zine to distribute
-among prisoners with activist news, activities and other engaging things.
+Could you create content that could be sent to those in prison to help improve their time in prison?
 
-[Creative](#creative) and [Wellbeing](#wellbeing) will work together
-on what gets sent to prisoners.
+This could be articles/puzzles/exercises or anything that can be sent by email or in the post (there are significant restrictions on what can be sent into prisons by post).
 
 ## Media
 
