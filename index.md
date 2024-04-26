@@ -36,11 +36,13 @@ blocks:
       # About
 
 
-      For necessary action on the climate emergency, we need to take urgent,
-      radical, direct action. As the government continues to fight us, more and
-      more people will be held on remand - in prison - before they get a trial.
-      Rebels in Prison Support exists to support activists wanting to take that
-      next step of action.
+      Rebels in Prison Support exists to support non-violent activists.
+
+
+      The government continues to take steps to end our right to peaceful
+      protest with increasingly draconian laws. This has led to more and more
+      peaceful protesters being held on remand and sentenced to prison. The
+      sentences are getting more severe.
     button-select: Custom
     button:
       - label: Find out more
