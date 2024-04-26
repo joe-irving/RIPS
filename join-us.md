@@ -2,6 +2,9 @@
 title: Join Us
 slug: join-us
 top_image: ''
+description: >-
+  Help improve the wellbeing of UK prisoners by offering creative and digital
+  support. Get involved with Rebels In Prison now!
 image: /uploads/RIPS-square.jpeg
 layout: page
 ---
