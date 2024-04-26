@@ -7,7 +7,7 @@ description: >-
   Get involved in supporting social and environmental struggles within the UK
   with Green & Black Cross, Prisoner Solidarity Network, and other organizations
   at rebelsinprison.uk/resources.
-image: ''
+image: /uploads/RIPS-square.jpeg
 layout: page
 ---
 
