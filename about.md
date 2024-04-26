@@ -2,6 +2,9 @@
 title: About
 slug: about
 top_image: /uploads/insulate_1000.jpg
+description: >-
+  Support for climate activists and individuals in prison for non-violent
+  law-breaking. Join us in fighting for a better world.
 image: /uploads/RIPS-square.jpeg
 layout: page
 ---
