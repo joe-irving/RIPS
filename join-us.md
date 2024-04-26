@@ -25,15 +25,14 @@ Could you post on our social media accounts, sharing stories, talking to other o
 
 ## Wellbeing
 
-Getting information and exercises to prisoners to improve their physical and emotional wellbeing. Forwarding emails to prisoners via [emailaprisoner.com](https://emailaprisoner.com) and being in close communication with each prisoner's remand support team. If they do not have a remand support team, we create one.
+Forwarding emails to prisoners via [emailaprisoner.com](https://emailaprisoner.com) and being in close communication with each prisoner’s support team.
 
-Ideally in each support team you want:
+Each support team includes;
 
-* Their point of contact 1 (who have direct phone contact with prisoner)
-* Someone happy to forward emails to the prisoner through [emailaprisoner.com](https://emailaprisoner.com)
-* Their solicitor / lawyer (although this might not be possible)
-* A family member
-* A couple of friends
+* A point of contact (who have direct phone contact with prisoner – usually a friend or family member)
+* A buddy -someone to forward emails to the prisoner through [emailaprisoner.com](https://emailaprisoner.com) and other support as needed.
+* Other friends/supporters/family
+* A member of RIPS core team
 
 ## Digital
 
