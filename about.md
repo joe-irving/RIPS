@@ -21,7 +21,7 @@ We are a volunteer core team coordinating a wider network of buddies and helpers
 
 ## What we spend money on:
 
-* Emails to send and reply via emailaprisoner.com
+* Emails to send and reply via [emailaprisoner.com](https://www.emailaprisoner.com/)
 * Commissary money
 * Sending people things in prison (printing & postage)
 * Website and hosting
