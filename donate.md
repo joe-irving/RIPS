@@ -18,9 +18,9 @@ Please consider making a recurring monthly donation if you can. It will help us 
 
 ## How we spend the money:
 
-* Communicating with people in prison via the [Email a Prisoner service](https://www.emailaprisoner.com/)
+* Emails to send and reply via [Email a Prisoner service](https://www.emailaprisoner.com/)
 * Commissary money
-* Sending letters and packages to people in prison
-* Our website
+* Sending people things in prison (printing & postage)
+* Website and hosting
 * Transport + Expenses
 * Post Prison support – including gatherings and debriefs.
