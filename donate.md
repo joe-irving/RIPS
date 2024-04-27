@@ -23,4 +23,4 @@ Please consider making a recurring monthly donation if you can. It will help us 
 * Sending letters and packages to people in prison
 * Our website
 * Transport + Expenses
-* In the future it would be nice to offer legal support
+* Post Prison support – including gatherings and debriefs.
