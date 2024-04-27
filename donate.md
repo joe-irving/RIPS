@@ -14,7 +14,7 @@ layout: page
 
 Please consider donating to the [Rebels in Prison Support fundraiser](https://chuffed.org/project/rips).
 
-Please consider making a recurring monthly donation if you can. It will help us plan our activities effectively.
+Help us plan our activities more effectively by making a recurring monthly donation.
 
 ## How we spend the money:
 
