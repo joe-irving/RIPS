@@ -9,7 +9,7 @@ image: /uploads/RIPS-square.jpeg
 layout: page
 ---
 
-Rebels in Prison Support (RIPS) was set up by the family and friends of people held on remand in prison after climate protests in 2021. 
+Rebels in Prison Support (RIPS), was set up by the family and friends of people held on remand in prison after climate protests in 2021. 
 
 We have supported {{ site.rebels | size }} individuals in Prison since 2021 ranging from remand for days/weeks to sentences up to 3 years!
 
