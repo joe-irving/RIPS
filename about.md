@@ -1,5 +1,5 @@
 ---
-title: About
+title: About.
 slug: about
 top_image: /uploads/insulate_1000.jpg
 description: >-
