@@ -2,16 +2,14 @@
 title: Rebels in Prison
 tagline: Support for activists in prison in the UK
 email: rebelsinprison@gmail.com
-description: Exists to support activists in prison in the UK. RIPS is an independent
-  organisation set up by individuals from Extinction Rebellion, Burning Pink & other
-  groups.
+description: Exists to support non-violent activists in prison in the UK.
 url: https://rebelsinprison.uk
 logo: "/uploads/rips-rec.png"
 logo_square: "/uploads/RIPS-square.png"
 logo_light: "/uploads/rips-rec.png"
 rebellion_theme:
   facebook: https://www.facebook.com/rebelsinprison/
-  instagram: https://www.instagram.com/RebelsInPrison
+  instagram: https://www.instagram.com/rebelsinprisonsupport/
   twitter: https://twitter.com/RebelsInPrison
 donate: "/donate/"
 join_us: "/join-us/"
@@ -112,6 +110,7 @@ collections:
   prisons:
     output: true
   posts:
+    output: true
     permalink: "/blog/:categories/:title/"
   templates:
     output: false
@@ -130,4 +129,4 @@ exclude:
 - vendor/cache/
 - vendor/gems/
 - vendor/ruby/
-- api/
+# - api/
