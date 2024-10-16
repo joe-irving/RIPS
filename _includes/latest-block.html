@@ -1,6 +1,6 @@
 {% assign data = '' %}
 {% assign posts = site.collections | where: "label", include.block.collection | first  %}
-{% assign latest = posts.docs | last %}
+{% assign latest = posts.docs | sort: "start" | last %}
 {% capture text %}
   <div>
   {{ include.text | markdownify | liquify }}
