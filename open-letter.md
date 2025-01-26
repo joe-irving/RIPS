@@ -2,8 +2,11 @@
 title: Letter to Shabana Mahmood on behalf of Gaie Delap
 slug: letter-shabana-mahmood
 top_image: ''
-description: ''
-image: ''
+description: >-
+  We, the undersigned legal and prison reform charities, write to express our
+  grave concern over the recall to prison of 78-year-old Gaie Delap, a retired
+  teacher and Just Stop Oil supporter.
+image: /uploads/gaie-delap.avif
 layout: page
 ---
 
@@ -12,9 +15,6 @@ Ministry of Justice
 102 Petty France
 London
 SW1H 9AJ
-
-
-
 
 Dear Justice Secretary Rt Hon Shabana Mahmood,
 
@@ -71,4 +71,4 @@ Lawyers Are Responsible
 Plan B
 Rebels In Prison Support
 Rona Epstein, Honorary Research Fellow from Coventry Law School
-Russell Webster, independent criminal justice researcher 
+Russell Webster, independent criminal justice researcher
