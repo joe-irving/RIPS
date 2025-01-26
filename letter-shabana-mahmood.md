@@ -8,6 +8,7 @@ description: >-
   teacher and Just Stop Oil supporter.
 image: /uploads/gaie-delap.avif
 layout: page
+main_nav_exclude: true
 ---
 
 Rt Hon Shabana Mahmood
