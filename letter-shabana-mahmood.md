@@ -3,14 +3,16 @@ title: Letter to Shabana Mahmood on behalf of Gaie Delap
 slug: letter-shabana-mahmood
 top_image: ''
 description: >-
-  We, the undersigned legal and prison reform charities, write to express our
-  grave concern over the recall to prison of 78-year-old Gaie Delap, a retired
-  teacher and Just Stop Oil supporter.
+  Together with 24 other charities and researchers, we signed an open letter
+  calling for Gaie's immediate release and a review of the use of tagging in our
+  probation system.
 image: /uploads/gaie-delap.avif
 layout: page
 main_nav_exclude: true
 ---
 
+25th Jan 2025\
+\
 *Rt Hon Shabana Mahmood*
 
 *Ministry of Justice*
