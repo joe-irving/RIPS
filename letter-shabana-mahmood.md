@@ -11,11 +11,15 @@ layout: page
 main_nav_exclude: true
 ---
 
-Rt Hon Shabana Mahmood
-Ministry of Justice
-102 Petty France
-London
-SW1H 9AJ
+*Rt Hon Shabana Mahmood*
+
+*Ministry of Justice*
+
+*102 Petty France*
+
+*London*
+
+*SW1H 9AJ*
 
 Dear Justice Secretary Rt Hon Shabana Mahmood,
 
@@ -48,28 +52,28 @@ In the interests of justice, humanity, and effective public policy, we request y
 
 Yours sincerely,
 
-Howard League for Penal Reform
-National Women’s Justice Coalition
-Women In Prison
-Good Law Project
-Revolving Doors
-Switchback
-National Women’s Justice Coalition
-Global Witness
-Quakers in Criminal Justice
-One Small Thing
-Working Chance
-Clean Break
-Hibiscus Initiatives
-Advance
-Kairos Women Working Together
-Birth Companions
-A Way Out
-Anawim Birmingham Centre for Women
-Cambridge Women’s Resource Centre
-Level Up
-Lawyers Are Responsible
-Plan B
-Rebels In Prison Support
-Rona Epstein, Honorary Research Fellow from Coventry Law School
-Russell Webster, independent criminal justice researcher
+* Howard League for Penal Reform
+* National Women’s Justice Coalition
+* Women In Prison
+* Good Law Project
+* Revolving Doors
+* Switchback
+* National Women’s Justice Coalition
+* Global Witness
+* Quakers in Criminal Justice
+* One Small Thing
+* Working Chance
+* Clean Break
+* Hibiscus Initiatives
+* Advance
+* Kairos Women Working Together
+* Birth Companions
+* A Way Out
+* Anawim Birmingham Centre for Women
+* Cambridge Women’s Resource Centre
+* Level Up
+* Lawyers Are Responsible
+* Plan B
+* Rebels In Prison Support
+* Rona Epstein, Honorary Research Fellow from Coventry Law School
+* Russell Webster, independent criminal justice researcher
