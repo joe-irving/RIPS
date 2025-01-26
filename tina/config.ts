@@ -275,7 +275,12 @@ export default defineConfig({
               }
             ],
             required: true
-          }
+          },
+          {
+            name: "main_nav_exclude",
+            label: "Exclude from navigation",
+            type: "boolean",
+          },
         ]
       }
     ],

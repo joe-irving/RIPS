@@ -10,11 +10,11 @@ image: /uploads/gaie-delap.avif
 layout: page
 ---
 
-*Rt Hon Shabana Mahmood*\
-*Ministry of Justice*\
-*102 Petty France*\
-*London*\
-*SW1H 9AJ*
+Rt Hon Shabana Mahmood
+Ministry of Justice
+102 Petty France
+London
+SW1H 9AJ
 
 Dear Justice Secretary Rt Hon Shabana Mahmood,
 
