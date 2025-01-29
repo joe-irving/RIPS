@@ -58,6 +58,7 @@ Yours sincerely,
 * National Women’s Justice Coalition
 * Women In Prison
 * Good Law Project
+* Fawcett Society
 * Revolving Doors
 * Switchback
 * National Women’s Justice Coalition
