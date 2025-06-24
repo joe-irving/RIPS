@@ -24,7 +24,7 @@ blocks:
 
 
       Donations can be made to the [Rebels in Prison Support
-      fundraiser](https://chuffed.org/project/rips).
+      fundraiser](https://chuffed.org/project/134222-support-political-prisoners-in-the-uk).
 
 
       Please consider making a recurring monthly donation if you can.

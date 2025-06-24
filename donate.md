@@ -12,9 +12,9 @@ layout: page
 
 # Donate
 
-Please consider donating to the [Rebels in Prison Support fundraiser](https://chuffed.org/project/rips).
+Please consider donating to the [Rebels in Prison Support fundraiser](https://chuffed.org/project/134222-support-political-prisoners-in-the-uk).
 
-Help us plan our activities more effectively by making a recurring [monthly donation](https://chuffed.org/project/rips).
+Help us plan our activities more effectively by making a recurring [monthly donation](https://chuffed.org/project/134222-support-political-prisoners-in-the-uk).
 
 ## How we spend the money:
 
