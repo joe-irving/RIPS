@@ -25,7 +25,7 @@ This autumn, we’ll have an abundance of beans ready to share. They’re not ju
 
 ### Join the movement
 
-If you’d like to receive some Prison Beans to plant - wherever you are – please let us know at [rebelsinprison@gmail.com](mailto:rebelsinprison@gmail.com "rebelsinprison@gmail.com"). Whether on a windowsill, in a pot, or out in the soil, you’ll be part of a living network growing food, hope, healing and connection from a place that tried to take it away. 
+If you’d like to receive some Prison Beans to plant - wherever you are – please let us know at [rebelsinprisonsupport@proton.me](mailto:rebelsinprisonsupport@proton.me "rebelsinprisonsupport@proton.me"). Whether on a windowsill, in a pot, or out in the soil, you’ll be part of a living network growing food, hope, healing and connection from a place that tried to take it away. 
 
 We are hoping this will spark opportunities for people to have bean parties & socials - cooking and eating together with home-grown beans. Sharing bean recipes, making music (maracas, rain sticks) with dried beans that can’t germinate - creating seed art or mosaics, hosting storytelling circles, community meals, gardening sessions, or bean swaps!
 
