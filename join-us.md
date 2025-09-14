@@ -11,7 +11,7 @@ layout: page
 
 # Join us
 
-Please email [rebelsinprison@gmail.com](mailto:rebelsinprison@gmail.com "rebelsinprison@gmail.com") if you have any time to give to support activists in
+Please email [rebelsinprisonsupport@proton.me](mailto:rebelsinprisonsupport@proton.me "rebelsinprisonsupport@proton.me") if you have any time to give to support activists in
 prison in the UK.
 
 We would really appreciate any help with the following areas:
@@ -39,4 +39,4 @@ Each support team includes;
 
 ## Digital
 
-Help maintain the website and other digital tools. Email [rebelsinprison@gmail.com](mailto:rebelsinprison@gmail.com "rebelsinprison@gmail.com") if you are interested.
+Help maintain the website and other digital tools. Email [rebelsinprisonsupport@proton.me](mailto:rebelsinprisonsupport@proton.me "rebelsinprisonsupport@proton.me") if you are interested.
