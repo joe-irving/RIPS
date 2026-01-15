@@ -66,12 +66,12 @@ blocks:
       # Contact us
 
 
-      Please email [rebelsinprison@gmail.com](mailto:rebelsinprison@gmail.com
-      "rebelsinprison@gmail.com").
+      Please email [rebelsinprisonsupport@proton.me](mailto:rebelsinprisonsupport@proton.me
+      "rebelsinprisonsupport@proton.me").
     button-select: Custom
     button:
       - label: Email us
-        link: 'mailto:rebelsinprison@gmail.com'
+        link: 'mailto:rebelsinprisonsupport@proton.me'
         template: button
     template: half-image-block
 end_quote: RiPS is an independent organisation set up to support activists in the UK.
