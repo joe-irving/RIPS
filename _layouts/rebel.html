@@ -83,7 +83,7 @@ layout: page
 <h2>Stretches in prison</h2>
 <ul>
   {% for sentence in page.sentences %}
-    {% assign prison = sentence.prison | first %}
+    {% assign prison = sentence.prison | last %}
     <li>
       {{ sentence.duration }} days at <a href="{{ prison.url }}">{{ prison.title }}</a>.
     </li>
