@@ -64,8 +64,6 @@ layout: page
 {% capture bio %}
   {% if page.bio %}
     {{ page.bio | liquify | markdownify }}
-  {% elsif page.bio_link %}
-    {{ page.bio_link | parse_gdoc }}
   {% endif %}
 {% endcapture %}
 
